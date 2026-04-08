@@ -32,8 +32,8 @@ The data for the [RSC Weekly report](https://www.rcgp.org.uk/representing-you/re
 
 * Patients are included in the cohort if
 
-* (i) The patient has at least one event from <disease-codelist> within the week of observation
+    * (i) The patient has at least one event from <disease-codelist> within the week of observation
 
-* AND
+    * AND
 
-* (ii) The patient has no events from _**disease-codelist**_ in the period of _**interval**_ days before that event  
+    * (ii) The patient has no events from _**disease-codelist**_ in the period of _**interval**_ days before that event  

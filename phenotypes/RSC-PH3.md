@@ -38,19 +38,19 @@ A composite code list _**all-smoker-status-codelist**_ is created as the union o
 * A results table is initialised with columns of "patient-id" and "computed-current-status"
 * For each patient
 
-* _**patient-id**_ = Pseudonymised patient identifer
+    * _**patient-id**_ = Pseudonymised patient identifer
 
-* _**most-recent-status**_ = The most recent event for that patient with a code from _**all-smoker-status-codelist**_ with an observation date up to and including the _**status-date**_
-* If
-* such an event can be found then _**computed-current-status**_ is calculated according to the following table
+    * _**most-recent-status**_ = The most recent event for that patient with a code from _**all-smoker-status-codelist**_ with an observation date up to and including the _**status-date**_
+    * If
+        * such an event can be found then _**computed-current-status**_ is calculated according to the following table
 
-| Codelist that _**most-recent-status**_ is a member of | _**computed-current-status**_                |
-|--------------------------------|-----------------------------|
-|  _**active-smoker-codelist**_  | SMOKER       |
-|  _**ex-smoker-codelist**_ 	   | EX-SMOKER    |
-|  _**non-smoker-codelist**_ 	   | NON-SMOKER   |
+          | Codelist that _**most-recent-status**_ is a member of | _**computed-current-status**_                |
+          |--------------------------------|-----------------------------|
+          |  _**active-smoker-codelist**_  | SMOKER       |
+          |  _**ex-smoker-codelist**_ 	   | EX-SMOKER    |
+          |  _**non-smoker-codelist**_ 	   | NON-SMOKER   |
 
-* otherwise _**computed-current-status**_ is set to UNKNOWN
-* The tuple (_**patient-id**_, _**computed-current-status**_) is added as a row to the results table
+        * otherwise _**computed-current-status**_ is set to UNKNOWN
+    * The tuple (_**patient-id**_, _**computed-current-status**_) is added as a row to the results table
 
   
