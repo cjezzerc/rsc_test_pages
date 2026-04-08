@@ -1,7 +1,7 @@
 
 [Back to Phenotype Index](../phenotypes_index.md)
 
-[Back to Codelist Index](../codelists_index.md)
+[Back to Codelist Index](../phenotypes_index.md)
 
 # RSC Phenotype RSC-PH1
 # RSC – C+RD – Weekly Report  [RSC-PH1]
