@@ -1,7 +1,7 @@
 
 [Back to Phenotype Index](../../phenotypes_index.md)
 
-[Back to Codelist Index](../../phenotypes_index.md)
+[Back to Codelist Index](../../codelists_index.md)
 
 ## RSC Codelist: RSC-C5022
 

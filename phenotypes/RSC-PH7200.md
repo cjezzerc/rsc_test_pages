@@ -1,7 +1,7 @@
 
 [Back to Phenotype Index](../phenotypes_index.md)
 
-[Back to Codelist Index](../phenotypes_index.md)
+[Back to Codelist Index](../codelists_index.md)
 
 # RSC Phenotype RSC-PH7200
 # RSC – Influenza Like Illness (WRpt)  [RSC-PH7200]

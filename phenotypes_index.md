@@ -1,4 +1,6 @@
 
+[Go to Codelist Index](codelists_index.md)
+
 # Phenotype Index
 
 | id | title | brief description | codelists used |
