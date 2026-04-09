@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C7199
 
-# Title: TBI
+# Title: Influenza Like Illness (ILI)
 
 [Codelist Description](../descriptions/RSC-C7199.md)
 
@@ -42,6 +42,7 @@
 
 ## Exclude
 
+
 | SNOMED ID | Plus descendants | Term | 
 |----|-------|----| 
 | 3218000 | True | Mycosis (disorder) | 
@@ -67,4 +68,5 @@
 | 443138004 | True | Granulomatosis (disorder) | 
 | 473010000 | True | Hypersensitivity condition (disorder) | 
 | 473010000 | True | Hypersensitivity condition (finding) |
+
 

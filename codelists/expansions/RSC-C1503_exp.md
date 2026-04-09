@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C1503
 
-# Title: TBI
+# Title: BMI obese
 
 [Codelist Description](../descriptions/RSC-C1503.md)
 

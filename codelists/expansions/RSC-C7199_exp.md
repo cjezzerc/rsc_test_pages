@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C7199
 
-# Title: TBI
+# Title: Influenza Like Illness (ILI)
 
 [Codelist Description](../descriptions/RSC-C7199.md)
 

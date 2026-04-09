@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C2066
 
-# Title: TBI
+# Title: Ex-Smoker
 
 [Codelist Description](../descriptions/RSC-C2066.md)
 
@@ -29,6 +29,7 @@
 
 ## Exclude
 
-| SNOMED ID | Plus descendants | Term | 
-|----|-------|----|
+
+No exclusions
+
 

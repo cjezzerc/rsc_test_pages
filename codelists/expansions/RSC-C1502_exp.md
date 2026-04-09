@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C1502
 
-# Title: TBI
+# Title: BMI normal
 
 [Codelist Description](../descriptions/RSC-C1502.md)
 

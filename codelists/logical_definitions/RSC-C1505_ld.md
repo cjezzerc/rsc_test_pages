@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C1505
 
-# Title: TBI
+# Title: BMI Severely Obese
 
 [Codelist Description](../descriptions/RSC-C1505.md)
 
@@ -22,6 +22,7 @@
 
 ## Exclude
 
-| SNOMED ID | Plus descendants | Term | 
-|----|-------|----|
+
+No exclusions
+
 

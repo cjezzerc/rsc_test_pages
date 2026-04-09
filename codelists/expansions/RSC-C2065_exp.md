@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C2065
 
-# Title: TBI
+# Title: Active Smoker
 
 [Codelist Description](../descriptions/RSC-C2065.md)
 

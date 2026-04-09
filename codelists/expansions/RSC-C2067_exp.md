@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C2067
 
-# Title: TBI
+# Title: Non-Smoker
 
 [Codelist Description](../descriptions/RSC-C2067.md)
 

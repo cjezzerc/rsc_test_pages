@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C5022
 
-# Title: TBI
+# Title: BMI overweight
 
 [Codelist Description](../descriptions/RSC-C5022.md)
 
@@ -20,6 +20,7 @@
 
 ## Exclude
 
-| SNOMED ID | Plus descendants | Term | 
-|----|-------|----|
+
+No exclusions
+
 

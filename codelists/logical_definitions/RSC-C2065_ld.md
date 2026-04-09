@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C2065
 
-# Title: TBI
+# Title: Active Smoker
 
 [Codelist Description](../descriptions/RSC-C2065.md)
 
@@ -62,6 +62,7 @@
 
 ## Exclude
 
+
 | SNOMED ID | Plus descendants | Term | 
 |----|-------|----| 
 | 782516008 | False | Number of calculated pack years for cumulative lifetime tobacco exposure (observable entity) | 
@@ -69,4 +70,5 @@
 | 8392000 | True | Non-smoker (finding) | 
 | 160617001 | True | Stopped smoking (life style) | 
 | 160617001 | True | Stopped smoking (finding) |
+
 

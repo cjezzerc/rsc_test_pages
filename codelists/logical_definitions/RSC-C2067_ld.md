@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C2067
 
-# Title: TBI
+# Title: Non-Smoker
 
 [Codelist Description](../descriptions/RSC-C2067.md)
 
@@ -23,8 +23,10 @@
 
 ## Exclude
 
+
 | SNOMED ID | Plus descendants | Term | 
 |----|-------|----| 
 | 8517006 | True | Ex-smoker (life style) | 
 | 8517006 | True | Ex-smoker (finding) |
+
 
