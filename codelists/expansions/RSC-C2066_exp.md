@@ -15,101 +15,101 @@
 
 | SNOMED ID | Term | 
 |----|-------| 
-| 137990008 | Ex-moderate cigarette smoker (10-19/day) | 
-| 137991007 | Ex-heavy cigarette smoker (20-39/day) | 
-| 137996002 | Ex-smoker - amount unknown | 
-| 138004007 | Ex-pipe smoker | 
-| 138009002 | Ex-smoker | 
-| 138010007 | Date ceased smoking | 
-| 449368009 | Stopped smoking during pregnancy (finding) | 
-| 160610004 | Ex-heavy smoker (20-39/day) (life style) | 
-| 138001004 | Stopped smoking | 
-| 360890004 | Intolerant ex-smoker (finding) | 
-| 449369001 | Stopped smoking before pregnancy (finding) | 
-| 137988007 | Ex-trivial cigarette smoker (<1/day) | 
-| 137992000 | Ex-very heavy cigarette smoker (40+/day) | 
-| 138005008 | Ex-cigar smoker | 
-| 360900008 | Aggressive ex-smoker (finding) | 
-| 160624000 | Ex-smoker (finding) | 
-| 449345000 | Smoked before confirmation of pregnancy (finding) | 
-| 160608001 | Ex-light smoker (1-9/day) (finding) | 
-| 1221000175102 | Age at smoking cessation (observable entity) | 
-| 160607006 | Ex-trivial smoker (<1/day) (finding) | 
-| 160620009 | Ex-pipe smoker (finding) | 
-| 8517006 | Ex-smoker (finding) | 
-| 735112005 | Date ceased using moist tobacco (observable entity) | 
-| 160609009 | Ex-moderate smoker (10-19/day) (life style) | 
-| 160624000 | Ex-smoker | 
-| 281018007 | Ex-cigarette smoker (life style) | 
-| 266924008 | Ex-heavy cigarette smoker (20-39/day) (life style) | 
-| 53896009 | Tolerant ex-smoker (finding) | 
-| 160615009 | Ex-smoker - amount unknown (finding) | 
-| 160621008 | Ex-cigar smoker (finding) | 
-| 360907006 | Cessation of smoking (life style) | 
-| 266922007 | Ex-light cigarette smoker (1-9/day) (finding) | 
-| 266923002 | Ex-moderate cigarette smoker (10-19/day) (finding) | 
-| 735128000 | Ex-smoker for less than 1 year (finding) | 
-| 160608001 | Ex-light smoker (1-9/day) (life style) | 
-| 160625004 | Date ceased smoking (observable entity) | 
-| 8517006 | Ex-smoker (life style) | 
-| 160611000 | Ex-very heavy smoker (40+/day) (life style) | 
-| 160617001 | Stopped smoking (life style) | 
-| 160615009 | Ex-smoker - amount unknown (life style) | 
-| 160621008 | Ex-cigar smoker (life style) | 
-| 53896009 | Tolerant ex-smoker (life style) | 
-| 137989004 | Ex-light cigarette smoker (1-9/day) (finding) | 
-| 137989004 | Ex-light cigarette smoker (1-9/day) | 
-| 160607006 | Ex-trivial smoker (<1/day) (life style) | 
-| 160620009 | Ex-pipe smoker (life style) | 
-| 266921000 | Ex-trivial cigarette smoker (<1/day) (finding) | 
-| 266925009 | Ex-very heavy cigarette smoker (40+/day) (finding) | 
-| 281018007 | Ex-cigarette smoker (finding) | 
-| 10998291000119107 | History of smoking (situation) | 
-| 485971000000109 | Ex-cigarette smoker  | 
-| 360890004 | Intolerant ex-smoker (life style) | 
-| 138001004 | Stopped smoking (finding) | 
-| 48031000119106 | Ex-smoker for more than 1 year (finding) | 
-| 228486009 | Time since stopped smoking (observable entity) | 
-| 266924008 | Ex-heavy cigarette smoker (20-39/day) (finding) | 
-| 213191000000105 | [V]Personal history of tobacco abuse | 
-| 360900008 | Aggressive ex-smoker (life style) | 
-| 137988007 | Ex-trivial cigarette smoker (<1/day) (finding) | 
-| 137992000 | Ex-very heavy cigarette smoker (40+/day) (finding) | 
-| 138005008 | Ex-cigar smoker (finding) | 
-| 266922007 | Ex-light cigarette smoker (1-9/day) (life style) | 
-| 266923002 | Ex-moderate cigarette smoker (10-19/day) (life style) | 
-| 138009002 | Ex-smoker (finding) | 
-| 138010007 | Date ceased smoking (finding) | 
-| 138004007 | Ex-pipe smoker (finding) | 
-| 266928006 | Ex-cigarette smoker amount unknown (finding) | 
-| 266928006 | Ex-cigarette smoker amount unknown (life style) | 
-| 766611000000106 | Stopped smoking before pregnancy (finding) | 
-| 160611000 | Ex-very heavy smoker (40+/day) (finding) | 
-| 160617001 | Stopped smoking (finding) | 
-| 137991007 | Ex-heavy cigarette smoker (20-39/day) (finding) | 
-| 137996002 | Ex-smoker - amount unknown (finding) | 
-| 266921000 | Ex-trivial cigarette smoker (<1/day) (life style) | 
-| 266925009 | Ex-very heavy cigarette smoker (40+/day) (life style) | 
-| 65909009 | Aggressive ex-smoker (life style) [Ambiguous] | 
-| 160610004 | Ex-heavy smoker (20-39/day) (finding) | 
-| 137990008 | Ex-moderate cigarette smoker (10-19/day) (finding) | 
-| 766621000000100 | Smoker before confirmation of pregnancy (finding) | 
-| 160609009 | Ex-moderate smoker (10-19/day) (finding) | 
-| 65909009 | Aggressive ex-smoker (life style) | 
-| 492201000000101 | Ex-rolls own cigarettes  | 
-| 198271000000106 | [V]Personal history of tobacco abuse (situation) | 
-| 198271000000106 | [V]Personal history of tobacco abuse (context-dependent category) | 
-| 1092041000000104 | Ex-very heavy smoker (40+/day) (finding) | 
-| 1092091000000109 | Ex-moderate smoker (10-19/day) (finding) | 
-| 1092131000000107 | Ex-trivial smoker (<1/day) (finding) | 
-| 517211000000106 | Recently stopped smoking (finding) | 
-| 487391000000101 | Ex-cigarette smoker  | 
-| 492191000000103 | Ex roll-up cigarette smoker (finding) | 
-| 492211000000104 | Ex-rolls own cigarettes  | 
-| 1092031000000108 | Ex-smoker amount unknown (finding) | 
-| 1092111000000104 | Ex-light smoker (1-9/day) (finding) | 
-| 598071000005103 | Stopped smoking in first trimester (finding) | 
-| 598081000005100 | Stopped smoking after first trimester (finding) | 
-| 766581000000100 | Stopped smoking during pregnancy (finding) | 
-| 1092071000000105 | Ex-heavy smoker (20-39/day) (finding) | 
-| 707381000000107 | Recently stopped smoking |
+| [1221000175102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1221000175102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Age at smoking cessation (observable entity) | 
+| [360900008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=360900008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Aggressive ex-smoker (finding) | 
+| [360900008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=360900008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Aggressive ex-smoker (life style) | 
+| [65909009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=65909009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Aggressive ex-smoker (life style) | 
+| [65909009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=65909009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Aggressive ex-smoker (life style) [Ambiguous] | 
+| [360907006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=360907006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cessation of smoking (life style) | 
+| [138010007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138010007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Date ceased smoking | 
+| [138010007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138010007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Date ceased smoking (finding) | 
+| [160625004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160625004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Date ceased smoking (observable entity) | 
+| [735112005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=735112005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Date ceased using moist tobacco (observable entity) | 
+| [492191000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=492191000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex roll-up cigarette smoker (finding) | 
+| [138005008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138005008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigar smoker | 
+| [160621008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160621008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigar smoker (finding) | 
+| [138005008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138005008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigar smoker (finding) | 
+| [160621008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160621008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigar smoker (life style) | 
+| [485971000000109](https://termbrowser.nhs.uk/?perspective=full&conceptId1=485971000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigarette smoker  | 
+| [487391000000101](https://termbrowser.nhs.uk/?perspective=full&conceptId1=487391000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigarette smoker  | 
+| [281018007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=281018007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigarette smoker (finding) | 
+| [281018007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=281018007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigarette smoker (life style) | 
+| [266928006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266928006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigarette smoker amount unknown (finding) | 
+| [266928006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266928006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-cigarette smoker amount unknown (life style) | 
+| [137991007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137991007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-heavy cigarette smoker (20-39/day) | 
+| [266924008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266924008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-heavy cigarette smoker (20-39/day) (finding) | 
+| [137991007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137991007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-heavy cigarette smoker (20-39/day) (finding) | 
+| [266924008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266924008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-heavy cigarette smoker (20-39/day) (life style) | 
+| [160610004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160610004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-heavy smoker (20-39/day) (finding) | 
+| [1092071000000105](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1092071000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-heavy smoker (20-39/day) (finding) | 
+| [160610004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160610004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-heavy smoker (20-39/day) (life style) | 
+| [137989004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137989004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-light cigarette smoker (1-9/day) | 
+| [266922007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266922007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-light cigarette smoker (1-9/day) (finding) | 
+| [137989004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137989004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-light cigarette smoker (1-9/day) (finding) | 
+| [266922007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266922007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-light cigarette smoker (1-9/day) (life style) | 
+| [160608001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160608001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-light smoker (1-9/day) (finding) | 
+| [1092111000000104](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1092111000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-light smoker (1-9/day) (finding) | 
+| [160608001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160608001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-light smoker (1-9/day) (life style) | 
+| [137990008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137990008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-moderate cigarette smoker (10-19/day) | 
+| [266923002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266923002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-moderate cigarette smoker (10-19/day) (finding) | 
+| [137990008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137990008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-moderate cigarette smoker (10-19/day) (finding) | 
+| [266923002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266923002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-moderate cigarette smoker (10-19/day) (life style) | 
+| [160609009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160609009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-moderate smoker (10-19/day) (finding) | 
+| [1092091000000109](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1092091000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-moderate smoker (10-19/day) (finding) | 
+| [160609009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160609009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-moderate smoker (10-19/day) (life style) | 
+| [138004007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138004007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-pipe smoker | 
+| [160620009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160620009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-pipe smoker (finding) | 
+| [138004007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138004007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-pipe smoker (finding) | 
+| [160620009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160620009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-pipe smoker (life style) | 
+| [492201000000101](https://termbrowser.nhs.uk/?perspective=full&conceptId1=492201000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-rolls own cigarettes  | 
+| [492211000000104](https://termbrowser.nhs.uk/?perspective=full&conceptId1=492211000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-rolls own cigarettes  | 
+| [138009002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138009002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker | 
+| [160624000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160624000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker | 
+| [160624000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160624000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker (finding) | 
+| [8517006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8517006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker (finding) | 
+| [138009002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138009002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker (finding) | 
+| [8517006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8517006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker (life style) | 
+| [137996002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137996002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker - amount unknown | 
+| [160615009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160615009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker - amount unknown (finding) | 
+| [137996002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137996002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker - amount unknown (finding) | 
+| [160615009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160615009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker - amount unknown (life style) | 
+| [1092031000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1092031000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker amount unknown (finding) | 
+| [735128000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=735128000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker for less than 1 year (finding) | 
+| [48031000119106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=48031000119106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker for more than 1 year (finding) | 
+| [137988007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137988007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-trivial cigarette smoker (<1/day) | 
+| [266921000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266921000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-trivial cigarette smoker (<1/day) (finding) | 
+| [137988007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137988007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-trivial cigarette smoker (<1/day) (finding) | 
+| [266921000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266921000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-trivial cigarette smoker (<1/day) (life style) | 
+| [160607006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160607006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-trivial smoker (<1/day) (finding) | 
+| [1092131000000107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1092131000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-trivial smoker (<1/day) (finding) | 
+| [160607006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160607006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-trivial smoker (<1/day) (life style) | 
+| [137992000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137992000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-very heavy cigarette smoker (40+/day) | 
+| [266925009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266925009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-very heavy cigarette smoker (40+/day) (finding) | 
+| [137992000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137992000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-very heavy cigarette smoker (40+/day) (finding) | 
+| [266925009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266925009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-very heavy cigarette smoker (40+/day) (life style) | 
+| [160611000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160611000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-very heavy smoker (40+/day) (finding) | 
+| [1092041000000104](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1092041000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-very heavy smoker (40+/day) (finding) | 
+| [160611000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160611000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-very heavy smoker (40+/day) (life style) | 
+| [10998291000119107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=10998291000119107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | History of smoking (situation) | 
+| [360890004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=360890004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Intolerant ex-smoker (finding) | 
+| [360890004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=360890004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Intolerant ex-smoker (life style) | 
+| [707381000000107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=707381000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Recently stopped smoking | 
+| [517211000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=517211000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Recently stopped smoking (finding) | 
+| [449345000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=449345000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoked before confirmation of pregnancy (finding) | 
+| [766621000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=766621000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker before confirmation of pregnancy (finding) | 
+| [138001004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138001004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking | 
+| [138001004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138001004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking (finding) | 
+| [160617001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160617001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking (finding) | 
+| [160617001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160617001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking (life style) | 
+| [598081000005100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=598081000005100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking after first trimester (finding) | 
+| [449369001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=449369001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking before pregnancy (finding) | 
+| [766611000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=766611000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking before pregnancy (finding) | 
+| [449368009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=449368009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking during pregnancy (finding) | 
+| [766581000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=766581000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking during pregnancy (finding) | 
+| [598071000005103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=598071000005103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Stopped smoking in first trimester (finding) | 
+| [228486009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=228486009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Time since stopped smoking (observable entity) | 
+| [53896009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=53896009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Tolerant ex-smoker (finding) | 
+| [53896009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=53896009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Tolerant ex-smoker (life style) | 
+| [213191000000105](https://termbrowser.nhs.uk/?perspective=full&conceptId1=213191000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | [V]Personal history of tobacco abuse | 
+| [198271000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=198271000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | [V]Personal history of tobacco abuse (context-dependent category) | 
+| [198271000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=198271000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | [V]Personal history of tobacco abuse (situation) |

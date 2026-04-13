@@ -5,7 +5,7 @@
 
 # RSC Phenotype RSC-PH3
 
-# RSC – Smoker Status [RSC-PH3]
+# RSC – Smoker Status
 
 ## Brief description
 
@@ -29,9 +29,9 @@ The following codelists are used
 
 | codelist name in algorithm     | RSC Codelist                |
 |--------------------------------|-----------------------------|
-|  _**active-smoker-codelist**_ | [RSC-C2065](../codelists/descriptions/RSC-C2065.md)   |
-|  _**ex-smoker-codelist**_ 	 | [RSC-C2066](../codelists/descriptions/RSC-C2066.md)   |
-|  _**non-smoker-codelist**_ 	 | [RSC-C2067](../codelists/descriptions/RSC-C2067.md)    |
+|  _**active-smoker-codelist**_  | [RSC-C2065](../codelists/descriptions/RSC-C2065.md)                   |
+|  _**ex-smoker-codelist**_   	 | [RSC-C2066](../codelists/descriptions/RSC-C2066.md)                   |
+|  _**non-smoker-codelist**_ 	   | [RSC-C2067](../codelists/descriptions/RSC-C2067.md)                   |
 
 A composite code list _**all-smoker-status-codelist**_ is created as the union of _**active-smoker-codelist**_, _**ex-smoker-codelist**_ and  _**non-smoker-codelist**_
 

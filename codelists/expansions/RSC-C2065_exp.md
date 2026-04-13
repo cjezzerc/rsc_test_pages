@@ -15,234 +15,234 @@
 
 | SNOMED ID | Term | 
 |----|-------| 
-| 134406006 | Smoking reduced (observable entity) | 
-| 137994004 | Admitted tobacco cons untrue ? | 
-| 138006009 | Cigarette smoker | 
-| 138008005 | Smoker | 
-| 225786009 | Smoker (finding) | 
-| 152100002 | Referral to stop-smoking clinic (procedure) | 
-| 137984009 | Light cigarette smoker (1-9 cigs/day) | 
-| 137986006 | Heavy cigarette smoker (20-39 cigs/day) | 
-| 137987002 | Very heavy cigarette smoker (40+ cigs/day) | 
-| 138007000 | Smoking started | 
-| 266920004 | Trivial cigarette smoker (less than one cigarette/day) (life style) | 
-| 266929003 | Smoking started (life style) | 
-| 365981007 | Finding of tobacco smoking behavior (finding) | 
-| 367141000 | Smoking reduced | 
-| 428041000124106 | Occasional tobacco smoker (finding) | 
-| 160605003 | Heavy cigarette smoker (20-39 cigs/day) (life style) | 
-| 160622001 | Smoker (& cigarette) | 
-| 56578002 | Moderate smoker (20 or less per day) (life style) | 
-| 401201003 | Cigarette pack-years (observable entity) | 
-| 367141000 | Smoking reduced (finding) | 
-| 160622001 | Smoker (& cigarette) (finding) | 
-| 137983003 | Trivial cigarette smoker (less than one cigarette/day) | 
-| 137997006 | Trying to give up smoking | 
-| 138003001 | Rolls own cigarettes | 
-| 308438006 | Smoking restarted (finding) | 
-| 392689009 | Smoking restarted (finding) | 
-| 137998001 | Pipe smoker | 
-| 449345000 | Smoked before confirmation of pregnancy (finding) | 
-| 77176002 | Smoker (life style) | 
-| 389289004 | Pipe tobacco consumption | 
-| 392686002 | Ready to stop smoking | 
-| 392688001 | Not interested in stopping smoking | 
-| 394872000 | Ready to stop smoking (finding) | 
-| 56771006 | Heavy smoker (over 20 per day) (finding) | 
-| 389289004 | Pipe tobacco consumption (observable entity) | 
-| 308438006 | Smoking restarted (life style) | 
-| 390025008 | Cigarette consumption | 
-| 392687006 | Thinking about stopping smoking | 
-| 392689009 | Smoking restarted | 
-| 395700008 | Referral to smoking cessation advisor (procedure) | 
-| 160606002 | Very heavy cigarette smoker (40+ cigs/day) (finding) | 
-| 138003001 | Rolls own cigarettes (finding) | 
-| 266394006 | (Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) (disorder) | 
-| 392687006 | Thinking about stopping smoking (finding) | 
-| 390025008 | Cigarette consumption (finding) | 
-| 230057008 | Cigar consumption (observable entity) | 
-| 230063004 | Heavy cigarette smoker (life style) | 
-| 273738001 | Reasons for smoking scale (assessment scale) | 
-| 230063004 | Heavy cigarette smoker (finding) | 
-| 65568007 | Cigarette smoker (finding) | 
-| 77176002 | Smoker (finding) | 
-| 160623006 | Smoking: [started] or [restarted] (finding) | 
-| 160600008 | [Tobacco consumption] or [smoker - amount smoked] | 
-| 160604004 | Moderate cigarette smoker (10-19 cigs/day) (life style) | 
-| 160613002 | Admitted tobacco cons untrue ? (finding) | 
-| 160616005 | Trying to give up smoking (finding) | 
-| 110483000 | Tobacco user (life style) | 
-| 393647008 | Smoking restarted (finding) | 
-| 393646004 | Not interested in stopping smoking (finding) | 
-| 366916002 | Smoking reduced | 
-| 160602000 | (Trivial smoker - < 1 cig/day) or (occasional smoker) (finding) | 
-| 389287002 | Cigarette consumption | 
-| 390026009 | Cigar consumption | 
-| 390027000 | Pipe tobacco consumption | 
-| 393645000 | Thinking about stopping smoking | 
-| 395645002 | Referral to smoking cessation advisor | 
-| 160603005 | Light cigarette smoker (1-9 cigs/day) (finding) | 
-| 390026009 | Cigar consumption (finding) | 
-| 59978006 | Cigar smoker (life style) | 
-| 138006009 | Cigarette smoker (finding) | 
-| 138008005 | Smoker (finding) | 
-| 230056004 | Cigarette consumption (observable entity) | 
-| 230060001 | Light cigarette smoker (life style) | 
-| 230060001 | Light cigarette smoker (finding) | 
-| 137983003 | Trivial cigarette smoker (less than one cigarette/day) (finding) | 
-| 160612007 | Keeps trying to stop smoking (finding) | 
-| 160623006 | Smoking: [started] or [restarted] | 
-| 56771006 | Heavy smoker (over 20 per day) (life style) | 
-| 770729006 | Referral for brief intervention for smoking cessation (procedure) | 
-| 138000003 | Cigar smoker | 
-| 26663004 | Cigar smoking tobacco (substance) | 
-| 392688001 | Not interested in stopping smoking (finding) | 
-| 392686002 | Ready to stop smoking (finding) | 
-| 155567003 | (Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) | 
-| 160619003 | Rolls own cigarettes (finding) | 
-| 401159003 | Reason for restarting smoking (observable entity) | 
-| 394871007 | Thinking about stopping smoking (finding) | 
-| 771155005 | Brief intervention for smoking cessation (procedure) | 
-| 160602000 | (Trivial smoker - < 1 cig/day) or (occasional smoker) | 
-| 160603005 | Light cigarette smoker (1-9 cigs/day) (life style) | 
-| 393645000 | Thinking about stopping smoking (finding) | 
-| 395645002 | Referral to smoking cessation advisor (procedure) | 
-| 366916002 | Smoking reduced (finding) | 
-| 1351230006 | Reduced maternal tobacco smoking consumption during pregnancy (finding) | 
-| 81821000000106 | Seen by smoking cessation advisor | 
-| 137993005 | Keeps trying to stop smoking (finding) | 
-| 390027000 | Pipe tobacco consumption (finding) | 
-| 698289004 | Hookah pipe smoker (finding) | 
-| 137985005 | Moderate cigarette smoker (10-19 cigs/day) | 
-| 137993005 | Keeps trying to stop smoking | 
-| 82302008 | Pipe smoker (life style) | 
-| 389287002 | Cigarette consumption (observable entity) | 
-| 446172000 | Failed attempt to stop smoking (finding) | 
-| 160606002 | Very heavy cigarette smoker (40+ cigs/day) (life style) | 
-| 401068004 | Seen by smoking cessation advisor (finding) | 
-| 137997006 | Trying to give up smoking (finding) | 
-| 230058003 | Pipe tobacco consumption (observable entity) | 
-| 230059006 | Occasional cigarette smoker (life style) | 
-| 230062009 | Moderate cigarette smoker (life style) | 
-| 46802002 | Smokers' cough (disorder) | 
-| 230059006 | Occasional cigarette smoker (finding) | 
-| 230062009 | Moderate cigarette smoker (finding) | 
-| 110483000 | Tobacco user (finding) | 
-| 183871002 | Referral to stop-smoking clinic (procedure) | 
-| 160613002 | Admitted tobacco consumption possibly untrue (finding) | 
-| 413173009 | Minutes from waking to first tobacco consumption (observable entity) | 
-| 711081005 | Negotiation of date for cessation of smoking (procedure) | 
-| 36891000000108 | DNA - Did not attend smoking cessation clinic | 
-| 82302008 | Pipe smoker (finding) | 
-| 137985005 | Moderate cigarette smoker (10-19 cigs/day) (finding) | 
-| 152100002 | Referral to stop-smoking clinic | 
-| 225786009 | Smoker | 
-| 225934006 | Smokes in bed (finding) | 
-| 273632007 | Motives for smoking scale (assessment scale) | 
-| 266920004 | Trivial cigarette smoker (less than one cigarette/day) (finding) | 
-| 266929003 | Smoking started (finding) | 
-| 134406006 | Smoking reduced (finding) | 
-| 138000003 | Cigar smoker (finding) | 
-| 699033005 | Provision of smoking cessation leaflet (procedure) | 
-| 41311000000104 | Cigarette pack-years | 
-| 65568007 | Cigarette smoker (life style) | 
-| 66562002 | Cigarette smoking tobacco (substance) | 
-| 505651000000103 | Current smoker annual review - enhanced services administration (procedure) | 
-| 507721000000106 | Brief intervention for smoking cessation  | 
-| 510571000000100 | Current smoker annual review - enhanced services administration | 
-| 505651000000103 | Current smoker annual review (procedure) | 
-| 183871002 | Referral to stop-smoking clinic | 
-| 6368002 | Cigarette cough | 
-| 137998001 | Pipe smoker (finding) | 
-| 36901000000109 | DNA - Did not attend smoking cessation clinic | 
-| 39041000000103 | Reason for restarting smoking | 
-| 266394006 | (Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) | 
-| 266927001 | Tobacco smoking consumption unknown (finding) | 
-| 449868002 | Smokes tobacco daily (finding) | 
-| 46491000000109 | Cigarette pack-years | 
-| 228484007 | Tobacco smoking behavior (observable entity) | 
-| 230064005 | Very heavy cigarette smoker (life style) | 
-| 230065006 | Chain smoker (life style) | 
-| 230064005 | Very heavy cigarette smoker (finding) | 
-| 230065006 | Chain smoker (finding) | 
-| 137987002 | Very heavy cigarette smoker (40+ cigs/day) (finding) | 
-| 138007000 | Smoking started (finding) | 
-| 137984009 | Light cigarette smoker (1-9 cigs/day) (finding) | 
-| 137986006 | Heavy cigarette smoker (20-39 cigs/day) (finding) | 
-| 506491000000102 | Brief intervention for smoking cessation (procedure) | 
-| 517271000000101 | Current smoker annual review (procedure) | 
-| 315232003 | Referral to stop-smoking clinic (procedure) | 
-| 365982000 | Finding of tobacco smoking consumption (finding) | 
-| 155567003 | (Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) (disorder) | 
-| 389288007 | Cigar consumption (observable entity) | 
-| 393644001 | Ready to stop smoking (finding) | 
-| 389288007 | Cigar consumption | 
-| 393644001 | Ready to stop smoking | 
-| 394871007 | Thinking about stopping smoking (observable entity) | 
-| 39051000000100 | Cigarette pack-years | 
-| 44761000000100 | Cigarette pack-years (observable entity) | 
-| 46481000000107 | Reason for restarting smoking | 
-| 505651000000103 | Current smoker annual review (regime/therapy) | 
-| 527151000000107 | Smoking cessation advice declined (situation) | 
-| 726831000000105 | Failed attempt to stop smoking (finding) | 
-| 266918002 | Tobacco smoking consumption (observable entity) | 
-| 6368002 | Cigarette cough (qualifier value) | 
-| 395600001 | Referral to smoking cessation advisor (procedure) | 
-| 394873005 | Not interested in stopping smoking (finding) | 
-| 56578002 | Moderate smoker (20 or less per day) (finding) | 
-| 59978006 | Cigar smoker (finding) | 
-| 160605003 | Heavy cigarette smoker (20-39 cigs/day) (finding) | 
-| 137994004 | Admitted tobacco cons untrue ? (finding) | 
-| 375931000000105 | Chronic obstructive pulmonary disease structured smoking assessment declined - enhanced services administration  | 
-| 766621000000100 | Smoker before confirmation of pregnancy (finding) | 
-| 767641000000109 | Referral for smoking cessation service offered (finding) | 
-| 393646004 | Not interested in stopping smoking | 
-| 393647008 | Smoking restarted | 
-| 395600001 | Referral to smoking cessation advisor | 
-| 160604004 | Moderate cigarette smoker (10-19 cigs/day) (finding) | 
-| 160600008 | [Tobacco consumption] or [smoker - amount smoked] (finding) | 
-| 203191000000107 | Wants to stop smoking (finding) | 
-| 1087441000000106 | Smoking cessation programme declined (situation) | 
-| 375861000000106 | Referred for chronic obstructive pulmonary disease structured smoking assessment - enhanced services administration  | 
-| 966971000000103 | Varenicline smoking cessation therapy declined (situation) | 
-| 111321000000109 | Minutes from waking to first tobacco consumption | 
-| 78751000000105 | Reason for restarting smoking | 
-| 25261000000107 | Did not attend smoking cessation clinic (finding) | 
-| 1094321000000100 | Referral for brief intervention for smoking cessation (procedure) | 
-| 822601000000102 | Smoking cessation drug therapy declined  | 
-| 966981000000101 | Varenicline smoking cessation therapy declined  | 
-| 25261000000107 | DNA - Did not attend smoking cessation clinic (finding) | 
-| 505301000000107 | Referral to NHS (National Health Service) smoking cessation service  | 
-| 510681000000102 | Referral to NHS stop smoking service | 
-| 375851000000108 | Referred for chronic obstructive pulmonary disease structured smoking assessment - enhanced services administration (situation) | 
-| 507731000000108 | Brief intervention for smoking cessation  | 
-| 510581000000103 | Current smoker annual review - enhanced services administration | 
-| 375851000000108 | Referred for chronic obstructive pulmonary disease structured smoking assessment (finding) | 
-| 78761000000108 | Cigarette pack-years | 
-| 201941000000100 | Attends smoking cessation clinic not at practice (finding) | 
-| 117791000000101 | Minutes from waking to first tobacco consumption | 
-| 526411000000103 | Smoking cessation programme declined (finding) | 
-| 527161000000105 | Smoking cessation advice declined  | 
-| 726841000000101 | Failed attempt to stop smoking  | 
-| 375851000000108 | Referred for chronic obstructive pulmonary disease structured smoking assessment - enhanced services administration (procedure) | 
-| 375871000000104 | Referred for chronic obstructive pulmonary disease structured smoking assessment - enhanced services administration  | 
-| 375921000000108 | Chronic obstructive pulmonary disease structured smoking assessment declined - enhanced services administration  | 
-| 780901000000101 | Referral for smoking cessation service offered | 
-| 822591000000108 | Smoking cessation drug therapy declined (situation) | 
-| 41301000000101 | Reason for restarting smoking | 
-| 77421000000108 | Seen by smoking cessation advisor | 
-| 836011000000106 | Waterpipe tobacco consumption  | 
-| 44341000000100 | Reason for restarting smoking (observable entity) | 
-| 864091000000103 | Number of previous attempts to stop smoking (observable entity) | 
-| 834711000000102 | Smoking cessation programme declined | 
-| 836001000000109 | Waterpipe tobacco consumption (observable entity) | 
-| 1084051000000108 | Occasional tobacco smoker (finding) | 
-| 871661000000106 | Referral to smoking cessation service (procedure) | 
-| 871641000000105 | Referral to smoking cessation service declined (situation) | 
-| 871651000000108 | Referral to smoking cessation service declined  | 
-| 375911000000102 | Chronic obstructive pulmonary disease structured smoking assessment declined - enhanced services administration (procedure) | 
-| 871671000000104 | Referral to smoking cessation service  | 
-| 375911000000102 | Chronic obstructive pulmonary disease structured smoking assessment declined - enhanced services administration (situation) | 
-| 505281000000106 | Referral to National Health Service stop smoking service (procedure) | 
-| 375911000000102 | Chronic obstructive pulmonary disease structured smoking assessment declined (situation) | 
-| 598171000005102 | Maternal tobacco smoking consumption during pregnancy (observable entity) |
+| [155567003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=155567003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | (Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) | 
+| [266394006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266394006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | (Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) | 
+| [266394006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266394006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | (Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) (disorder) | 
+| [155567003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=155567003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | (Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) (disorder) | 
+| [160602000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160602000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | (Trivial smoker - < 1 cig/day) or (occasional smoker) | 
+| [160602000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160602000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | (Trivial smoker - < 1 cig/day) or (occasional smoker) (finding) | 
+| [137994004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137994004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Admitted tobacco cons untrue ? | 
+| [160613002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160613002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Admitted tobacco cons untrue ? (finding) | 
+| [137994004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137994004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Admitted tobacco cons untrue ? (finding) | 
+| [160613002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160613002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Admitted tobacco consumption possibly untrue (finding) | 
+| [201941000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=201941000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Attends smoking cessation clinic not at practice (finding) | 
+| [507721000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=507721000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Brief intervention for smoking cessation  | 
+| [507731000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=507731000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Brief intervention for smoking cessation  | 
+| [771155005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=771155005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Brief intervention for smoking cessation (procedure) | 
+| [506491000000102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=506491000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Brief intervention for smoking cessation (procedure) | 
+| [230065006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230065006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Chain smoker (finding) | 
+| [230065006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230065006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Chain smoker (life style) | 
+| [375911000000102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375911000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Chronic obstructive pulmonary disease structured smoking assessment declined (situation) | 
+| [375931000000105](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375931000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Chronic obstructive pulmonary disease structured smoking assessment declined - enhanced services administration  | 
+| [375921000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375921000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Chronic obstructive pulmonary disease structured smoking assessment declined - enhanced services administration  | 
+| [375911000000102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375911000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Chronic obstructive pulmonary disease structured smoking assessment declined - enhanced services administration (procedure) | 
+| [375911000000102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375911000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Chronic obstructive pulmonary disease structured smoking assessment declined - enhanced services administration (situation) | 
+| [390026009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=390026009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar consumption | 
+| [389288007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=389288007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar consumption | 
+| [390026009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=390026009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar consumption (finding) | 
+| [230057008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230057008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar consumption (observable entity) | 
+| [389288007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=389288007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar consumption (observable entity) | 
+| [138000003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138000003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar smoker | 
+| [138000003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138000003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar smoker (finding) | 
+| [59978006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=59978006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar smoker (finding) | 
+| [59978006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=59978006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar smoker (life style) | 
+| [26663004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=26663004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigar smoking tobacco (substance) | 
+| [390025008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=390025008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette consumption | 
+| [389287002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=389287002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette consumption | 
+| [390025008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=390025008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette consumption (finding) | 
+| [230056004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230056004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette consumption (observable entity) | 
+| [389287002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=389287002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette consumption (observable entity) | 
+| [6368002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=6368002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette cough | 
+| [6368002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=6368002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette cough (qualifier value) | 
+| [41311000000104](https://termbrowser.nhs.uk/?perspective=full&conceptId1=41311000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette pack-years | 
+| [46491000000109](https://termbrowser.nhs.uk/?perspective=full&conceptId1=46491000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette pack-years | 
+| [39051000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=39051000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette pack-years | 
+| [78761000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=78761000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette pack-years | 
+| [401201003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=401201003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette pack-years (observable entity) | 
+| [44761000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=44761000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette pack-years (observable entity) | 
+| [138006009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138006009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette smoker | 
+| [65568007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=65568007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette smoker (finding) | 
+| [138006009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138006009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette smoker (finding) | 
+| [65568007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=65568007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette smoker (life style) | 
+| [66562002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=66562002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Cigarette smoking tobacco (substance) | 
+| [505651000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=505651000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Current smoker annual review (procedure) | 
+| [517271000000101](https://termbrowser.nhs.uk/?perspective=full&conceptId1=517271000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Current smoker annual review (procedure) | 
+| [505651000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=505651000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Current smoker annual review (regime/therapy) | 
+| [510571000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=510571000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Current smoker annual review - enhanced services administration | 
+| [510581000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=510581000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Current smoker annual review - enhanced services administration | 
+| [505651000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=505651000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Current smoker annual review - enhanced services administration (procedure) | 
+| [36891000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=36891000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | DNA - Did not attend smoking cessation clinic | 
+| [36901000000109](https://termbrowser.nhs.uk/?perspective=full&conceptId1=36901000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | DNA - Did not attend smoking cessation clinic | 
+| [25261000000107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=25261000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | DNA - Did not attend smoking cessation clinic (finding) | 
+| [25261000000107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=25261000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Did not attend smoking cessation clinic (finding) | 
+| [726841000000101](https://termbrowser.nhs.uk/?perspective=full&conceptId1=726841000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Failed attempt to stop smoking  | 
+| [446172000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=446172000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Failed attempt to stop smoking (finding) | 
+| [726831000000105](https://termbrowser.nhs.uk/?perspective=full&conceptId1=726831000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Failed attempt to stop smoking (finding) | 
+| [365981007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=365981007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Finding of tobacco smoking behavior (finding) | 
+| [365982000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=365982000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Finding of tobacco smoking consumption (finding) | 
+| [137986006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137986006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Heavy cigarette smoker (20-39 cigs/day) | 
+| [137986006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137986006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Heavy cigarette smoker (20-39 cigs/day) (finding) | 
+| [160605003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160605003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Heavy cigarette smoker (20-39 cigs/day) (finding) | 
+| [160605003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160605003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Heavy cigarette smoker (20-39 cigs/day) (life style) | 
+| [230063004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230063004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Heavy cigarette smoker (finding) | 
+| [230063004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230063004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Heavy cigarette smoker (life style) | 
+| [56771006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=56771006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Heavy smoker (over 20 per day) (finding) | 
+| [56771006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=56771006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Heavy smoker (over 20 per day) (life style) | 
+| [698289004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=698289004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Hookah pipe smoker (finding) | 
+| [137993005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137993005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Keeps trying to stop smoking | 
+| [160612007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160612007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Keeps trying to stop smoking (finding) | 
+| [137993005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137993005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Keeps trying to stop smoking (finding) | 
+| [137984009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137984009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Light cigarette smoker (1-9 cigs/day) | 
+| [160603005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160603005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Light cigarette smoker (1-9 cigs/day) (finding) | 
+| [137984009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137984009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Light cigarette smoker (1-9 cigs/day) (finding) | 
+| [160603005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160603005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Light cigarette smoker (1-9 cigs/day) (life style) | 
+| [230060001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230060001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Light cigarette smoker (finding) | 
+| [230060001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230060001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Light cigarette smoker (life style) | 
+| [598171000005102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=598171000005102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Maternal tobacco smoking consumption during pregnancy (observable entity) | 
+| [111321000000109](https://termbrowser.nhs.uk/?perspective=full&conceptId1=111321000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Minutes from waking to first tobacco consumption | 
+| [117791000000101](https://termbrowser.nhs.uk/?perspective=full&conceptId1=117791000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Minutes from waking to first tobacco consumption | 
+| [413173009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=413173009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Minutes from waking to first tobacco consumption (observable entity) | 
+| [137985005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137985005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Moderate cigarette smoker (10-19 cigs/day) | 
+| [137985005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137985005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Moderate cigarette smoker (10-19 cigs/day) (finding) | 
+| [160604004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160604004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Moderate cigarette smoker (10-19 cigs/day) (finding) | 
+| [160604004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160604004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Moderate cigarette smoker (10-19 cigs/day) (life style) | 
+| [230062009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230062009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Moderate cigarette smoker (finding) | 
+| [230062009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230062009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Moderate cigarette smoker (life style) | 
+| [56578002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=56578002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Moderate smoker (20 or less per day) (finding) | 
+| [56578002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=56578002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Moderate smoker (20 or less per day) (life style) | 
+| [273632007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=273632007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Motives for smoking scale (assessment scale) | 
+| [711081005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=711081005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Negotiation of date for cessation of smoking (procedure) | 
+| [392688001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=392688001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Not interested in stopping smoking | 
+| [393646004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=393646004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Not interested in stopping smoking | 
+| [393646004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=393646004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Not interested in stopping smoking (finding) | 
+| [392688001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=392688001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Not interested in stopping smoking (finding) | 
+| [394873005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=394873005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Not interested in stopping smoking (finding) | 
+| [864091000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=864091000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Number of previous attempts to stop smoking (observable entity) | 
+| [230059006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230059006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Occasional cigarette smoker (finding) | 
+| [230059006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230059006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Occasional cigarette smoker (life style) | 
+| [428041000124106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=428041000124106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Occasional tobacco smoker (finding) | 
+| [1084051000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1084051000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Occasional tobacco smoker (finding) | 
+| [137998001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137998001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe smoker | 
+| [82302008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=82302008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe smoker (finding) | 
+| [137998001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137998001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe smoker (finding) | 
+| [82302008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=82302008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe smoker (life style) | 
+| [389289004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=389289004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe tobacco consumption | 
+| [390027000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=390027000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe tobacco consumption | 
+| [390027000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=390027000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe tobacco consumption (finding) | 
+| [389289004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=389289004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe tobacco consumption (observable entity) | 
+| [230058003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230058003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Pipe tobacco consumption (observable entity) | 
+| [699033005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=699033005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Provision of smoking cessation leaflet (procedure) | 
+| [392686002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=392686002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ready to stop smoking | 
+| [393644001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=393644001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ready to stop smoking | 
+| [394872000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=394872000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ready to stop smoking (finding) | 
+| [392686002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=392686002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ready to stop smoking (finding) | 
+| [393644001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=393644001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ready to stop smoking (finding) | 
+| [39041000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=39041000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Reason for restarting smoking | 
+| [46481000000107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=46481000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Reason for restarting smoking | 
+| [78751000000105](https://termbrowser.nhs.uk/?perspective=full&conceptId1=78751000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Reason for restarting smoking | 
+| [41301000000101](https://termbrowser.nhs.uk/?perspective=full&conceptId1=41301000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Reason for restarting smoking | 
+| [401159003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=401159003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Reason for restarting smoking (observable entity) | 
+| [44341000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=44341000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Reason for restarting smoking (observable entity) | 
+| [273738001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=273738001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Reasons for smoking scale (assessment scale) | 
+| [1351230006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1351230006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Reduced maternal tobacco smoking consumption during pregnancy (finding) | 
+| [770729006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=770729006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral for brief intervention for smoking cessation (procedure) | 
+| [1094321000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1094321000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral for brief intervention for smoking cessation (procedure) | 
+| [780901000000101](https://termbrowser.nhs.uk/?perspective=full&conceptId1=780901000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral for smoking cessation service offered | 
+| [767641000000109](https://termbrowser.nhs.uk/?perspective=full&conceptId1=767641000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral for smoking cessation service offered (finding) | 
+| [505301000000107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=505301000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to NHS (National Health Service) smoking cessation service  | 
+| [510681000000102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=510681000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to NHS stop smoking service | 
+| [505281000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=505281000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to National Health Service stop smoking service (procedure) | 
+| [395645002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=395645002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation advisor | 
+| [395600001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=395600001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation advisor | 
+| [395700008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=395700008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation advisor (procedure) | 
+| [395645002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=395645002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation advisor (procedure) | 
+| [395600001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=395600001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation advisor (procedure) | 
+| [871671000000104](https://termbrowser.nhs.uk/?perspective=full&conceptId1=871671000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation service  | 
+| [871661000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=871661000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation service (procedure) | 
+| [871651000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=871651000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation service declined  | 
+| [871641000000105](https://termbrowser.nhs.uk/?perspective=full&conceptId1=871641000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to smoking cessation service declined (situation) | 
+| [152100002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=152100002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to stop-smoking clinic | 
+| [183871002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=183871002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to stop-smoking clinic | 
+| [152100002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=152100002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to stop-smoking clinic (procedure) | 
+| [183871002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=183871002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to stop-smoking clinic (procedure) | 
+| [315232003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=315232003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referral to stop-smoking clinic (procedure) | 
+| [375851000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375851000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referred for chronic obstructive pulmonary disease structured smoking assessment (finding) | 
+| [375861000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375861000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referred for chronic obstructive pulmonary disease structured smoking assessment - enhanced services administration  | 
+| [375871000000104](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375871000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referred for chronic obstructive pulmonary disease structured smoking assessment - enhanced services administration  | 
+| [375851000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375851000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referred for chronic obstructive pulmonary disease structured smoking assessment - enhanced services administration (procedure) | 
+| [375851000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=375851000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Referred for chronic obstructive pulmonary disease structured smoking assessment - enhanced services administration (situation) | 
+| [138003001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138003001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Rolls own cigarettes | 
+| [138003001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138003001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Rolls own cigarettes (finding) | 
+| [160619003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160619003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Rolls own cigarettes (finding) | 
+| [81821000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=81821000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Seen by smoking cessation advisor | 
+| [77421000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=77421000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Seen by smoking cessation advisor | 
+| [401068004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=401068004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Seen by smoking cessation advisor (finding) | 
+| [449345000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=449345000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoked before confirmation of pregnancy (finding) | 
+| [138008005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138008005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker | 
+| [225786009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=225786009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker | 
+| [160622001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160622001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker (& cigarette) | 
+| [160622001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160622001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker (& cigarette) (finding) | 
+| [225786009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=225786009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker (finding) | 
+| [77176002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=77176002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker (finding) | 
+| [138008005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138008005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker (finding) | 
+| [77176002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=77176002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker (life style) | 
+| [766621000000100](https://termbrowser.nhs.uk/?perspective=full&conceptId1=766621000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoker before confirmation of pregnancy (finding) | 
+| [46802002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=46802002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smokers' cough (disorder) | 
+| [225934006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=225934006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smokes in bed (finding) | 
+| [449868002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=449868002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smokes tobacco daily (finding) | 
+| [527161000000105](https://termbrowser.nhs.uk/?perspective=full&conceptId1=527161000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking cessation advice declined  | 
+| [527151000000107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=527151000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking cessation advice declined (situation) | 
+| [822601000000102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=822601000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking cessation drug therapy declined  | 
+| [822591000000108](https://termbrowser.nhs.uk/?perspective=full&conceptId1=822591000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking cessation drug therapy declined (situation) | 
+| [834711000000102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=834711000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking cessation programme declined | 
+| [526411000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=526411000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking cessation programme declined (finding) | 
+| [1087441000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=1087441000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking cessation programme declined (situation) | 
+| [367141000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=367141000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking reduced | 
+| [366916002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=366916002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking reduced | 
+| [367141000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=367141000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking reduced (finding) | 
+| [366916002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=366916002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking reduced (finding) | 
+| [134406006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=134406006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking reduced (finding) | 
+| [134406006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=134406006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking reduced (observable entity) | 
+| [392689009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=392689009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking restarted | 
+| [393647008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=393647008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking restarted | 
+| [308438006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=308438006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking restarted (finding) | 
+| [392689009](https://termbrowser.nhs.uk/?perspective=full&conceptId1=392689009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking restarted (finding) | 
+| [393647008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=393647008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking restarted (finding) | 
+| [308438006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=308438006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking restarted (life style) | 
+| [138007000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138007000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking started | 
+| [266929003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266929003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking started (finding) | 
+| [138007000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=138007000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking started (finding) | 
+| [266929003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266929003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking started (life style) | 
+| [160623006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160623006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking: [started] or [restarted] | 
+| [160623006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160623006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Smoking: [started] or [restarted] (finding) | 
+| [392687006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=392687006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Thinking about stopping smoking | 
+| [393645000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=393645000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Thinking about stopping smoking | 
+| [392687006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=392687006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Thinking about stopping smoking (finding) | 
+| [394871007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=394871007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Thinking about stopping smoking (finding) | 
+| [393645000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=393645000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Thinking about stopping smoking (finding) | 
+| [394871007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=394871007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Thinking about stopping smoking (observable entity) | 
+| [228484007](https://termbrowser.nhs.uk/?perspective=full&conceptId1=228484007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Tobacco smoking behavior (observable entity) | 
+| [266918002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266918002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Tobacco smoking consumption (observable entity) | 
+| [266927001](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266927001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Tobacco smoking consumption unknown (finding) | 
+| [110483000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=110483000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Tobacco user (finding) | 
+| [110483000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=110483000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Tobacco user (life style) | 
+| [137983003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137983003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Trivial cigarette smoker (less than one cigarette/day) | 
+| [137983003](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137983003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Trivial cigarette smoker (less than one cigarette/day) (finding) | 
+| [266920004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266920004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Trivial cigarette smoker (less than one cigarette/day) (finding) | 
+| [266920004](https://termbrowser.nhs.uk/?perspective=full&conceptId1=266920004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Trivial cigarette smoker (less than one cigarette/day) (life style) | 
+| [137997006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137997006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Trying to give up smoking | 
+| [160616005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160616005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Trying to give up smoking (finding) | 
+| [137997006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137997006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Trying to give up smoking (finding) | 
+| [966981000000101](https://termbrowser.nhs.uk/?perspective=full&conceptId1=966981000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Varenicline smoking cessation therapy declined  | 
+| [966971000000103](https://termbrowser.nhs.uk/?perspective=full&conceptId1=966971000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Varenicline smoking cessation therapy declined (situation) | 
+| [137987002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137987002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Very heavy cigarette smoker (40+ cigs/day) | 
+| [160606002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160606002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Very heavy cigarette smoker (40+ cigs/day) (finding) | 
+| [137987002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=137987002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Very heavy cigarette smoker (40+ cigs/day) (finding) | 
+| [160606002](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160606002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Very heavy cigarette smoker (40+ cigs/day) (life style) | 
+| [230064005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230064005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Very heavy cigarette smoker (finding) | 
+| [230064005](https://termbrowser.nhs.uk/?perspective=full&conceptId1=230064005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Very heavy cigarette smoker (life style) | 
+| [203191000000107](https://termbrowser.nhs.uk/?perspective=full&conceptId1=203191000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Wants to stop smoking (finding) | 
+| [836011000000106](https://termbrowser.nhs.uk/?perspective=full&conceptId1=836011000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Waterpipe tobacco consumption  | 
+| [836001000000109](https://termbrowser.nhs.uk/?perspective=full&conceptId1=836001000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Waterpipe tobacco consumption (observable entity) | 
+| [160600008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160600008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | [Tobacco consumption] or [smoker - amount smoked] | 
+| [160600008](https://termbrowser.nhs.uk/?perspective=full&conceptId1=160600008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | [Tobacco consumption] or [smoker - amount smoked] (finding) |

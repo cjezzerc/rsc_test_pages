@@ -4,7 +4,7 @@
 [Back to Codelist Index](../codelists_index.md)
 
 # RSC Phenotype RSC-PH1
-# RSC – C+RD – Weekly Report  [RSC-PH1]
+# RSC – C+RD – Weekly Report
 
 
 ## Brief description
@@ -32,7 +32,7 @@ The data for the [RSC Weekly report](https://www.rcgp.org.uk/representing-you/re
 
 * Patients are included in the cohort if
 
-    * (i) The patient has at least one event from <disease-codelist> within the week of observation
+    * (i) The patient has at least one event from _**disease-codelist**_ within the week of observation
 
     * AND
 
