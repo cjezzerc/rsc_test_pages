@@ -12,4 +12,5 @@
 | [RSC-PH9901](phenotypes/RSC-PH9901.md) | RSC – COPD Exacerbation | Identification of new cases of Exacerbation of COPD for the RCGP RSC weekly report of Respiratory and Communicable Diseases for England. | [RSC-C7216](codelists/descriptions/RSC-C7216.md)| [RSC-PH1](phenotypes/RSC-PH1.md) | 
 | [RSC-PH9902](phenotypes/RSC-PH9902.md) | COVID Suspected | Identification of new cases of Covid Suspected for the RCGP RSC weekly report of Respiratory and Communicable Diseases for England. | [RSC-C7223](codelists/descriptions/RSC-C7223.md)| [RSC-PH1](phenotypes/RSC-PH1.md) | 
 | [RSC-PH9903](phenotypes/RSC-PH9903.md) | Diabetes Type 2 | no-brief-description-found | [RSC-C2048](codelists/descriptions/RSC-C2048.md), [RSC-C7230](codelists/descriptions/RSC-C7230.md)|  | 
-| [RSC-PH9904](phenotypes/RSC-PH9904.md) | RSC - Ischaemic Heart Disease | Identification of subjects with Ischaemic Heart Disease | [RSC-C3160](codelists/descriptions/RSC-C3160.md)|  |
+| [RSC-PH9904](phenotypes/RSC-PH9904.md) | RSC - Ischaemic Heart Disease | Identification of subjects with Ischaemic Heart Disease | [RSC-C3160](codelists/descriptions/RSC-C3160.md)|  | 
+| [RSC-PH9905](phenotypes/RSC-PH9905.md) | RSC - COPD | Identification of subjects with COPD | [RSC-C2133](codelists/descriptions/RSC-C2133.md)|  |
