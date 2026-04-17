@@ -1,5 +1,5 @@
 
-[Back to Phenotype Index](../phenotypes_index.md)
+[Back to Phenotype Index](../phenotypes_index.html)
 
 [Back to Codelist Index](../codelists_index.md)
 
