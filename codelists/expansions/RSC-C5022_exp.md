@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C5022
 
-# Title: BMI overweight
+# Title: BMI measurement
 
 [Codelist Description](../descriptions/RSC-C5022.md)
 

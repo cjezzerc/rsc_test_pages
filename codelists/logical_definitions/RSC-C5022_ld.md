@@ -5,7 +5,7 @@
 
 ## RSC Codelist: RSC-C5022
 
-# Title: BMI overweight
+# Title: BMI measurement
 
 [Codelist Description](../descriptions/RSC-C5022.md)
 
@@ -13,14 +13,19 @@
 
 # LOGICAL_DEFINITION
 
-## Include
-
-| SNOMED ID | Plus descendants | Term | 
-|----|-------|----|
-
-## Exclude
+## Include concept and descendants
 
 
-No exclusions
+
+## Include just concept
+
+
+
+## Exclude concept and descendants
+
+
+
+## Exclude just concept
+
 
 

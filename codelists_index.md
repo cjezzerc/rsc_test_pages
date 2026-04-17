@@ -15,7 +15,7 @@
 | [RSC-C2067](codelists/descriptions/RSC-C2067.md) | Non-Smoker | SNOMED codes indicating subject is has never smoked tobacco up to the time of recording | [RSC-PH3](phenotypes/RSC-PH3.md)| 
 | [RSC-C2133](codelists/descriptions/RSC-C2133.md) | COPD | SNOMED codes recording cases of COPD | [RSC-PH9905](phenotypes/RSC-PH9905.md)| 
 | [RSC-C3160](codelists/descriptions/RSC-C3160.md) | Ischaemic Heart Disease | SNOMED codes recording cases of Ischaemic Heart Disease | [RSC-PH9904](phenotypes/RSC-PH9904.md)| 
-| [RSC-C5022](codelists/descriptions/RSC-C5022.md) | BMI overweight | SNOMED code recording a numerical measurement of BMI | [RSC-PH2](phenotypes/RSC-PH2.md)| 
+| [RSC-C5022](codelists/descriptions/RSC-C5022.md) | BMI measurement | SNOMED codes recording a numerical measurement of BMI | [RSC-PH2](phenotypes/RSC-PH2.md)| 
 | [RSC-C7199](codelists/descriptions/RSC-C7199.md) | Influenza Like Illness (ILI) | SNOMED codes recording cases of Influenza Like Illness (ILI) | [RSC-PH7200](phenotypes/RSC-PH7200.md)| 
 | [RSC-C7216](codelists/descriptions/RSC-C7216.md) | COPD Exacerbation | SNOMED codes recording cases of Exacerbation of COPD | [RSC-PH9901](phenotypes/RSC-PH9901.md)| 
 | [RSC-C7223](codelists/descriptions/RSC-C7223.md) | Covid Suspected | SNOMED codes recording cases of Covid Suspected | [RSC-PH9902](phenotypes/RSC-PH9902.md)| 

@@ -13,20 +13,33 @@
 
 # LOGICAL_DEFINITION
 
-## Include
-
-| SNOMED ID | Plus descendants | Term | 
-|----|-------|----| 
-| [221000119102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=221000119102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | False | Never smoked any substance (finding) | 
-| [8392000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8392000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | True | Non-smoker (finding) | 
-| [8392000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8392000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | True | Non-smoker (life style) |
-
-## Exclude
+## Include concept and descendants
 
 
-| SNOMED ID | Plus descendants | Term | 
-|----|-------|----| 
-| [8517006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8517006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | True | Ex-smoker (finding) | 
-| [8517006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8517006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | True | Ex-smoker (life style) |
+| SNOMED ID | Term | 
+|----|----| 
+| [8392000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8392000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Non-smoker (finding) | 
+| [8392000](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8392000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Non-smoker (life style) |
+
+
+## Include just concept
+
+
+| SNOMED ID | Term | 
+|----|----| 
+| [221000119102](https://termbrowser.nhs.uk/?perspective=full&conceptId1=221000119102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Never smoked any substance (finding) |
+
+
+## Exclude concept and descendants
+
+
+| SNOMED ID | Term | 
+|----|----| 
+| [8517006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8517006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker (finding) | 
+| [8517006](https://termbrowser.nhs.uk/?perspective=full&conceptId1=8517006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104) | Ex-smoker (life style) |
+
+
+## Exclude just concept
+
 
 
