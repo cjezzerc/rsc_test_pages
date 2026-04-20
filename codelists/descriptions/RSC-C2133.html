@@ -5,27 +5,1165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSC Codelist RSC-C2133</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .top-nav-banner {
+            background-color: #002147;
+            min-height: 66px;
+        }
+
+        .top-nav-inner {
+            min-height: 66px;
+        }
+
+        .rsc-mark {
+            height: 45px;
+            width: auto;
+            display: block;
+        }
+
+        .top-nav-links a {
+            color: #ffffff;
+            font-size: 1.35rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .top-nav-links a:hover,
+        .top-nav-links a:focus {
+            text-decoration: underline;
+        }
+
+        .prototype-warning-banner {
+            background-color: #b00020;
+            color: #ffffff;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            text-align: center;
+            padding: 0.45rem 0.75rem;
+            font-size: 0.9rem;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.css">
+    <style>
+        .accordion-button {
+            justify-content: flex-start;
+        }
+
+        .accordion-button::after {
+            display: none;
+        }
+
+        .accordion-button::before {
+            content: "▸";
+            display: inline-block;
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .accordion-button:not(.collapsed)::before {
+            content: "▾";
+        }
+
+        .dt-container {
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+
+        #codelistAccordion table.dataTable,
+        #codelistAccordion table.js-datatable {
+            width: 100% !important;
+        }
+    </style>
+
 </head>
 <body>
-    <div class="container mt-4 mb-5">
-        <p class="mb-2"><a href="../../phenotypes_index.html">Back to Phenotype Index</a></p>
-        <p><a href="../../codelists_index.html">Back to Codelist Index</a></p>
-
-        <h1 class="mt-4 mb-3">RSC Codelist: RSC-C2133</h1>
-
-        <p class="mb-1"><a href="../logical_definitions/RSC-C2133_ld.html">Codelist Logical Definition</a></p>
-        <p><a href="../expansions/RSC-C2133_exp.html">Codelist Expansion</a></p>
-
-        <div class="card mt-3">
-            <div class="card-body">
-                <p><h1>COPD</h1></p>
-                <p><h2>Brief description</h2></p>
-                <p><p>SNOMED codes recording cases of COPD</p></p>
-                <p><h2>Notes</h2></p>
+    <div class="top-nav-banner d-flex align-items-center">
+        <div class="container">
+            <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
+                <img class="rsc-mark" src="../../images/rsc_image.png" alt="RSC repository banner">
+                <div class="top-nav-links d-flex justify-content-end gap-4 py-1">
+                    
+                    <a href="../../phenotypes_index.html">Phenotype Index</a>
+                    
+                    
+                    <a href="../../codelists_index.html">Codelist Index</a>
+                    
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="prototype-warning-banner">
+        PROTOTYPE SITE UNDER CONSTRUCTION: DATA HAS NOT BEEN REVIEWED
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <h1 class="mt-4 mb-2">RSC Codelist: RSC-C2133</h1>
+        <h2 class="h5 text-muted mb-4">Title: COPD</h2>
+
+        <div class="accordion" id="codelistAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingDescription">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                        Description
+                    </button>
+                </h3>
+                <div id="collapseDescription" class="accordion-collapse collapse show" aria-labelledby="headingDescription">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>COPD</h1>
+<h2>Brief description</h2>
+<p>SNOMED codes recording cases of COPD</p>
+<h2>Notes</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingLogicalDefinition">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogicalDefinition" aria-expanded="false" aria-controls="collapseLogicalDefinition">
+                        Logical Definition
+                    </button>
+                </h3>
+                <div id="collapseLogicalDefinition" class="accordion-collapse collapse" aria-labelledby="headingLogicalDefinition">
+                    <div class="accordion-body">
+                        <h4 class="mt-1">Include concept and descendants</h4>
+                        
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">10692761000119107</a></td>
+                                    <td>Asthma-chronic obstructive pulmonary disease overlap syndrome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">63480004</a></td>
+                                    <td>Chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">13645005</a></td>
+                                    <td>Chronic obstructive lung disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">13645005</a></td>
+                                    <td>Chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+
+                        <h4 class="mt-4">Include just concept</h4>
+                        
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">383611000000102</a></td>
+                                    <td>At risk of chronic obstructive pulmonary disease exacerbation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">70756004</a></td>
+                                    <td>Bronchial atresia with segmental pulmonary emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">198411000000102</a></td>
+                                    <td>Chronic obstructive pulmonary disease does not disturb sleep (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371611000000107</a></td>
+                                    <td>Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371611000000107</a></td>
+                                    <td>Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation - enhanced services administration (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371611000000107</a></td>
+                                    <td>Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation - enhanced services administration (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">52571006</a></td>
+                                    <td>Chronic tracheobronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">66987001</a></td>
+                                    <td>Congenital lobar emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">270473001</a></td>
+                                    <td>History of - chronic obstructive airway disease (context-dependent category)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">270473001</a></td>
+                                    <td>History of - chronic obstructive airway disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">270473001</a></td>
+                                    <td>History of chronic obstructive airway disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">198901000000105</a></td>
+                                    <td>Multiple chronic obstructive pulmonary disease emergency hospital admissions (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">789661000000102</a></td>
+                                    <td>Preferred place of care for next exacerbation of chronic obstructive pulmonary disease (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">697911002</a></td>
+                                    <td>Pulmonary hypertension due to chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+
+                        <h4 class="mt-4">Exclude concept and descendants</h4>
+                        
+                        <p class="text-muted">No entries.</p>
+                        
+
+                        <h4 class="mt-4">Exclude just concept</h4>
+                        
+                        <p class="text-muted">No entries.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingExpansion">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpansion" aria-expanded="false" aria-controls="collapseExpansion">
+                        Expansion
+                    </button>
+                </h3>
+                <div id="collapseExpansion" class="accordion-collapse collapse" aria-labelledby="headingExpansion">
+                    <div class="accordion-body">
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">195960004</a></td>
+                                    <td>(Bullous emphysema with collapse) or (tension pneumatocoele)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195960004</a></td>
+                                    <td>(Bullous emphysema with collapse) or (tension pneumatocoele) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266394006</a></td>
+                                    <td>(Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266394006</a></td>
+                                    <td>(Simple chronic bronchitis) or (smoker's cough) or (senile tracheobronchitis) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">20606002</a></td>
+                                    <td>Acute bovine pulmonary emphysema AND edema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">442025000</a></td>
+                                    <td>Acute exacerbation of chronic asthmatic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">425748003</a></td>
+                                    <td>Acute exacerbation of chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155571000</a></td>
+                                    <td>Acute exacerbation of chronic obstructive airways disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155570004</a></td>
+                                    <td>Acute exacerbation of chronic obstructive airways disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155571000</a></td>
+                                    <td>Acute exacerbation of chronic obstructive airways disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195951007</a></td>
+                                    <td>Acute exacerbation of chronic obstructive airways disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155570004</a></td>
+                                    <td>Acute exacerbation of chronic obstructive airways disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1751000119100</a></td>
+                                    <td>Acute exacerbation of chronic obstructive airways disease with asthma (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">293241000119100</a></td>
+                                    <td>Acute exacerbation of chronic obstructive bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195951007</a></td>
+                                    <td>Acute exacerbation of chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1751000119100</a></td>
+                                    <td>Acute exacerbation of chronic obstructive pulmonary disease with asthma (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285381006</a></td>
+                                    <td>Acute infective exacerbation of chronic obstructive airways disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285381006</a></td>
+                                    <td>Acute infective exacerbation of chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">847091000000104</a></td>
+                                    <td>Acute non-infective exacerbation of chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195963002</a></td>
+                                    <td>Acute vesicular emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">944971000000100</a></td>
+                                    <td>Asthma-chronic obstructive pulmonary disease overlap syndrome </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10692761000119107</a></td>
+                                    <td>Asthma-chronic obstructive pulmonary disease overlap syndrome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">944961000000107</a></td>
+                                    <td>Asthma-chronic obstructive pulmonary disease overlap syndrome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">383621000000108</a></td>
+                                    <td>At risk of chronic obstructive pulmonary disease exacerbation </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">383611000000102</a></td>
+                                    <td>At risk of chronic obstructive pulmonary disease exacerbation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266356006</a></td>
+                                    <td>Atrophic (senile) emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">70756004</a></td>
+                                    <td>Bronchial atresia with segmental pulmonary emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">762618008</a></td>
+                                    <td>Bronchiolitis obliterans syndrome due to and after lung transplantation (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1177120001</a></td>
+                                    <td>Bronchiolitis obliterans syndrome due to and following allogeneic stem cell transplant (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1177120001</a></td>
+                                    <td>Bronchiolitis obliterans syndrome following allogeneic stem cell transplant (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195936003</a></td>
+                                    <td>Bronchitis: [unspecified (& chest infection)] or [recurrent wheezy]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195936003</a></td>
+                                    <td>Bronchitis: [unspecified (& chest infection)] or [recurrent wheezy] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266355005</a></td>
+                                    <td>Bullous emphysema with collapse (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">68328006</a></td>
+                                    <td>Centriacinar emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">89099002</a></td>
+                                    <td>Chronic allergic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195949008</a></td>
+                                    <td>Chronic asthmatic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155566007</a></td>
+                                    <td>Chronic bronchitis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155566007</a></td>
+                                    <td>Chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">63480004</a></td>
+                                    <td>Chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195956002</a></td>
+                                    <td>Chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">621071000000101</a></td>
+                                    <td>Chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">785736001</a></td>
+                                    <td>Chronic bronchitis co-occurrent with wheeze (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195957006</a></td>
+                                    <td>Chronic bullous emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195961000</a></td>
+                                    <td>Chronic bullous emphysema NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">579661000000108</a></td>
+                                    <td>Chronic bullous emphysema NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">66110007</a></td>
+                                    <td>Chronic diffuse emphysema caused by inhalation of chemical fumes AND/OR vapors (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">66110007</a></td>
+                                    <td>Chronic diffuse emphysema due to inhalation of chemical fumes AND/OR vapors (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196026004</a></td>
+                                    <td>Chronic emphysema caused by chemical fumes (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">836477007</a></td>
+                                    <td>Chronic emphysema caused by vapor (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196026004</a></td>
+                                    <td>Chronic emphysema due to chemical fumes (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">47938003</a></td>
+                                    <td>Chronic obliterative bronchiolitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">840350008</a></td>
+                                    <td>Chronic obliterative bronchiolitis caused by chemical fumes (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">32544004</a></td>
+                                    <td>Chronic obliterative bronchiolitis caused by inhalation of chemical fumes AND/OR vapors (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">840351007</a></td>
+                                    <td>Chronic obliterative bronchiolitis caused by vapor (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">32544004</a></td>
+                                    <td>Chronic obliterative bronchiolitis due to inhalation of chemical fumes AND/OR vapors (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1761000119103</a></td>
+                                    <td>Chronic obstructive airway disease with asthma (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155617000</a></td>
+                                    <td>Chronic obstructive airways disease NOS</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155585005</a></td>
+                                    <td>Chronic obstructive airways disease NOS</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155617000</a></td>
+                                    <td>Chronic obstructive airways disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155585005</a></td>
+                                    <td>Chronic obstructive airways disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196003006</a></td>
+                                    <td>Chronic obstructive airways disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">611541000000106</a></td>
+                                    <td>Chronic obstructive airways disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">71435009</a></td>
+                                    <td>Chronic obstructive bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">185086009</a></td>
+                                    <td>Chronic obstructive bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">71435009</a></td>
+                                    <td>Chronic obstructive bronchitis (disorder) [Ambiguous]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155565006</a></td>
+                                    <td>Chronic obstructive lung disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155569000</a></td>
+                                    <td>Chronic obstructive lung disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195948000</a></td>
+                                    <td>Chronic obstructive lung disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155565006</a></td>
+                                    <td>Chronic obstructive lung disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195935004</a></td>
+                                    <td>Chronic obstructive lung disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155569000</a></td>
+                                    <td>Chronic obstructive lung disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195948000</a></td>
+                                    <td>Chronic obstructive lung disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">13645005</a></td>
+                                    <td>Chronic obstructive lung disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195935004</a></td>
+                                    <td>Chronic obstructive lung disease [Ambiguous]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">106001000119101</a></td>
+                                    <td>Chronic obstructive lung disease co-occurrent with acute bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">13645005</a></td>
+                                    <td>Chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">213431000000100</a></td>
+                                    <td>Chronic obstructive pulmonary disease does not disturb sleep</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">213421000000102</a></td>
+                                    <td>Chronic obstructive pulmonary disease does not disturb sleep</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">198411000000102</a></td>
+                                    <td>Chronic obstructive pulmonary disease does not disturb sleep (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">413846005</a></td>
+                                    <td>Chronic obstructive pulmonary disease finding (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371611000000107</a></td>
+                                    <td>Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">491091000000105</a></td>
+                                    <td>Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation - enhanced services administration </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">487261000000103</a></td>
+                                    <td>Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation - enhanced services administration </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371611000000107</a></td>
+                                    <td>Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation - enhanced services administration (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371611000000107</a></td>
+                                    <td>Chronic obstructive pulmonary disease patient unsuitable for pulmonary rehabilitation - enhanced services administration (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">106001000119101</a></td>
+                                    <td>Chronic obstructive pulmonary disease with acute bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196002001</a></td>
+                                    <td>Chronic obstructive pulmonary disease with acute exacerbation, unspecified</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233671000</a></td>
+                                    <td>Chronic obstructive pulmonary disease with acute exacerbation, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196002001</a></td>
+                                    <td>Chronic obstructive pulmonary disease with acute exacerbation, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">644271000000105</a></td>
+                                    <td>Chronic obstructive pulmonary disease with acute exacerbation, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196001008</a></td>
+                                    <td>Chronic obstructive pulmonary disease with acute lower respiratory infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">52571006</a></td>
+                                    <td>Chronic tracheobronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266395007</a></td>
+                                    <td>Chronic: [bronchitis NOS] or [tracheobronchitis]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155572007</a></td>
+                                    <td>Chronic: [bronchitis NOS] or [tracheobronchitis]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266395007</a></td>
+                                    <td>Chronic: [bronchitis NOS] or [tracheobronchitis] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155572007</a></td>
+                                    <td>Chronic: [bronchitis NOS] or [tracheobronchitis] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">33325001</a></td>
+                                    <td>Compensatory emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">47895001</a></td>
+                                    <td>Congenital emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">359676009</a></td>
+                                    <td>Congenital lobar emphysema</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">359676009</a></td>
+                                    <td>Congenital lobar emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233676005</a></td>
+                                    <td>Congenital lobar emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">66987001</a></td>
+                                    <td>Congenital lobar emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233676005</a></td>
+                                    <td>Congenital lobar emphysema [Ambiguous]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155573002</a></td>
+                                    <td>Emphysema</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155573002</a></td>
+                                    <td>Emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1010333003</a></td>
+                                    <td>Emphysema of left lung (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1010334009</a></td>
+                                    <td>Emphysema of right lung (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195964008</a></td>
+                                    <td>Emphysema: [acute interstitial] or [atrophic - senile]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195964008</a></td>
+                                    <td>Emphysema: [acute interstitial] or [atrophic - senile] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">57686001</a></td>
+                                    <td>Emphysematous bleb of lung (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195950008</a></td>
+                                    <td>Emphysematous bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">834491000000101</a></td>
+                                    <td>End stage chronic obstructive airways disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">135836000</a></td>
+                                    <td>End stage chronic obstructive airways disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">135836000</a></td>
+                                    <td>End stage chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">84409004</a></td>
+                                    <td>Fetid chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">21072009</a></td>
+                                    <td>Gas bubble disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16003001</a></td>
+                                    <td>Giant bullous emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">161526003</a></td>
+                                    <td>H/O: [COAD] or [bronchitis]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">161526003</a></td>
+                                    <td>H/O: [COAD] or [bronchitis] (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">138795009</a></td>
+                                    <td>H/O: [obstructive airway disease(& chronic)] or [bronchitis]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">267147002</a></td>
+                                    <td>H/O: [obstructive airway disease(& chronic)] or [bronchitis]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">138795009</a></td>
+                                    <td>H/O: [obstructive airway disease(& chronic)] or [bronchitis] (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">267147002</a></td>
+                                    <td>H/O: [obstructive airway disease(& chronic)] or [bronchitis] (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">60805002</a></td>
+                                    <td>Hemolytic anemia with emphysema AND cutis laxa (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">270473001</a></td>
+                                    <td>History of - chronic obstructive airway disease (context-dependent category)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">270473001</a></td>
+                                    <td>History of - chronic obstructive airway disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">270473001</a></td>
+                                    <td>History of chronic obstructive airway disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">77690003</a></td>
+                                    <td>Interstitial emphysema of lung (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390898003</a></td>
+                                    <td>Interstitial pulmonary emphysema</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390898003</a></td>
+                                    <td>Interstitial pulmonary emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196144009</a></td>
+                                    <td>Mediastinal emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196144009</a></td>
+                                    <td>Mediastinal emphysema [Ambiguous]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155582008</a></td>
+                                    <td>Mild chronic obstructive pulmonary disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195996000</a></td>
+                                    <td>Mild chronic obstructive pulmonary disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155582008</a></td>
+                                    <td>Mild chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195996000</a></td>
+                                    <td>Mild chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">313296004</a></td>
+                                    <td>Mild chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195953005</a></td>
+                                    <td>Mixed simple and mucopurulent chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155583003</a></td>
+                                    <td>Moderate chronic obstructive pulmonary disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195997009</a></td>
+                                    <td>Moderate chronic obstructive pulmonary disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">313297008</a></td>
+                                    <td>Moderate chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155583003</a></td>
+                                    <td>Moderate chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195997009</a></td>
+                                    <td>Moderate chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195944003</a></td>
+                                    <td>Mucopurulent chronic bronchitis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155568008</a></td>
+                                    <td>Mucopurulent chronic bronchitis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">74417001</a></td>
+                                    <td>Mucopurulent chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155568008</a></td>
+                                    <td>Mucopurulent chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195944003</a></td>
+                                    <td>Mucopurulent chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195947005</a></td>
+                                    <td>Mucopurulent chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">649141000000105</a></td>
+                                    <td>Mucopurulent chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">207321000000104</a></td>
+                                    <td>Multiple chronic obstructive pulmonary disease emergency hospital admissions</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">207331000000102</a></td>
+                                    <td>Multiple chronic obstructive pulmonary disease emergency hospital admissions</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">198901000000105</a></td>
+                                    <td>Multiple chronic obstructive pulmonary disease emergency hospital admissions (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195952000</a></td>
+                                    <td>Obstructive chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">601581000000100</a></td>
+                                    <td>Obstructive chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16846004</a></td>
+                                    <td>Obstructive emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">49691004</a></td>
+                                    <td>Occupational bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195954004</a></td>
+                                    <td>Other chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">601591000000103</a></td>
+                                    <td>Other chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195955003</a></td>
+                                    <td>Other chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">621061000000108</a></td>
+                                    <td>Other chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195999007</a></td>
+                                    <td>Other specified chronic obstructive airways disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">581981000000100</a></td>
+                                    <td>Other specified chronic obstructive airways disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">206300003</a></td>
+                                    <td>Other specified perinatal interstitial emphysema or related condition (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">566831000000101</a></td>
+                                    <td>Other specified perinatal interstitial emphysema or related condition (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">4981000</a></td>
+                                    <td>Panacinar emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">31898008</a></td>
+                                    <td>Paraseptal emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">528511000000103</a></td>
+                                    <td>Perinatal interstitial emphysema and related conditions (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">206299006</a></td>
+                                    <td>Perinatal interstitial emphysema and related conditions (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">206301004</a></td>
+                                    <td>Perinatal interstitial emphysema or related condition NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">566841000000105</a></td>
+                                    <td>Perinatal interstitial emphysema or related condition NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">789671000000109</a></td>
+                                    <td>Preferred place of care for next exacerbation of chronic obstructive pulmonary disease </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">789661000000102</a></td>
+                                    <td>Preferred place of care for next exacerbation of chronic obstructive pulmonary disease (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">735465007</a></td>
+                                    <td>Protracted bronchitis caused by bacterium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">87433001</a></td>
+                                    <td>Pulmonary emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">708030004</a></td>
+                                    <td>Pulmonary emphysema co-occurrent with fibrosis of lung (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233674008</a></td>
+                                    <td>Pulmonary emphysema in alpha-1 PI deficiency (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233674008</a></td>
+                                    <td>Pulmonary emphysema in alpha-1 primary immunodeficiency deficiency (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">697911002</a></td>
+                                    <td>Pulmonary hypertension due to chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195945002</a></td>
+                                    <td>Purulent chronic bronchitis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195946001</a></td>
+                                    <td>Purulent chronic bronchitis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195945002</a></td>
+                                    <td>Purulent chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195946001</a></td>
+                                    <td>Purulent chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">86680006</a></td>
+                                    <td>Ruptured emphysematous bleb of lung (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233677001</a></td>
+                                    <td>Scar emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195958001</a></td>
+                                    <td>Segmental bullous emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195998004</a></td>
+                                    <td>Severe chronic obstructive pulmonary disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155584009</a></td>
+                                    <td>Severe chronic obstructive pulmonary disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155584009</a></td>
+                                    <td>Severe chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">313299006</a></td>
+                                    <td>Severe chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195998004</a></td>
+                                    <td>Severe chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195942004</a></td>
+                                    <td>Simple chronic bronchitis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195942004</a></td>
+                                    <td>Simple chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">61937009</a></td>
+                                    <td>Simple chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195943009</a></td>
+                                    <td>Simple chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">649131000000101</a></td>
+                                    <td>Simple chronic bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233675009</a></td>
+                                    <td>Toxic emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45145000</a></td>
+                                    <td>Unilateral emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45145000</a></td>
+                                    <td>Unilateral emphysema (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">23958009</a></td>
+                                    <td>Vanishing lung (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">294011000000104</a></td>
+                                    <td>Very severe chronic obstructive pulmonary disease </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">294001000000101</a></td>
+                                    <td>Very severe chronic obstructive pulmonary disease </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">293991000000106</a></td>
+                                    <td>Very severe chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195959009</a></td>
+                                    <td>Zonal bullous emphysema (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390971000000109</a></td>
+                                    <td>[X]Other conditions related to interstitial emphysema originating in the perinatal period (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196231009</a></td>
+                                    <td>[X]Other specified chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">419861000000108</a></td>
+                                    <td>[X]Other specified chronic obstructive pulmonary disease (disorder)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof DataTable === "undefined") {
+                console.error("DataTables failed to load. Check CDN accessibility and script order.");
+                return;
+            }
+
+            var tables = document.querySelectorAll("#codelistAccordion table");
+            var instances = [];
+
+            tables.forEach(function (table) {
+                if (!table.querySelector("thead")) {
+                    return;
+                }
+
+                table.classList.add("js-datatable");
+                var dt = new DataTable(table, {
+                    order: [[1, "asc"]],
+                    autoWidth: false,
+                    pageLength: 25,
+                    lengthMenu: [10, 25, 50, 100],
+                    layout: {
+                        topStart: ["pageLength", "info"],
+                        topEnd: ["search", "paging"],
+                        bottomStart: null,
+                        bottomEnd: null,
+                    },
+                });
+
+                function togglePagingUi() {
+                    var info = dt.page.info();
+                    var container = dt.table().container();
+                    var paging = container.querySelector(".dt-paging");
+                    var length = container.querySelector(".dt-length");
+                    var showControls = info.pages > 1;
+
+                    if (paging) {
+                        paging.style.display = showControls ? "" : "none";
+                    }
+                    if (length) {
+                        length.style.display = showControls ? "" : "none";
+                    }
+                }
+
+                dt.on("draw", togglePagingUi);
+                togglePagingUi();
+                dt.columns.adjust();
+                instances.push({ table: table, dt: dt });
+            });
+
+            document.querySelectorAll(".accordion-collapse").forEach(function (panel) {
+                panel.addEventListener("shown.bs.collapse", function () {
+                    instances.forEach(function (instance) {
+                        if (panel.contains(instance.table)) {
+                            instance.dt.columns.adjust();
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>

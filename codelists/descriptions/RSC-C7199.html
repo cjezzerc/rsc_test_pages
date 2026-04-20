@@ -5,28 +5,1218 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSC Codelist RSC-C7199</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .top-nav-banner {
+            background-color: #002147;
+            min-height: 66px;
+        }
+
+        .top-nav-inner {
+            min-height: 66px;
+        }
+
+        .rsc-mark {
+            height: 45px;
+            width: auto;
+            display: block;
+        }
+
+        .top-nav-links a {
+            color: #ffffff;
+            font-size: 1.35rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .top-nav-links a:hover,
+        .top-nav-links a:focus {
+            text-decoration: underline;
+        }
+
+        .prototype-warning-banner {
+            background-color: #b00020;
+            color: #ffffff;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            text-align: center;
+            padding: 0.45rem 0.75rem;
+            font-size: 0.9rem;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.css">
+    <style>
+        .accordion-button {
+            justify-content: flex-start;
+        }
+
+        .accordion-button::after {
+            display: none;
+        }
+
+        .accordion-button::before {
+            content: "▸";
+            display: inline-block;
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .accordion-button:not(.collapsed)::before {
+            content: "▾";
+        }
+
+        .dt-container {
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+
+        #codelistAccordion table.dataTable,
+        #codelistAccordion table.js-datatable {
+            width: 100% !important;
+        }
+    </style>
+
 </head>
 <body>
-    <div class="container mt-4 mb-5">
-        <p class="mb-2"><a href="../../phenotypes_index.html">Back to Phenotype Index</a></p>
-        <p><a href="../../codelists_index.html">Back to Codelist Index</a></p>
-
-        <h1 class="mt-4 mb-3">RSC Codelist: RSC-C7199</h1>
-
-        <p class="mb-1"><a href="../logical_definitions/RSC-C7199_ld.html">Codelist Logical Definition</a></p>
-        <p><a href="../expansions/RSC-C7199_exp.html">Codelist Expansion</a></p>
-
-        <div class="card mt-3">
-            <div class="card-body">
-                <p><h1>Influenza Like Illness (ILI)</h1></p>
-                <p><h2>Brief description</h2></p>
-                <p><p>SNOMED codes recording cases of Influenza Like Illness (ILI)</p></p>
-                <p><h2>Notes</h2></p>
-                <p><p>The WHO definition of ILI is <a href="https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/case-definitions-for-ili-and-sari">Influenza Like Illness</a></p></p>
+    <div class="top-nav-banner d-flex align-items-center">
+        <div class="container">
+            <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
+                <img class="rsc-mark" src="../../images/rsc_image.png" alt="RSC repository banner">
+                <div class="top-nav-links d-flex justify-content-end gap-4 py-1">
+                    
+                    <a href="../../phenotypes_index.html">Phenotype Index</a>
+                    
+                    
+                    <a href="../../codelists_index.html">Codelist Index</a>
+                    
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="prototype-warning-banner">
+        PROTOTYPE SITE UNDER CONSTRUCTION: DATA HAS NOT BEEN REVIEWED
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <h1 class="mt-4 mb-2">RSC Codelist: RSC-C7199</h1>
+        <h2 class="h5 text-muted mb-4">Title: Influenza Like Illness (ILI)</h2>
+
+        <div class="accordion" id="codelistAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingDescription">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                        Description
+                    </button>
+                </h3>
+                <div id="collapseDescription" class="accordion-collapse collapse show" aria-labelledby="headingDescription">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>Influenza Like Illness (ILI)</h1>
+<h2>Brief description</h2>
+<p>SNOMED codes recording cases of Influenza Like Illness (ILI)</p>
+<h2>Notes</h2>
+<p>The WHO definition of ILI is <a href="https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/case-definitions-for-ili-and-sari">Influenza Like Illness</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingLogicalDefinition">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogicalDefinition" aria-expanded="false" aria-controls="collapseLogicalDefinition">
+                        Logical Definition
+                    </button>
+                </h3>
+                <div id="collapseLogicalDefinition" class="accordion-collapse collapse" aria-labelledby="headingLogicalDefinition">
+                    <div class="accordion-body">
+                        <h4 class="mt-1">Include concept and descendants</h4>
+                        
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">738276008</a></td>
+                                    <td>Disorder of central nervous system co-occurrent and due to infection with influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309789002</a></td>
+                                    <td>Encephalitis caused by Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309789002</a></td>
+                                    <td>Encephalitis caused by influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309789002</a></td>
+                                    <td>Encephalitis caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309789002</a></td>
+                                    <td>Encephalitis due to influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10677711000119101</a></td>
+                                    <td>Encephalopathy caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10677711000119101</a></td>
+                                    <td>Encephalopathy caused by influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10677711000119101</a></td>
+                                    <td>Encephalopathy due to influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628871000119101</a></td>
+                                    <td>Gastroenteritis caused by Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628871000119101</a></td>
+                                    <td>Gastroenteritis caused by influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628871000119101</a></td>
+                                    <td>Gastroenteritis caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628871000119101</a></td>
+                                    <td>Gastroenteritis due to influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">6142004</a></td>
+                                    <td>Influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195929004</a></td>
+                                    <td>Influenza with gastrointestinal tract involvement (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">95891005</a></td>
+                                    <td>Influenza-like illness (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">866126000</a></td>
+                                    <td>Myelitis caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">78046005</a></td>
+                                    <td>Myocarditis caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">78046005</a></td>
+                                    <td>Myocarditis due to influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624951000119108</a></td>
+                                    <td>Otitis media caused by Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624951000119108</a></td>
+                                    <td>Otitis media caused by influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624951000119108</a></td>
+                                    <td>Otitis media caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624951000119108</a></td>
+                                    <td>Otitis media due to influenza (disorder)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+
+                        <h4 class="mt-4">Include just concept</h4>
+                        
+                        <p class="text-muted">No entries.</p>
+                        
+
+                        <h4 class="mt-4">Exclude concept and descendants</h4>
+                        
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">281647001</a></td>
+                                    <td>Adverse reaction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">281647001</a></td>
+                                    <td>Adverse reactions (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">281647001</a></td>
+                                    <td>Adverse reactions (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">85828009</a></td>
+                                    <td>Autoimmune disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">27624003</a></td>
+                                    <td>Chronic disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">66091009</a></td>
+                                    <td>Congenital disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">17322007</a></td>
+                                    <td>Disease caused by parasite (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">312087002</a></td>
+                                    <td>Disorder following clinical procedure (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">414025005</a></td>
+                                    <td>Disorder of fetus and/or newborn (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">414025005</a></td>
+                                    <td>Disorder of fetus or newborn (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">312087002</a></td>
+                                    <td>Disorders following clinical procedure (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">414025005</a></td>
+                                    <td>Fetal and/or neonatal disorder (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">443138004</a></td>
+                                    <td>Granulomatosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">408678008</a></td>
+                                    <td>Healthcare associated infectious disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">473010000</a></td>
+                                    <td>Hypersensitivity condition (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">473010000</a></td>
+                                    <td>Hypersensitivity condition (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">3218000</a></td>
+                                    <td>Mycosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">399981008</a></td>
+                                    <td>Neoplasm and/or hamartoma (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">17322007</a></td>
+                                    <td>Parasitic disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">441456002</a></td>
+                                    <td>Polyp (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">58184002</a></td>
+                                    <td>Recurrent disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">58184002</a></td>
+                                    <td>Recurrent disease (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">56717001</a></td>
+                                    <td>Tuberculosis (disorder)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+
+                        <h4 class="mt-4">Exclude just concept</h4>
+                        
+                        <p class="text-muted">No entries.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingExpansion">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpansion" aria-expanded="false" aria-controls="collapseExpansion">
+                        Expansion
+                    </button>
+                </h3>
+                <div id="collapseExpansion" class="accordion-collapse collapse" aria-labelledby="headingExpansion">
+                    <div class="accordion-body">
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">266393000</a></td>
+                                    <td>(Influenza NOS) or (influenza-like illness)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155562009</a></td>
+                                    <td>(Influenza NOS) or (influenza-like illness)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266393000</a></td>
+                                    <td>(Influenza NOS) or (influenza-like illness) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155562009</a></td>
+                                    <td>(Influenza NOS) or (influenza-like illness) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195931008</a></td>
+                                    <td>(Influenza like illness) or (influenza NOS)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195931008</a></td>
+                                    <td>(Influenza like illness) or (influenza NOS) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194946005</a></td>
+                                    <td>Acute myocarditis - influenzal (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">292631000000106</a></td>
+                                    <td>Avian influenza</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">55604004</a></td>
+                                    <td>Avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">280331000000102</a></td>
+                                    <td>Avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10629191000119100</a></td>
+                                    <td>Bronchiolitis caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">738276008</a></td>
+                                    <td>Disorder of central nervous system co-occurrent and due to infection with influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309789002</a></td>
+                                    <td>Encephalitis caused by Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309789002</a></td>
+                                    <td>Encephalitis caused by influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309789002</a></td>
+                                    <td>Encephalitis caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">313251006</a></td>
+                                    <td>Encephalitis caused by influenza-specific virus not identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309806000</a></td>
+                                    <td>Encephalitis caused by influenza-virus identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">192691003</a></td>
+                                    <td>Encephalitis due to influenza</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309789002</a></td>
+                                    <td>Encephalitis due to influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">192691003</a></td>
+                                    <td>Encephalitis due to influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">313251006</a></td>
+                                    <td>Encephalitis due to influenza-specific virus not identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">192693000</a></td>
+                                    <td>Encephalitis due to influenza-virus identified</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">192693000</a></td>
+                                    <td>Encephalitis due to influenza-virus identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">309806000</a></td>
+                                    <td>Encephalitis due to influenza-virus identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142971000119102</a></td>
+                                    <td>Encephalopathy caused by H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10677711000119101</a></td>
+                                    <td>Encephalopathy caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142971000119102</a></td>
+                                    <td>Encephalopathy caused by Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">143001000119100</a></td>
+                                    <td>Encephalopathy caused by avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10677711000119101</a></td>
+                                    <td>Encephalopathy caused by influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142971000119102</a></td>
+                                    <td>Encephalopathy due to H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">143001000119100</a></td>
+                                    <td>Encephalopathy due to avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10677711000119101</a></td>
+                                    <td>Encephalopathy due to influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155563004</a></td>
+                                    <td>Flu-like illness NOS</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155563004</a></td>
+                                    <td>Flu-like illness NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">274104008</a></td>
+                                    <td>Flu-like illness NOS (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">677811000000106</a></td>
+                                    <td>Flu-like illness NOS (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142961000119108</a></td>
+                                    <td>Gastroenteritis caused by H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628911000119103</a></td>
+                                    <td>Gastroenteritis caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142961000119108</a></td>
+                                    <td>Gastroenteritis caused by Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628871000119101</a></td>
+                                    <td>Gastroenteritis caused by Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142991000119101</a></td>
+                                    <td>Gastroenteritis caused by avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628871000119101</a></td>
+                                    <td>Gastroenteritis caused by influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628911000119103</a></td>
+                                    <td>Gastroenteritis caused by influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628871000119101</a></td>
+                                    <td>Gastroenteritis caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142961000119108</a></td>
+                                    <td>Gastroenteritis due to H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142991000119101</a></td>
+                                    <td>Gastroenteritis due to avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628871000119101</a></td>
+                                    <td>Gastroenteritis due to influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10628911000119103</a></td>
+                                    <td>Gastroenteritis due to influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155559006</a></td>
+                                    <td>Influenza</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155559006</a></td>
+                                    <td>Influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">6142004</a></td>
+                                    <td>Influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266353003</a></td>
+                                    <td>Influenza NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">670551000000108</a></td>
+                                    <td>Influenza NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">442438000</a></td>
+                                    <td>Influenza caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">442696006</a></td>
+                                    <td>Influenza caused by Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1149091008</a></td>
+                                    <td>Influenza caused by Influenza A virus subtype H2 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">772810003</a></td>
+                                    <td>Influenza caused by Influenza A virus subtype H3N2 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">713083002</a></td>
+                                    <td>Influenza caused by Influenza A virus subtype H5 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">772828001</a></td>
+                                    <td>Influenza caused by Influenza A virus subtype H5N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">450715004</a></td>
+                                    <td>Influenza caused by Influenza A virus subtype H7 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">707448003</a></td>
+                                    <td>Influenza caused by Influenza A virus subtype H7N9 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">450716003</a></td>
+                                    <td>Influenza caused by Influenza A virus subtype H9 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">24662006</a></td>
+                                    <td>Influenza caused by Influenza B virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">81524006</a></td>
+                                    <td>Influenza caused by Influenza C virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">24662006</a></td>
+                                    <td>Influenza caused by Influenza virus, type B (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">81524006</a></td>
+                                    <td>Influenza caused by Influenza virus, type C (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">711128004</a></td>
+                                    <td>Influenza caused by influenza virus type A, avian, H3N2 strain (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">427873006</a></td>
+                                    <td>Influenza caused by influenza virus type A, avian, H5N1 strain (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">719865001</a></td>
+                                    <td>Influenza caused by pandemic influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">719590007</a></td>
+                                    <td>Influenza caused by seasonal influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">442438000</a></td>
+                                    <td>Influenza due to Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">510671000000104</a></td>
+                                    <td>Influenza due to Influenza A virus subtype H1N1</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">442696006</a></td>
+                                    <td>Influenza due to Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">505131000000104</a></td>
+                                    <td>Influenza due to Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">450715004</a></td>
+                                    <td>Influenza due to Influenza A virus subtype H7 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">707448003</a></td>
+                                    <td>Influenza due to Influenza A virus subtype H7N9 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">450716003</a></td>
+                                    <td>Influenza due to Influenza A virus subtype H9 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">78431007</a></td>
+                                    <td>Influenza due to Influenza virus, type A, human (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">46171006</a></td>
+                                    <td>Influenza due to Influenza virus, type A, porcine (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">24662006</a></td>
+                                    <td>Influenza due to Influenza virus, type B (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">81524006</a></td>
+                                    <td>Influenza due to Influenza virus, type C (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">711128004</a></td>
+                                    <td>Influenza due to influenza virus type A, avian, H3N2 strain (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">427873006</a></td>
+                                    <td>Influenza due to influenza virus type A, avian, H5N1 strain (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">111876006</a></td>
+                                    <td>Influenza due to other Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">111876006</a></td>
+                                    <td>Influenza due to other Influenza virus -RETIRED-</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033081000000107</a></td>
+                                    <td>Influenza due to pandemic influenza virus </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033071000000105</a></td>
+                                    <td>Influenza due to pandemic influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1050601000000101</a></td>
+                                    <td>Influenza due to seasonal influenza virus</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1050981000000100</a></td>
+                                    <td>Influenza due to seasonal influenza virus</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033101000000101</a></td>
+                                    <td>Influenza due to seasonal influenza virus </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033091000000109</a></td>
+                                    <td>Influenza due to seasonal influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033061000000103</a></td>
+                                    <td>Influenza due to zoonotic influenza virus </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033051000000101</a></td>
+                                    <td>Influenza due to zoonotic influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">406588006</a></td>
+                                    <td>Influenza of the central nervous system (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155561002</a></td>
+                                    <td>Influenza with encephalopathy</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195928007</a></td>
+                                    <td>Influenza with encephalopathy</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195928007</a></td>
+                                    <td>Influenza with encephalopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155561002</a></td>
+                                    <td>Influenza with encephalopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">74644004</a></td>
+                                    <td>Influenza with encephalopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195929004</a></td>
+                                    <td>Influenza with gastrointestinal tract involvement (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">83440004</a></td>
+                                    <td>Influenza with involvement of gastrointestinal tract (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195923003</a></td>
+                                    <td>Influenza with laryngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">61700007</a></td>
+                                    <td>Influenza with non-respiratory manifestation (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195927002</a></td>
+                                    <td>Influenza with other manifestations (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">540121000000103</a></td>
+                                    <td>Influenza with other manifestations (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195930009</a></td>
+                                    <td>Influenza with other manifestations NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">540131000000101</a></td>
+                                    <td>Influenza with other manifestations NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195922008</a></td>
+                                    <td>Influenza with other respiratory manifestation (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">616171000000100</a></td>
+                                    <td>Influenza with other respiratory manifestation (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195924009</a></td>
+                                    <td>Influenza with pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">42964004</a></td>
+                                    <td>Influenza with pneumonia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195921001</a></td>
+                                    <td>Influenza with pneumonia NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">616161000000107</a></td>
+                                    <td>Influenza with pneumonia NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033111000000104</a></td>
+                                    <td>Influenza with pneumonia due to seasonal influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195920000</a></td>
+                                    <td>Influenza with pneumonia, influenza virus identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">63039003</a></td>
+                                    <td>Influenza with respiratory manifestation other than pneumonia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195925005</a></td>
+                                    <td>Influenza with respiratory manifestations NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">616181000000103</a></td>
+                                    <td>Influenza with respiratory manifestations NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285342006</a></td>
+                                    <td>Influenza-like illness</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285342006</a></td>
+                                    <td>Influenza-like illness (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">95891005</a></td>
+                                    <td>Influenza-like illness (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">161913008</a></td>
+                                    <td>Influenza-like symptoms</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">139168000</a></td>
+                                    <td>Influenza-like symptoms</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">161913008</a></td>
+                                    <td>Influenza-like symptoms (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">139168000</a></td>
+                                    <td>Influenza-like symptoms (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">315642008</a></td>
+                                    <td>Influenza-like symptoms (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43692000</a></td>
+                                    <td>Influenzal acute upper respiratory infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41269000</a></td>
+                                    <td>Influenzal bronchopneumonia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033121000000105</a></td>
+                                    <td>Influenzal bronchopneumonia due to seasonal influenza virus </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">28105000</a></td>
+                                    <td>Influenzal laryngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">84512003</a></td>
+                                    <td>Influenzal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155560001</a></td>
+                                    <td>Influenzal pneumonia</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155560001</a></td>
+                                    <td>Influenzal pneumonia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">866126000</a></td>
+                                    <td>Myelitis caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10629351000119108</a></td>
+                                    <td>Myocarditis caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142951000119106</a></td>
+                                    <td>Myocarditis caused by Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142981000119104</a></td>
+                                    <td>Myocarditis caused by avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10629351000119108</a></td>
+                                    <td>Myocarditis caused by influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">78046005</a></td>
+                                    <td>Myocarditis caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142951000119106</a></td>
+                                    <td>Myocarditis due to Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142981000119104</a></td>
+                                    <td>Myocarditis due to avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10629351000119108</a></td>
+                                    <td>Myocarditis due to influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">78046005</a></td>
+                                    <td>Myocarditis due to influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195933006</a></td>
+                                    <td>Other specified pneumonia or influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">540141000000105</a></td>
+                                    <td>Other specified pneumonia or influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624911000119107</a></td>
+                                    <td>Otitis media caused by H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10674911000119108</a></td>
+                                    <td>Otitis media caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624911000119107</a></td>
+                                    <td>Otitis media caused by Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624951000119108</a></td>
+                                    <td>Otitis media caused by Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624951000119108</a></td>
+                                    <td>Otitis media caused by influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10674911000119108</a></td>
+                                    <td>Otitis media caused by influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624951000119108</a></td>
+                                    <td>Otitis media caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624911000119107</a></td>
+                                    <td>Otitis media due to H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10624951000119108</a></td>
+                                    <td>Otitis media due to influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10674911000119108</a></td>
+                                    <td>Otitis media due to influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155548002</a></td>
+                                    <td>Pneumonia and influenza &/or pneumonia</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266391003</a></td>
+                                    <td>Pneumonia and influenza &/or pneumonia</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155548002</a></td>
+                                    <td>Pneumonia and influenza &/or pneumonia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266391003</a></td>
+                                    <td>Pneumonia and influenza &/or pneumonia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195878008</a></td>
+                                    <td>Pneumonia and influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142931000119100</a></td>
+                                    <td>Pneumonia caused by H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">772839003</a></td>
+                                    <td>Pneumonia caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142931000119100</a></td>
+                                    <td>Pneumonia caused by Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16311000119108</a></td>
+                                    <td>Pneumonia caused by Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">143111000119103</a></td>
+                                    <td>Pneumonia caused by avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16311000119108</a></td>
+                                    <td>Pneumonia caused by influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16311000119108</a></td>
+                                    <td>Pneumonia caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142931000119100</a></td>
+                                    <td>Pneumonia due to H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">143111000119103</a></td>
+                                    <td>Pneumonia due to avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16311000119108</a></td>
+                                    <td>Pneumonia due to influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195934000</a></td>
+                                    <td>Pneumonia or influenza NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">540151000000108</a></td>
+                                    <td>Pneumonia or influenza NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">84037004</a></td>
+                                    <td>Swine influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142941000119109</a></td>
+                                    <td>Upper respiratory tract infection caused by H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10685111000119102</a></td>
+                                    <td>Upper respiratory tract infection caused by Influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">328531000119104</a></td>
+                                    <td>Upper respiratory tract infection caused by Influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">328531000119104</a></td>
+                                    <td>Upper respiratory tract infection caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142941000119109</a></td>
+                                    <td>Upper respiratory tract infection caused by Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10685111000119102</a></td>
+                                    <td>Upper respiratory tract infection caused by Influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142921000119103</a></td>
+                                    <td>Upper respiratory tract infection caused by avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10685111000119102</a></td>
+                                    <td>Upper respiratory tract infection caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142941000119109</a></td>
+                                    <td>Upper respiratory tract infection due to H1N1 influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10685111000119102</a></td>
+                                    <td>Upper respiratory tract infection due to Influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">328531000119104</a></td>
+                                    <td>Upper respiratory tract infection due to Influenza A (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">142921000119103</a></td>
+                                    <td>Upper respiratory tract infection due to avian influenza (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196201003</a></td>
+                                    <td>[X]Influenza with other manifestations, influenza virus identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">418191000000102</a></td>
+                                    <td>[X]Influenza with other manifestations, influenza virus identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196203000</a></td>
+                                    <td>[X]Influenza with other manifestations, virus not identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">441131000000104</a></td>
+                                    <td>[X]Influenza with other manifestations, virus not identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196200002</a></td>
+                                    <td>[X]Influenza with other respiratory manifestations, influenza virus identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">418181000000104</a></td>
+                                    <td>[X]Influenza with other respiratory manifestations, influenza virus identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">196202005</a></td>
+                                    <td>[X]Influenza with other respiratory manifestations, virus not identified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">430891000000103</a></td>
+                                    <td>[X]Influenza with other respiratory manifestations, virus not identified (disorder)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof DataTable === "undefined") {
+                console.error("DataTables failed to load. Check CDN accessibility and script order.");
+                return;
+            }
+
+            var tables = document.querySelectorAll("#codelistAccordion table");
+            var instances = [];
+
+            tables.forEach(function (table) {
+                if (!table.querySelector("thead")) {
+                    return;
+                }
+
+                table.classList.add("js-datatable");
+                var dt = new DataTable(table, {
+                    order: [[1, "asc"]],
+                    autoWidth: false,
+                    pageLength: 25,
+                    lengthMenu: [10, 25, 50, 100],
+                    layout: {
+                        topStart: ["pageLength", "info"],
+                        topEnd: ["search", "paging"],
+                        bottomStart: null,
+                        bottomEnd: null,
+                    },
+                });
+
+                function togglePagingUi() {
+                    var info = dt.page.info();
+                    var container = dt.table().container();
+                    var paging = container.querySelector(".dt-paging");
+                    var length = container.querySelector(".dt-length");
+                    var showControls = info.pages > 1;
+
+                    if (paging) {
+                        paging.style.display = showControls ? "" : "none";
+                    }
+                    if (length) {
+                        length.style.display = showControls ? "" : "none";
+                    }
+                }
+
+                dt.on("draw", togglePagingUi);
+                togglePagingUi();
+                dt.columns.adjust();
+                instances.push({ table: table, dt: dt });
+            });
+
+            document.querySelectorAll(".accordion-collapse").forEach(function (panel) {
+                panel.addEventListener("shown.bs.collapse", function () {
+                    instances.forEach(function (instance) {
+                        if (panel.contains(instance.table)) {
+                            instance.dt.columns.adjust();
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>

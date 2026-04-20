@@ -5,47 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSC Phenotype RSC-PH9902</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .top-nav-banner {
+            background-color: #002147;
+            min-height: 66px;
+        }
+
+        .top-nav-inner {
+            min-height: 66px;
+        }
+
+        .rsc-mark {
+            height: 45px;
+            width: auto;
+            display: block;
+        }
+
+        .top-nav-links a {
+            color: #ffffff;
+            font-size: 1.35rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .top-nav-links a:hover,
+        .top-nav-links a:focus {
+            text-decoration: underline;
+        }
+
+        .prototype-warning-banner {
+            background-color: #b00020;
+            color: #ffffff;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            text-align: center;
+            padding: 0.45rem 0.75rem;
+            font-size: 0.9rem;
+        }
+    </style>
+    
 </head>
 <body>
-    <div class="container mt-4 mb-5">
-        <p class="mb-2"><a href="../phenotypes_index.html">Back to Phenotype Index</a></p>
-        <p><a href="../codelists_index.html">Back to Codelist Index</a></p>
-
-        <h1 class="mt-4 mb-4">RSC Phenotype RSC-PH9902</h1>
-
-        <div class="card">
-            <div class="card-body">
-                <p><h1>COVID Suspected</h1></p>
-                <p><h2>Brief description</h2></p>
-                <p><p>Identification of new cases of Covid Suspected for the RCGP RSC weekly report of Respiratory and Communicable Diseases for England.</p></p>
-                <p><h2>Overview</h2></p>
-                <p><p>The algorithm identifies the cohort of patients that have a new diagnosis event of Covid Suspected within the week of observation.</p></p>
-                <p><p>The data for the <a href="https://www.rcgp.org.uk/representing-you/research-at-rcgp/research-surveillance-centre/public-health-data">RSC Weekly report</a> are counts of numbers of patients in the cohort, stratified by age and region.</p></p>
-                <p><h2>Pseudocode</h2></p>
-                <p><p>The cohort is identified using the template phenotype <a href='RSC-PH1.html'>RSC-PH1</a> with parameters</p></p>
-                <p><table></p>
-                <p><thead></p>
-                <p><tr></p>
-                <p><th>Parameter</th></p>
-                <p><th>Description</th></p>
-                <p></tr></p>
-                <p></thead></p>
-                <p><tbody></p>
-                <p><tr></p>
-                <p><td><em><strong>disease-codelist</strong></em></td></p>
-                <p><td><a href='../codelists/descriptions/RSC-C7223.html'>RSC-C7223</a></td></p>
-                <p></tr></p>
-                <p><tr></p>
-                <p><td><em><strong>interval</strong></em></td></p>
-                <p><td>28?? days</td></p>
-                <p></tr></p>
-                <p></tbody></p>
-                <p></table></p>
-                <p><p>See the <em><strong>disease-codelist</strong></em> for further information on the definition of this disease.</p></p>
+    <div class="top-nav-banner d-flex align-items-center">
+        <div class="container">
+            <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
+                <img class="rsc-mark" src="../images/rsc_image.png" alt="RSC repository banner">
+                <div class="top-nav-links d-flex justify-content-end gap-4 py-1">
+                    
+                    <a href="../phenotypes_index.html">Phenotype Index</a>
+                    
+                    
+                    <a href="../codelists_index.html">Codelist Index</a>
+                    
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="prototype-warning-banner">
+        PROTOTYPE SITE UNDER CONSTRUCTION: DATA HAS NOT BEEN REVIEWED
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <h1 class="mt-4 mb-4">RSC Phenotype RSC-PH9902</h1>
+
+        <div class="card">
+            <div class="card-body">
+                <h1>COVID Suspected</h1>
+<h2>Brief description</h2>
+<p>Identification of new cases of Covid Suspected for the RCGP RSC weekly report of Respiratory and Communicable Diseases for England.</p>
+<h2>Overview</h2>
+<p>The algorithm identifies the cohort of patients that have a new diagnosis event of Covid Suspected within the week of observation.</p>
+<p>The data for the <a href="https://www.rcgp.org.uk/representing-you/research-at-rcgp/research-surveillance-centre/public-health-data">RSC Weekly report</a> are counts of numbers of patients in the cohort, stratified by age and region.</p>
+<h2>Pseudocode</h2>
+<p>The cohort is identified using the template phenotype <a href='RSC-PH1.html'>RSC-PH1</a> with parameters</p>
+<table class="table table-striped table-bordered table-sm">
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em><strong>disease-codelist</strong></em></td>
+<td><a href='../codelists/descriptions/RSC-C7223.html'>RSC-C7223</a></td>
+</tr>
+<tr>
+<td><em><strong>interval</strong></em></td>
+<td>28?? days</td>
+</tr>
+</tbody>
+</table>
+<p>See the <em><strong>disease-codelist</strong></em> for further information on the definition of this disease.</p>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSC Phenotype RSC-PH9903</title>
+    <title>RSC Phenotype RSC-PH88</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <style>
         .top-nav-banner {
@@ -68,17 +68,15 @@
 
     
     <div class="container mt-4 mb-5">
-        <h1 class="mt-4 mb-4">RSC Phenotype RSC-PH9903</h1>
+        <h1 class="mt-4 mb-4">RSC Phenotype RSC-PH88</h1>
 
         <div class="card">
             <div class="card-body">
-                <h1>Diabetes Type 2</h1>
+                <h1>RSC – Smoker Status</h1>
+<h2>Brief description</h2>
+<p>Sorting test</p>
 <h2>Overview</h2>
-<p>The intention of the algorithm is to identify the Diabetes Type 2 status of each patient in a dataset at a specified date.</p>
-<p>The algorithm creates a table containing a standard code for each patient based on the most recent observation regarding Diabetes Type 2.</p>
-<p><strong>OR</strong> is this just an in or out of cohort thing? Is this an example where might want more than one phenotype or is that overkill? Are these phenotypes really here to put context on a codelist so precise use case is not too important <strong>??????????</strong></p>
-<p><strong>THIS</strong> is very essentially the same logic as smoker status so there could be a template method perhaps, but would have to specify what the output status was for each input codelist <strong>?????</strong></p>
-<p><strong>OR</strong> does this make a case for a "cohort with exit condition" template phenotype <strong>???????</strong></p>
+<p>Just to check how RSC-PH88 sorts relative to RSC-PH3 and RSC-PH7200</p>
 <h2>Pseudocode</h2>
 <p>The following parameter is required:</p>
 <table class="table table-striped table-bordered table-sm">
@@ -105,16 +103,20 @@
 </thead>
 <tbody>
 <tr>
-<td><em><strong>diabetes-t2</strong></em></td>
-<td><a href='../codelists/descriptions/RSC-C2048.html'>RSC-C2048</a></td>
+<td><em><strong>active-smoker-codelist</strong></em></td>
+<td><a href='../codelists/descriptions/RSC-C2065.html'>RSC-C2065</a></td>
 </tr>
 <tr>
-<td><em><strong>diabetes-t2-resolved</strong></em></td>
-<td><a href='../codelists/descriptions/RSC-C7230.html'>RSC-C7230</a></td>
+<td><em><strong>ex-smoker-codelist</strong></em></td>
+<td><a href='../codelists/descriptions/RSC-C2066.html'>RSC-C2066</a></td>
+</tr>
+<tr>
+<td><em><strong>non-smoker-codelist</strong></em></td>
+<td><a href='../codelists/descriptions/RSC-C2067.html'>RSC-C2067</a></td>
 </tr>
 </tbody>
 </table>
-<p>A composite code list <em><strong>all-statuses-codelist</strong></em> is created as the union of the codelists in the table above.</p>
+<p>A composite code list <em><strong>all-smoker-status-codelist</strong></em> is created as the union of <em><strong>active-smoker-codelist</strong></em>, <em><strong>ex-smoker-codelist</strong></em> and  <em><strong>non-smoker-codelist</strong></em></p>
 <ul>
 <li>A results table is initialised with columns of "patient-id" and "computed-current-status"</li>
 <li>
@@ -124,7 +126,7 @@
 <p><em><strong>patient-id</strong></em> = Pseudonymised patient identifer</p>
 </li>
 <li>
-<p><em><strong>most-recent-status</strong></em> = The most recent event for that patient with a code from <em><strong>all-statuses-codelist</strong></em> with an observation date up to and including the <em><strong>status-date</strong></em></p>
+<p><em><strong>most-recent-status</strong></em> = The most recent event for that patient with a code from <em><strong>all-smoker-status-codelist</strong></em> with an observation date up to and including the <em><strong>status-date</strong></em></p>
 </li>
 <li>
 <p>If</p>
@@ -140,17 +142,21 @@
 </thead>
 <tbody>
 <tr>
-<td><em><strong>diabetes-t2</strong></em></td>
-<td>DIABETES-T2</td>
+<td><em><strong>active-smoker-codelist</strong></em></td>
+<td>SMOKER</td>
 </tr>
 <tr>
-<td><em><strong>diabetes-resolved-t2</strong></em></td>
-<td>DIABETES-T2-RESOLVED</td>
+<td><em><strong>ex-smoker-codelist</strong></em></td>
+<td>EX-SMOKER</td>
+</tr>
+<tr>
+<td><em><strong>non-smoker-codelist</strong></em></td>
+<td>NON-SMOKER</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li>otherwise <em><strong>computed-current-status</strong></em> is set to DIABETES-T2-NEVER-RECORDED<ul>
+<li>otherwise <em><strong>computed-current-status</strong></em> is set to UNKNOWN<ul>
 <li>The tuple (<em><strong>patient-id</strong></em>, <em><strong>computed-current-status</strong></em>) is added as a row to the results table</li>
 </ul>
 </li>

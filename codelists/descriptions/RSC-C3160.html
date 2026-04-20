@@ -5,27 +5,3061 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSC Codelist RSC-C3160</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .top-nav-banner {
+            background-color: #002147;
+            min-height: 66px;
+        }
+
+        .top-nav-inner {
+            min-height: 66px;
+        }
+
+        .rsc-mark {
+            height: 45px;
+            width: auto;
+            display: block;
+        }
+
+        .top-nav-links a {
+            color: #ffffff;
+            font-size: 1.35rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .top-nav-links a:hover,
+        .top-nav-links a:focus {
+            text-decoration: underline;
+        }
+
+        .prototype-warning-banner {
+            background-color: #b00020;
+            color: #ffffff;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            text-align: center;
+            padding: 0.45rem 0.75rem;
+            font-size: 0.9rem;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.css">
+    <style>
+        .accordion-button {
+            justify-content: flex-start;
+        }
+
+        .accordion-button::after {
+            display: none;
+        }
+
+        .accordion-button::before {
+            content: "▸";
+            display: inline-block;
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .accordion-button:not(.collapsed)::before {
+            content: "▾";
+        }
+
+        .dt-container {
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+
+        #codelistAccordion table.dataTable,
+        #codelistAccordion table.js-datatable {
+            width: 100% !important;
+        }
+    </style>
+
 </head>
 <body>
-    <div class="container mt-4 mb-5">
-        <p class="mb-2"><a href="../../phenotypes_index.html">Back to Phenotype Index</a></p>
-        <p><a href="../../codelists_index.html">Back to Codelist Index</a></p>
-
-        <h1 class="mt-4 mb-3">RSC Codelist: RSC-C3160</h1>
-
-        <p class="mb-1"><a href="../logical_definitions/RSC-C3160_ld.html">Codelist Logical Definition</a></p>
-        <p><a href="../expansions/RSC-C3160_exp.html">Codelist Expansion</a></p>
-
-        <div class="card mt-3">
-            <div class="card-body">
-                <p><h1>Ischaemic Heart Disease</h1></p>
-                <p><h2>Brief description</h2></p>
-                <p><p>SNOMED codes recording cases of Ischaemic Heart Disease</p></p>
-                <p><h2>Notes</h2></p>
+    <div class="top-nav-banner d-flex align-items-center">
+        <div class="container">
+            <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
+                <img class="rsc-mark" src="../../images/rsc_image.png" alt="RSC repository banner">
+                <div class="top-nav-links d-flex justify-content-end gap-4 py-1">
+                    
+                    <a href="../../phenotypes_index.html">Phenotype Index</a>
+                    
+                    
+                    <a href="../../codelists_index.html">Codelist Index</a>
+                    
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="prototype-warning-banner">
+        PROTOTYPE SITE UNDER CONSTRUCTION: DATA HAS NOT BEEN REVIEWED
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <h1 class="mt-4 mb-2">RSC Codelist: RSC-C3160</h1>
+        <h2 class="h5 text-muted mb-4">Title: Ischaemic Heart Disease</h2>
+
+        <div class="accordion" id="codelistAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingDescription">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                        Description
+                    </button>
+                </h3>
+                <div id="collapseDescription" class="accordion-collapse collapse show" aria-labelledby="headingDescription">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>Ischaemic Heart Disease</h1>
+<h2>Brief description</h2>
+<p>SNOMED codes recording cases of Ischaemic Heart Disease</p>
+<h2>Notes</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingLogicalDefinition">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogicalDefinition" aria-expanded="false" aria-controls="collapseLogicalDefinition">
+                        Logical Definition
+                    </button>
+                </h3>
+                <div id="collapseLogicalDefinition" class="accordion-collapse collapse" aria-labelledby="headingLogicalDefinition">
+                    <div class="accordion-body">
+                        <h4 class="mt-1">Include concept and descendants</h4>
+                        
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">65340007</a></td>
+                                    <td>Aneurysm of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">53741008</a></td>
+                                    <td>Coronary arteriosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">398274000</a></td>
+                                    <td>Coronary artery thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1083121000000102</a></td>
+                                    <td>Coronary heart disease monitoring invitation (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401247006</a></td>
+                                    <td>Coronary heart disease monitoring status (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390799004</a></td>
+                                    <td>Coronary heart disease review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">414545008</a></td>
+                                    <td>Ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">281091000</a></td>
+                                    <td>Ischemic myocardial dysfunction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1110881000000106</a></td>
+                                    <td>Quality and Outcomes Framework secondary prevention of coronary heart disease quality indicator-related care invitation (procedure)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+
+                        <h4 class="mt-4">Include just concept</h4>
+                        
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">275931000</a></td>
+                                    <td>Administration of prophylactic aspirin for ischemic heart disease (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">699245006</a></td>
+                                    <td>Admit ischemic heart disease emergency (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">275931000</a></td>
+                                    <td>Aspirin prophylaxis - IHD (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">275931000</a></td>
+                                    <td>Aspirin prophylaxis for ischemic heart disease (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629591000119103</a></td>
+                                    <td>Congestive heart failure stage B due to ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629541000119106</a></td>
+                                    <td>Congestive heart failure stage C due to Ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629541000119106</a></td>
+                                    <td>Congestive heart failure stage C due to ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">426579008</a></td>
+                                    <td>Coronary heart disease education (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">394724007</a></td>
+                                    <td>Coronary heart disease medication review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390907003</a></td>
+                                    <td>Coronary heart disease monitoring administration (regime/therapy)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">248461000000107</a></td>
+                                    <td>Coronary heart disease monitoring telephone invitation (regime/therapy)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">248461000000107</a></td>
+                                    <td>Coronary heart disease monitoring telephone invite (regime/therapy)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">699245006</a></td>
+                                    <td>Emergency hospital admission for ischemic heart disease (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703273002</a></td>
+                                    <td>Heart failure with reduced ejection fraction due to coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">308068007</a></td>
+                                    <td>History of - Treatment for ischemic heart disease (context-dependent category)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">308068007</a></td>
+                                    <td>History of - Treatment for ischemic heart disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">308068007</a></td>
+                                    <td>History of treatment for ischemic heart disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">809581000000109</a></td>
+                                    <td>Referral to coronary heart disease clinic (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629641000119107</a></td>
+                                    <td>Systolic heart failure stage B due to ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629741000119102</a></td>
+                                    <td>Systolic heart failure stage C due to ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">315026000</a></td>
+                                    <td>Transient myocardial ischemia (disorder)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+
+                        <h4 class="mt-4">Exclude concept and descendants</h4>
+                        
+                        <p class="text-muted">No entries.</p>
+                        
+
+                        <h4 class="mt-4">Exclude just concept</h4>
+                        
+                        <p class="text-muted">No entries.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingExpansion">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpansion" aria-expanded="false" aria-controls="collapseExpansion">
+                        Expansion
+                    </button>
+                </h3>
+                <div id="collapseExpansion" class="accordion-collapse collapse" aria-labelledby="headingExpansion">
+                    <div class="accordion-body">
+                        <table class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="">194814006</a></td>
+                                    <td>(Angina: [crescendo] or [unstable] or [at rest]) or (preinfarction syndrome) or (impending infarction)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194814006</a></td>
+                                    <td>(Angina: [crescendo] or [unstable] or [at rest]) or (preinfarction syndrome) or (impending infarction) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194796000</a></td>
+                                    <td>(Myocardial infarction (& [acute] or [silent] or [cardiac rupture following])) or (coronary thrombosis)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194796000</a></td>
+                                    <td>(Myocardial infarction (& [acute] or [silent] or [cardiac rupture following])) or (coronary thrombosis) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194815007</a></td>
+                                    <td>Aborted myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233844002</a></td>
+                                    <td>Accelerated coronary artery disease in transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">880037003</a></td>
+                                    <td>Acquired aneurysm of left cardiac ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">880000009</a></td>
+                                    <td>Acquired aneurysm of right cardiac ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">461414007</a></td>
+                                    <td>Acquired subaortic aneurysm of left ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">461413001</a></td>
+                                    <td>Acquired submitral aneurysm of left ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233827001</a></td>
+                                    <td>Acute Q wave infarction - anterolateral (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233825009</a></td>
+                                    <td>Acute Q wave infarction - anteroseptal (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233829003</a></td>
+                                    <td>Acute Q wave infarction - inferior (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233831007</a></td>
+                                    <td>Acute Q wave infarction - inferolateral (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233833005</a></td>
+                                    <td>Acute Q wave infarction - lateral (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233836002</a></td>
+                                    <td>Acute Q wave infarction - widespread (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194805001</a></td>
+                                    <td>Acute Q wave myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155319007</a></td>
+                                    <td>Acute Q wave myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">304914007</a></td>
+                                    <td>Acute Q wave myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155319007</a></td>
+                                    <td>Acute Q wave myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194805001</a></td>
+                                    <td>Acute Q wave myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">44011000000104</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">83361000000109</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401303003</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45881000000101</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15713081000119108</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to left coronary artery occlusion (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">840609007</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">896691006</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">846668006</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of diagonal branch of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">840316004</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of distal portion of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">44811000087108</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of distal portion of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">868217004</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of distal portion of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">846683001</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of intermediate artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">868224003</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of marginal branch of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">840312002</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of mid portion of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">44821000087100</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of mid portion of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">868220007</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of mid portion of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">44831000087103</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of obtuse marginal branch of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">868225002</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of posterior descending branch of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">44841000087109</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of posterior lateral branch of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">868226001</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of posterior lateral branch of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">840309000</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of proximal portion of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">44851000087107</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of proximal portion of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">868214006</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of proximal portion of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">840680009</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to occlusion of septal branch of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15713121000119105</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction due to right coronary artery occlusion (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285981000119103</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction involving left anterior descending coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285991000119100</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction involving left main coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703164000</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of anterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703165004</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of anterior wall involving right ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15712881000119105</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of anterolateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15712961000119108</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of anteroseptal wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">896696001</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of apex of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15713001000119100</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of atrium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703213009</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of inferior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703253007</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of inferior wall involving right ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">12238111000119106</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of inferolateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">12238151000119107</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of inferoposterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15712921000119103</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of lateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15713041000119103</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of posterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15713201000119105</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of posterobasal wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15712841000119100</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of posterolateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">896697005</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of right ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15713161000119100</a></td>
+                                    <td>Acute ST segment elevation myocardial infarction of septum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1204155000</a></td>
+                                    <td>Acute anterior non-ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1204154001</a></td>
+                                    <td>Acute anterior non-ST segment elevation myocardial infarction with right ventricular involvement (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194798004</a></td>
+                                    <td>Acute anteroapical infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">52035003</a></td>
+                                    <td>Acute anteroapical myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">62695002</a></td>
+                                    <td>Acute anteroseptal myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194809007</a></td>
+                                    <td>Acute atrial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194823009</a></td>
+                                    <td>Acute coronary insufficiency (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">176331000000107</a></td>
+                                    <td>Acute coronary syndrome</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">393587009</a></td>
+                                    <td>Acute coronary syndrome</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">394659003</a></td>
+                                    <td>Acute coronary syndrome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">393587009</a></td>
+                                    <td>Acute coronary syndrome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10273003</a></td>
+                                    <td>Acute infarction of papillary muscle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1204152002</a></td>
+                                    <td>Acute inferior non-ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1204151009</a></td>
+                                    <td>Acute inferior non-ST segment elevation myocardial infarction of right ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">32598000</a></td>
+                                    <td>Acute ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">413439005</a></td>
+                                    <td>Acute ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">927568011000119108</a></td>
+                                    <td>Acute microvascular ischemia of myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">57054005</a></td>
+                                    <td>Acute myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194811003</a></td>
+                                    <td>Acute myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">623341000000106</a></td>
+                                    <td>Acute myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">17531000119105</a></td>
+                                    <td>Acute myocardial infarction due to left coronary artery occlusion (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">896689003</a></td>
+                                    <td>Acute myocardial infarction due to occlusion of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">23311000119105</a></td>
+                                    <td>Acute myocardial infarction due to right coronary artery occlusion (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703212004</a></td>
+                                    <td>Acute myocardial infarction during procedure (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">54329005</a></td>
+                                    <td>Acute myocardial infarction of anterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703252002</a></td>
+                                    <td>Acute myocardial infarction of anterior wall involving right ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">70211005</a></td>
+                                    <td>Acute myocardial infarction of anterolateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">836294006</a></td>
+                                    <td>Acute myocardial infarction of apex of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">59063002</a></td>
+                                    <td>Acute myocardial infarction of apical-lateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">72977004</a></td>
+                                    <td>Acute myocardial infarction of atrium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">70998009</a></td>
+                                    <td>Acute myocardial infarction of basal inferior segment of left ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">282006</a></td>
+                                    <td>Acute myocardial infarction of basal-lateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">64627002</a></td>
+                                    <td>Acute myocardial infarction of high lateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">73795002</a></td>
+                                    <td>Acute myocardial infarction of inferior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703251009</a></td>
+                                    <td>Acute myocardial infarction of inferior wall involving right ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">65547006</a></td>
+                                    <td>Acute myocardial infarction of inferolateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">836295007</a></td>
+                                    <td>Acute myocardial infarction of inferolateral wall with posterior extension (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">76593002</a></td>
+                                    <td>Acute myocardial infarction of inferoposterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">58612006</a></td>
+                                    <td>Acute myocardial infarction of lateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">70998009</a></td>
+                                    <td>Acute myocardial infarction of posterobasal wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15990001</a></td>
+                                    <td>Acute myocardial infarction of posterolateral wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">836293000</a></td>
+                                    <td>Acute myocardial infarction of right ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">79009004</a></td>
+                                    <td>Acute myocardial infarction of septum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">413444003</a></td>
+                                    <td>Acute myocardial ischemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194803008</a></td>
+                                    <td>Acute non-Q wave infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155321002</a></td>
+                                    <td>Acute non-Q wave infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">307140009</a></td>
+                                    <td>Acute non-Q wave infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155321002</a></td>
+                                    <td>Acute non-Q wave infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194803008</a></td>
+                                    <td>Acute non-Q wave infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233828006</a></td>
+                                    <td>Acute non-Q wave infarction - anterolateral (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233826005</a></td>
+                                    <td>Acute non-Q wave infarction - anteroseptal (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233830008</a></td>
+                                    <td>Acute non-Q wave infarction - inferior (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233832000</a></td>
+                                    <td>Acute non-Q wave infarction - inferolateral (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233834004</a></td>
+                                    <td>Acute non-Q wave infarction - lateral (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233837006</a></td>
+                                    <td>Acute non-Q wave infarction - widespread (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">44001000000101</a></td>
+                                    <td>Acute non-ST segment elevation myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">83351000000106</a></td>
+                                    <td>Acute non-ST segment elevation myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401314000</a></td>
+                                    <td>Acute non-ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">46001000000109</a></td>
+                                    <td>Acute non-ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1204222000</a></td>
+                                    <td>Acute non-ST segment elevation myocardial infarction of right ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1089451000000100</a></td>
+                                    <td>Acute nontransmural myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233838001</a></td>
+                                    <td>Acute posterior myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">122701000000102</a></td>
+                                    <td>Acute posterolateral myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">70422006</a></td>
+                                    <td>Acute subendocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1089471000000109</a></td>
+                                    <td>Acute transmural myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233835003</a></td>
+                                    <td>Acute widespread myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266289009</a></td>
+                                    <td>Acute/subacute ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">671571000000105</a></td>
+                                    <td>Acute/subacute ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">275931000</a></td>
+                                    <td>Administration of prophylactic aspirin for ischemic heart disease (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">320351000000105</a></td>
+                                    <td>Admit ischaemic heart disease emergency (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">699245006</a></td>
+                                    <td>Admit ischemic heart disease emergency (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">320351000000105</a></td>
+                                    <td>Admit ischemic heart disease emergency (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1204192000</a></td>
+                                    <td>Aneurysm of apex of heart due to apical hypertrophic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155317009</a></td>
+                                    <td>Aneurysm of heart</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155317009</a></td>
+                                    <td>Aneurysm of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">65340007</a></td>
+                                    <td>Aneurysm of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194847002</a></td>
+                                    <td>Aneurysm of heart NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">623351000000109</a></td>
+                                    <td>Aneurysm of heart NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">880043001</a></td>
+                                    <td>Aneurysm of left ventricle following procedure (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">264503005</a></td>
+                                    <td>Aneurysm of membranous septum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">448330004</a></td>
+                                    <td>Aneurysm of muscular septum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">459180002</a></td>
+                                    <td>Aneurysm of patch of atrioventricular septal defect (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">459182005</a></td>
+                                    <td>Aneurysm of patch of left ventricular outflow tract (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">459183000</a></td>
+                                    <td>Aneurysm of patch of right ventricular outflow tract (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">459181003</a></td>
+                                    <td>Aneurysm of patch of ventricular septal defect (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">880044007</a></td>
+                                    <td>Aneurysm of right ventricle following procedure (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155307004</a></td>
+                                    <td>Angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194828000</a></td>
+                                    <td>Angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155307004</a></td>
+                                    <td>Angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">791000119109</a></td>
+                                    <td>Angina associated with type II diabetes mellitus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194817004</a></td>
+                                    <td>Angina at rest</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233818002</a></td>
+                                    <td>Angina at rest</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155313008</a></td>
+                                    <td>Angina at rest</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155313008</a></td>
+                                    <td>Angina at rest (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194817004</a></td>
+                                    <td>Angina at rest (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233818002</a></td>
+                                    <td>Angina at rest (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960581000119102</a></td>
+                                    <td>Angina co-occurrent and due to arteriosclerosis of autologous vein coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960381000119109</a></td>
+                                    <td>Angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960141000119102</a></td>
+                                    <td>Angina co-occurrent and due to coronary arteriosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">59021001</a></td>
+                                    <td>Angina decubitus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194829008</a></td>
+                                    <td>Angina decubitus NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">621571000000106</a></td>
+                                    <td>Angina decubitus NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960701000119100</a></td>
+                                    <td>Angina due to arteriosclerosis of coronary artery bypass graft of transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960101000119104</a></td>
+                                    <td>Angina due to coronary arteriosclerosis in artery of transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">791000119109</a></td>
+                                    <td>Angina due to type 2 diabetes mellitus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">17828002</a></td>
+                                    <td>Angina pectoris (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">367416001</a></td>
+                                    <td>Angina pectoris (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">17828002</a></td>
+                                    <td>Angina pectoris (disorder) [Ambiguous]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194839002</a></td>
+                                    <td>Angina pectoris NOS</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194830003</a></td>
+                                    <td>Angina pectoris NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194839002</a></td>
+                                    <td>Angina pectoris NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">621581000000108</a></td>
+                                    <td>Angina pectoris NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960181000119107</a></td>
+                                    <td>Angina pectoris due to arteriosclerosis of nonautologous biological coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">180541341000119102</a></td>
+                                    <td>Angina pectoris due to microvascular ischemia of myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">61490001</a></td>
+                                    <td>Angina, class I (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41334000</a></td>
+                                    <td>Angina, class II (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">85284003</a></td>
+                                    <td>Angina, class III (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">89323001</a></td>
+                                    <td>Angina, class IV (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194799007</a></td>
+                                    <td>Anterior myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">581521000000109</a></td>
+                                    <td>Anterior myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">429673002</a></td>
+                                    <td>Arteriosclerosis in coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">442421004</a></td>
+                                    <td>Arteriosclerosis of arterial coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285141000119106</a></td>
+                                    <td>Arteriosclerosis of autologous arterial coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285151000119108</a></td>
+                                    <td>Arteriosclerosis of autologous coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">442224005</a></td>
+                                    <td>Arteriosclerosis of autologous vein coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">429673002</a></td>
+                                    <td>Arteriosclerosis of coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">444855007</a></td>
+                                    <td>Arteriosclerosis of coronary artery bypass graft of transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">444856008</a></td>
+                                    <td>Arteriosclerosis of internal mammary artery coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1269257006</a></td>
+                                    <td>Arteriosclerosis of nonautologous biological coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">442240008</a></td>
+                                    <td>Arteriosclerosis of nonautologous coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">275931000</a></td>
+                                    <td>Aspirin prophylaxis - IHD (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">275931000</a></td>
+                                    <td>Aspirin prophylaxis for ischemic heart disease (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194855009</a></td>
+                                    <td>Asymptomatic coronary heart disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">315348000</a></td>
+                                    <td>Asymptomatic coronary heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194855009</a></td>
+                                    <td>Asymptomatic coronary heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366498001</a></td>
+                                    <td>Atherosclerosis of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">724431008</a></td>
+                                    <td>Atherosclerosis of autologous coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366495003</a></td>
+                                    <td>Atherosclerosis of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">443502000</a></td>
+                                    <td>Atherosclerosis of coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366506006</a></td>
+                                    <td>Atherosclerosis of distal portion of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366500000</a></td>
+                                    <td>Atherosclerosis of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366496002</a></td>
+                                    <td>Atherosclerosis of left coronary artery main stem (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366503003</a></td>
+                                    <td>Atherosclerosis of mid portion of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366502008</a></td>
+                                    <td>Atherosclerosis of mid portion of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366505005</a></td>
+                                    <td>Atherosclerosis of mid portion of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">723862008</a></td>
+                                    <td>Atherosclerosis of non-autologous coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366501001</a></td>
+                                    <td>Atherosclerosis of proximal portion of anterior descending branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366499009</a></td>
+                                    <td>Atherosclerosis of proximal portion of circumflex branch of left coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366504009</a></td>
+                                    <td>Atherosclerosis of proximal portion of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1303693000</a></td>
+                                    <td>Atherosclerosis of right coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">36665001</a></td>
+                                    <td>Atrial aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">95440004</a></td>
+                                    <td>Atrial septal aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41021000000108</a></td>
+                                    <td>Attends coronary heart disease monitoring</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43381000000105</a></td>
+                                    <td>Attends coronary heart disease monitoring</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401248001</a></td>
+                                    <td>Attends coronary heart disease monitoring (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38211000000104</a></td>
+                                    <td>Attends coronary heart disease monitoring (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38541000000100</a></td>
+                                    <td>Attends coronary heart disease monitoring (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45241000000108</a></td>
+                                    <td>Attends coronary heart disease monitoring (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38751000000107</a></td>
+                                    <td>Attends coronary heart disease monitoring (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371807002</a></td>
+                                    <td>Atypical angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">92517006</a></td>
+                                    <td>Calcific coronary arteriosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155318004</a></td>
+                                    <td>Chronic ischaemic heart disease NOS</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155318004</a></td>
+                                    <td>Chronic ischaemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">413838009</a></td>
+                                    <td>Chronic ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">84537008</a></td>
+                                    <td>Chronic ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266291001</a></td>
+                                    <td>Chronic ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">671581000000107</a></td>
+                                    <td>Chronic ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">679363171000119109</a></td>
+                                    <td>Chronic microvascular ischemia of myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194852007</a></td>
+                                    <td>Chronic myocardial ischaemia</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194852007</a></td>
+                                    <td>Chronic myocardial ischaemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">413844008</a></td>
+                                    <td>Chronic myocardial ischemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">204395001</a></td>
+                                    <td>Congenital aneurysm of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">763747002</a></td>
+                                    <td>Congenital aneurysm of membranous portion of interventricular septum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">447876009</a></td>
+                                    <td>Congenital aneurysm of subaortic left ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">42866003</a></td>
+                                    <td>Congenital coronary artery sclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">253544001</a></td>
+                                    <td>Congenital left ventricular aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">448028009</a></td>
+                                    <td>Congenital left ventricular submitral valve aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">253527000</a></td>
+                                    <td>Congenital right ventricular aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629591000119103</a></td>
+                                    <td>Congestive heart failure stage B due to ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629541000119106</a></td>
+                                    <td>Congestive heart failure stage C due to Ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629541000119106</a></td>
+                                    <td>Congestive heart failure stage C due to ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194841001</a></td>
+                                    <td>Coronary (atherosclerosis or artery disease) or triple vessel disease of the heart</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194841001</a></td>
+                                    <td>Coronary (atherosclerosis or artery disease) or triple vessel disease of the heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">53741008</a></td>
+                                    <td>Coronary arteriosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">11018701000119109</a></td>
+                                    <td>Coronary arteriosclerosis after percutaneous coronary angioplasty (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">427919004</a></td>
+                                    <td>Coronary arteriosclerosis caused by radiation (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">427919004</a></td>
+                                    <td>Coronary arteriosclerosis due to radiation (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">139011000119104</a></td>
+                                    <td>Coronary arteriosclerosis following coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">792842004</a></td>
+                                    <td>Coronary arteriosclerosis in artery of transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1641000119107</a></td>
+                                    <td>Coronary arteriosclerosis in native artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">6661000119101</a></td>
+                                    <td>Coronary arteriosclerosis in native artery of transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">8957000</a></td>
+                                    <td>Coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16891191000119108</a></td>
+                                    <td>Coronary artery disease due to type 1 diabetes mellitus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16891151000119103</a></td>
+                                    <td>Coronary artery disease due to type 2 diabetes mellitus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">421327009</a></td>
+                                    <td>Coronary artery stent thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">398274000</a></td>
+                                    <td>Coronary artery thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">66514008</a></td>
+                                    <td>Coronary artery thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266231003</a></td>
+                                    <td>Coronary atherosclerosis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155316000</a></td>
+                                    <td>Coronary atherosclerosis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266231003</a></td>
+                                    <td>Coronary atherosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41702007</a></td>
+                                    <td>Coronary atherosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155316000</a></td>
+                                    <td>Coronary atherosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">171433001</a></td>
+                                    <td>Coronary heart disease annual review</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">148654003</a></td>
+                                    <td>Coronary heart disease annual review</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">315614006</a></td>
+                                    <td>Coronary heart disease annual review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">171433001</a></td>
+                                    <td>Coronary heart disease annual review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">148654003</a></td>
+                                    <td>Coronary heart disease annual review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">426579008</a></td>
+                                    <td>Coronary heart disease education (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">285631000000100</a></td>
+                                    <td>Coronary heart disease education (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">394034006</a></td>
+                                    <td>Coronary heart disease medication review</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">393083000</a></td>
+                                    <td>Coronary heart disease medication review</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">393083000</a></td>
+                                    <td>Coronary heart disease medication review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">394724007</a></td>
+                                    <td>Coronary heart disease medication review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">394034006</a></td>
+                                    <td>Coronary heart disease medication review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41051000000103</a></td>
+                                    <td>Coronary heart disease monitoring 1st letter</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43411000000107</a></td>
+                                    <td>Coronary heart disease monitoring 1st letter</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401250009</a></td>
+                                    <td>Coronary heart disease monitoring 1st letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38241000000103</a></td>
+                                    <td>Coronary heart disease monitoring 1st letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38571000000106</a></td>
+                                    <td>Coronary heart disease monitoring 1st letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45271000000102</a></td>
+                                    <td>Coronary heart disease monitoring 1st letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38781000000101</a></td>
+                                    <td>Coronary heart disease monitoring 1st letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41061000000100</a></td>
+                                    <td>Coronary heart disease monitoring 2nd letter</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43421000000101</a></td>
+                                    <td>Coronary heart disease monitoring 2nd letter</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401251008</a></td>
+                                    <td>Coronary heart disease monitoring 2nd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38581000000108</a></td>
+                                    <td>Coronary heart disease monitoring 2nd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45281000000100</a></td>
+                                    <td>Coronary heart disease monitoring 2nd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38791000000104</a></td>
+                                    <td>Coronary heart disease monitoring 2nd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38251000000100</a></td>
+                                    <td>Coronary heart disease monitoring 2nd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41071000000107</a></td>
+                                    <td>Coronary heart disease monitoring 3rd letter</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43431000000104</a></td>
+                                    <td>Coronary heart disease monitoring 3rd letter</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401252001</a></td>
+                                    <td>Coronary heart disease monitoring 3rd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38261000000102</a></td>
+                                    <td>Coronary heart disease monitoring 3rd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38591000000105</a></td>
+                                    <td>Coronary heart disease monitoring 3rd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38801000000100</a></td>
+                                    <td>Coronary heart disease monitoring 3rd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45291000000103</a></td>
+                                    <td>Coronary heart disease monitoring 3rd letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">389965000</a></td>
+                                    <td>Coronary heart disease monitoring administration</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390699009</a></td>
+                                    <td>Coronary heart disease monitoring administration</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">389965000</a></td>
+                                    <td>Coronary heart disease monitoring administration (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390907003</a></td>
+                                    <td>Coronary heart disease monitoring administration (regime/therapy)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390699009</a></td>
+                                    <td>Coronary heart disease monitoring administration (regime/therapy)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41101000000103</a></td>
+                                    <td>Coronary heart disease monitoring check done</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43461000000109</a></td>
+                                    <td>Coronary heart disease monitoring check done</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401332000</a></td>
+                                    <td>Coronary heart disease monitoring check done (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38831000000106</a></td>
+                                    <td>Coronary heart disease monitoring check done (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38291000000108</a></td>
+                                    <td>Coronary heart disease monitoring check done (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38621000000108</a></td>
+                                    <td>Coronary heart disease monitoring check done (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45321000000108</a></td>
+                                    <td>Coronary heart disease monitoring check done (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41041000000101</a></td>
+                                    <td>Coronary heart disease monitoring default</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43401000000105</a></td>
+                                    <td>Coronary heart disease monitoring default</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401331007</a></td>
+                                    <td>Coronary heart disease monitoring default (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38561000000104</a></td>
+                                    <td>Coronary heart disease monitoring default (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38771000000103</a></td>
+                                    <td>Coronary heart disease monitoring default (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38231000000107</a></td>
+                                    <td>Coronary heart disease monitoring default (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45261000000109</a></td>
+                                    <td>Coronary heart disease monitoring default (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41091000000106</a></td>
+                                    <td>Coronary heart disease monitoring deleted</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43451000000106</a></td>
+                                    <td>Coronary heart disease monitoring deleted</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401254000</a></td>
+                                    <td>Coronary heart disease monitoring deleted (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45311000000102</a></td>
+                                    <td>Coronary heart disease monitoring deleted (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38821000000109</a></td>
+                                    <td>Coronary heart disease monitoring deleted (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38281000000106</a></td>
+                                    <td>Coronary heart disease monitoring deleted (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38611000000102</a></td>
+                                    <td>Coronary heart disease monitoring deleted (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401250009</a></td>
+                                    <td>Coronary heart disease monitoring first letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1083121000000102</a></td>
+                                    <td>Coronary heart disease monitoring invitation (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1083131000000100</a></td>
+                                    <td>Coronary heart disease monitoring invitation email (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401251008</a></td>
+                                    <td>Coronary heart disease monitoring second letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401247006</a></td>
+                                    <td>Coronary heart disease monitoring status (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38741000000109</a></td>
+                                    <td>Coronary heart disease monitoring status (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45231000000104</a></td>
+                                    <td>Coronary heart disease monitoring status (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">248461000000107</a></td>
+                                    <td>Coronary heart disease monitoring telephone invitation (regime/therapy)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">274561000000104</a></td>
+                                    <td>Coronary heart disease monitoring telephone invite </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">251581000000107</a></td>
+                                    <td>Coronary heart disease monitoring telephone invite </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">248461000000107</a></td>
+                                    <td>Coronary heart disease monitoring telephone invite (regime/therapy)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401252001</a></td>
+                                    <td>Coronary heart disease monitoring third letter (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">41081000000109</a></td>
+                                    <td>Coronary heart disease monitoring verbal invitation</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">43441000000108</a></td>
+                                    <td>Coronary heart disease monitoring verbal invitation</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401253006</a></td>
+                                    <td>Coronary heart disease monitoring verbal invitation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38271000000109</a></td>
+                                    <td>Coronary heart disease monitoring verbal invitation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">45301000000104</a></td>
+                                    <td>Coronary heart disease monitoring verbal invitation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38811000000103</a></td>
+                                    <td>Coronary heart disease monitoring verbal invitation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">38601000000104</a></td>
+                                    <td>Coronary heart disease monitoring verbal invitation (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">389901007</a></td>
+                                    <td>Coronary heart disease review</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390633008</a></td>
+                                    <td>Coronary heart disease review</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">389901007</a></td>
+                                    <td>Coronary heart disease review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390799004</a></td>
+                                    <td>Coronary heart disease review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">390633008</a></td>
+                                    <td>Coronary heart disease review (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">831761000000103</a></td>
+                                    <td>Coronary microvascular disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">810681000000101</a></td>
+                                    <td>Coronary microvascular disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194821006</a></td>
+                                    <td>Coronary thrombosis not resulting in myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194843003</a></td>
+                                    <td>Double coronary vessel disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">373145006</a></td>
+                                    <td>Double vessel coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">320371000000101</a></td>
+                                    <td>Emergency admission - ischaemic heart disease </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">320361000000108</a></td>
+                                    <td>Emergency admission - ischaemic heart disease </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">699245006</a></td>
+                                    <td>Emergency hospital admission for ischemic heart disease (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194834007</a></td>
+                                    <td>Exercise-induced angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194834007</a></td>
+                                    <td>Exercise-induced angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">300995000</a></td>
+                                    <td>Exercise-induced angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">393588004</a></td>
+                                    <td>First myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">393588004</a></td>
+                                    <td>First myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">394710008</a></td>
+                                    <td>First myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">253364005</a></td>
+                                    <td>Foramen ovale valvar aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194849004</a></td>
+                                    <td>Generalized ischemic myocardial dysfunction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">138788000</a></td>
+                                    <td>H/O: Treatment for ischaemic heart disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">161519003</a></td>
+                                    <td>H/O: Treatment for ischaemic heart disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">161519003</a></td>
+                                    <td>H/O: Treatment for ischaemic heart disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">138788000</a></td>
+                                    <td>H/O: Treatment for ischaemic heart disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155315001</a></td>
+                                    <td>Heart disease: [arteriosclerotic] or [chronic ischaemic NOS]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266290000</a></td>
+                                    <td>Heart disease: [arteriosclerotic] or [chronic ischaemic NOS]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155315001</a></td>
+                                    <td>Heart disease: [arteriosclerotic] or [chronic ischaemic NOS] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266290000</a></td>
+                                    <td>Heart disease: [arteriosclerotic] or [chronic ischaemic NOS] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703273002</a></td>
+                                    <td>Heart failure with reduced ejection fraction due to coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">281093002</a></td>
+                                    <td>Hibernating myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">308068007</a></td>
+                                    <td>History of - Treatment for ischemic heart disease (context-dependent category)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">308068007</a></td>
+                                    <td>History of - Treatment for ischemic heart disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">308068007</a></td>
+                                    <td>History of treatment for ischemic heart disease (situation)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">25106000</a></td>
+                                    <td>Impending infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194804002</a></td>
+                                    <td>Inferior myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">603911000000102</a></td>
+                                    <td>Inferior myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195540001</a></td>
+                                    <td>Ischaemic heart disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155303000</a></td>
+                                    <td>Ischaemic heart disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">271430002</a></td>
+                                    <td>Ischaemic heart disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194795001</a></td>
+                                    <td>Ischaemic heart disease (& [arteriosclerotic])</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194795001</a></td>
+                                    <td>Ischaemic heart disease (& [arteriosclerotic]) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195540001</a></td>
+                                    <td>Ischaemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155303000</a></td>
+                                    <td>Ischaemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">271430002</a></td>
+                                    <td>Ischaemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155322009</a></td>
+                                    <td>Ischaemic heart disease NOS</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155322009</a></td>
+                                    <td>Ischaemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35461000087105</a></td>
+                                    <td>Ischemia of anterior myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35471000087101</a></td>
+                                    <td>Ischemia of apical anterior segment of left cardiac ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35491000087102</a></td>
+                                    <td>Ischemia of lateral myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35501000087105</a></td>
+                                    <td>Ischemia of myocardium of anterolateral region (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35511000087107</a></td>
+                                    <td>Ischemia of myocardium of anteroseptal region (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35521000087104</a></td>
+                                    <td>Ischemia of myocardium of apex of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35541000087108</a></td>
+                                    <td>Ischemia of myocardium of inferior surface of left ventricle (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35551000087106</a></td>
+                                    <td>Ischemia of myocardium of inferolateral region (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35561000087109</a></td>
+                                    <td>Ischemia of myocardium of inferolateral region of myocardium with extension to posterior myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35571000087100</a></td>
+                                    <td>Ischemia of myocardium of posterolateral region (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35481000087104</a></td>
+                                    <td>Ischemia of myocardium of ventricular septum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35581000087103</a></td>
+                                    <td>Ischemia of posterior myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">426856002</a></td>
+                                    <td>Ischemic congestive cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">82522008</a></td>
+                                    <td>Ischemic contracture of left ventricle syndrome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">472100003</a></td>
+                                    <td>Ischemic dilated cardiomyopathy due to coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">2610009</a></td>
+                                    <td>Ischemic heart disease</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">2610009</a></td>
+                                    <td>Ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">414545008</a></td>
+                                    <td>Ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194878003</a></td>
+                                    <td>Ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">662031000000103</a></td>
+                                    <td>Ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">281091000</a></td>
+                                    <td>Ischemic myocardial dysfunction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194801005</a></td>
+                                    <td>Lateral myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">603901000000104</a></td>
+                                    <td>Lateral myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">28248000</a></td>
+                                    <td>Left anterior descending coronary artery thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">253358003</a></td>
+                                    <td>Left atrial appendage aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371804009</a></td>
+                                    <td>Left main coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">56276002</a></td>
+                                    <td>Left main coronary artery thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">250913000</a></td>
+                                    <td>Left ventricular aneurysm</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">297160003</a></td>
+                                    <td>Left ventricular aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">250913000</a></td>
+                                    <td>Left ventricular aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">42531007</a></td>
+                                    <td>Microinfarct of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194824003</a></td>
+                                    <td>Microinfarction of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">697976003</a></td>
+                                    <td>Microvascular ischemia of myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">428196007</a></td>
+                                    <td>Mixed myocardial ischemia and infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371803003</a></td>
+                                    <td>Multi vessel coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194844009</a></td>
+                                    <td>Mural cardiac aneurysm (& [other])</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194844009</a></td>
+                                    <td>Mural cardiac aneurysm (& [other]) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">275511009</a></td>
+                                    <td>Mural cardiac aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233824008</a></td>
+                                    <td>Myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155304006</a></td>
+                                    <td>Myocardial infarction (& [acute]) or coronary thrombosis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266288001</a></td>
+                                    <td>Myocardial infarction (& [acute]) or coronary thrombosis</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155304006</a></td>
+                                    <td>Myocardial infarction (& [acute]) or coronary thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266288001</a></td>
+                                    <td>Myocardial infarction (& [acute]) or coronary thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233824008</a></td>
+                                    <td>Myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">22298006</a></td>
+                                    <td>Myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">726499301000119105</a></td>
+                                    <td>Myocardial infarction due to atherothrombotic coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">466635291000119109</a></td>
+                                    <td>Myocardial infarction due to coronary microvascular dysfunction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16837681000119104</a></td>
+                                    <td>Myocardial infarction due to demand ischemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">418044006</a></td>
+                                    <td>Myocardial infarction in recovery phase (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371068009</a></td>
+                                    <td>Myocardial infarction with complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">879955009</a></td>
+                                    <td>Myocardial infarction with non-obstructive coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194827005</a></td>
+                                    <td>Myocardial infarction: [old] or [healed] or [personal history of]</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194827005</a></td>
+                                    <td>Myocardial infarction: [old] or [healed] or [personal history of] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233822007</a></td>
+                                    <td>Myocardial ischaemia</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233822007</a></td>
+                                    <td>Myocardial ischaemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">414795007</a></td>
+                                    <td>Myocardial ischemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1366348003</a></td>
+                                    <td>Myocardial ischemia due to coronary arteriosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10971000087107</a></td>
+                                    <td>Myocardial ischemia during surgery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">276516009</a></td>
+                                    <td>Myocardial ischemia of newborn (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194837000</a></td>
+                                    <td>New onset angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155311005</a></td>
+                                    <td>New onset angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155311005</a></td>
+                                    <td>New onset angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233821000</a></td>
+                                    <td>New onset angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194837000</a></td>
+                                    <td>New onset angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35928006</a></td>
+                                    <td>Nocturnal angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">314207007</a></td>
+                                    <td>Non-Q wave myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">719678003</a></td>
+                                    <td>Non-obstructive atherosclerosis of coronary artery (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033151000000100</a></td>
+                                    <td>Non-obstructive coronary atherosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1033161000000102</a></td>
+                                    <td>Nonobstructive coronary atherosclerosis </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">420006002</a></td>
+                                    <td>Obliterative coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233839009</a></td>
+                                    <td>Old anterior myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35431000087103</a></td>
+                                    <td>Old infarct of high lateral wall of myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35411000087108</a></td>
+                                    <td>Old infarct of myocardium of anterolateral region (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35401000087106</a></td>
+                                    <td>Old infarct of myocardium of apex of heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35421000087100</a></td>
+                                    <td>Old infarct of myocardium of inferolateral region (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35441000087109</a></td>
+                                    <td>Old infarct of myocardium of posterolateral region (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">35451000087107</a></td>
+                                    <td>Old infarct of myocardium of ventricular septum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233840006</a></td>
+                                    <td>Old inferior myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233841005</a></td>
+                                    <td>Old lateral myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155306008</a></td>
+                                    <td>Old myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155306008</a></td>
+                                    <td>Old myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1755008</a></td>
+                                    <td>Old myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233842003</a></td>
+                                    <td>Old posterior myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194812005</a></td>
+                                    <td>Other acute and subacute ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">643861000000100</a></td>
+                                    <td>Other acute and subacute ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194826001</a></td>
+                                    <td>Other acute and subacute ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">643891000000106</a></td>
+                                    <td>Other acute and subacute ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194808004</a></td>
+                                    <td>Other acute myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">582991000000108</a></td>
+                                    <td>Other acute myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194810002</a></td>
+                                    <td>Other acute myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">583001000000107</a></td>
+                                    <td>Other acute myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">266232005</a></td>
+                                    <td>Other cardiac wall aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">668581000000106</a></td>
+                                    <td>Other cardiac wall aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194840000</a></td>
+                                    <td>Other chronic ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">621601000000104</a></td>
+                                    <td>Other chronic ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194854008</a></td>
+                                    <td>Other chronic ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">653041000000109</a></td>
+                                    <td>Other chronic ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194797009</a></td>
+                                    <td>Other specified anterior myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">581511000000103</a></td>
+                                    <td>Other specified anterior myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194851000</a></td>
+                                    <td>Other specified chronic ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">621611000000102</a></td>
+                                    <td>Other specified chronic ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194853002</a></td>
+                                    <td>Other specified chronic ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">653031000000100</a></td>
+                                    <td>Other specified chronic ischemic heart disease NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194877008</a></td>
+                                    <td>Other specified ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">646451000000105</a></td>
+                                    <td>Other specified ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">32574007</a></td>
+                                    <td>Past myocardial infarction diagnosed on ECG AND/OR other special investigation, but currently presenting no symptoms (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">32574007</a></td>
+                                    <td>Past myocardial infarction diagnosed on electrocardiogram AND/OR other special investigation, but currently presenting no symptoms (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194836009</a></td>
+                                    <td>Post infarct angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155310006</a></td>
+                                    <td>Post infarct angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155310006</a></td>
+                                    <td>Post infarct angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">314116003</a></td>
+                                    <td>Post infarct angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194836009</a></td>
+                                    <td>Post infarct angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194800006</a></td>
+                                    <td>Posterior myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">581531000000106</a></td>
+                                    <td>Posterior myocardial infarction NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1163440003</a></td>
+                                    <td>Postoperative acute myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194870005</a></td>
+                                    <td>Postoperative myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">311790002</a></td>
+                                    <td>Postoperative myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">311790002</a></td>
+                                    <td>Postoperative myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">129574000</a></td>
+                                    <td>Postoperative myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194870005</a></td>
+                                    <td>Postoperative myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194876004</a></td>
+                                    <td>Postoperative myocardial infarction, unspecified</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">311797004</a></td>
+                                    <td>Postoperative myocardial infarction, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194876004</a></td>
+                                    <td>Postoperative myocardial infarction, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">677131000000105</a></td>
+                                    <td>Postoperative myocardial infarction, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1089431000000107</a></td>
+                                    <td>Postoperative nontransmural myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194875000</a></td>
+                                    <td>Postoperative subendocardial myocardial infarction</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194875000</a></td>
+                                    <td>Postoperative subendocardial myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">311796008</a></td>
+                                    <td>Postoperative subendocardial myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1089441000000103</a></td>
+                                    <td>Postoperative transmural myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194871009</a></td>
+                                    <td>Postoperative transmural myocardial infarction of anterior wall</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">311792005</a></td>
+                                    <td>Postoperative transmural myocardial infarction of anterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194871009</a></td>
+                                    <td>Postoperative transmural myocardial infarction of anterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194872002</a></td>
+                                    <td>Postoperative transmural myocardial infarction of inferior wall</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">311793000</a></td>
+                                    <td>Postoperative transmural myocardial infarction of inferior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194872002</a></td>
+                                    <td>Postoperative transmural myocardial infarction of inferior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194873007</a></td>
+                                    <td>Postoperative transmural myocardial infarction of other sites</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194873007</a></td>
+                                    <td>Postoperative transmural myocardial infarction of other sites (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">311794006</a></td>
+                                    <td>Postoperative transmural myocardial infarction of other sites (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">677111000000102</a></td>
+                                    <td>Postoperative transmural myocardial infarction of other sites (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194874001</a></td>
+                                    <td>Postoperative transmural myocardial infarction of unspecified site</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194874001</a></td>
+                                    <td>Postoperative transmural myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">311795007</a></td>
+                                    <td>Postoperative transmural myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">677121000000108</a></td>
+                                    <td>Postoperative transmural myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">64333001</a></td>
+                                    <td>Preinfarction angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">4557003</a></td>
+                                    <td>Preinfarction syndrome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194820007</a></td>
+                                    <td>Preinfarction syndrome NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">643871000000107</a></td>
+                                    <td>Preinfarction syndrome NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960741000119103</a></td>
+                                    <td>Preinfarction syndrome due to arteriosclerosis of nonautologous biological coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960861000119108</a></td>
+                                    <td>Preinfarction syndrome due to coronary arteriosclerosis in artery of transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1293192009</a></td>
+                                    <td>Premature coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">87343002</a></td>
+                                    <td>Prinzmetal angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371806006</a></td>
+                                    <td>Progressive Angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371806006</a></td>
+                                    <td>Progressive angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1110881000000106</a></td>
+                                    <td>Quality and Outcomes Framework secondary prevention of coronary heart disease quality indicator-related care invitation (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">143451000000101</a></td>
+                                    <td>Quality and Outcomes Framework secondary prevention of coronary heart disease quality indicator-related care invitation using preferred method of communication (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371809004</a></td>
+                                    <td>Recurrent angina following placement of coronary artery stent (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371810009</a></td>
+                                    <td>Recurrent angina status post coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371809004</a></td>
+                                    <td>Recurrent angina status post coronary stent placement (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371812001</a></td>
+                                    <td>Recurrent angina status post directional coronary atherectomy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371808007</a></td>
+                                    <td>Recurrent angina status post percutaneous transluminal coronary angioplasty (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371811008</a></td>
+                                    <td>Recurrent angina status post rotational atherectomy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">429245005</a></td>
+                                    <td>Recurrent coronary arteriosclerosis after percutaneous transluminal coronary angioplasty (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">809581000000109</a></td>
+                                    <td>Referral to coronary heart disease clinic (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155309001</a></td>
+                                    <td>Refractory angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194818009</a></td>
+                                    <td>Refractory angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155309001</a></td>
+                                    <td>Refractory angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194818009</a></td>
+                                    <td>Refractory angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">315025001</a></td>
+                                    <td>Refractory angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">358849981000119105</a></td>
+                                    <td>Refractory angina due to arteriosclerosis of autologous arterial coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">157885051000119102</a></td>
+                                    <td>Refractory angina due to arteriosclerosis of autologous vein coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">401873901000119109</a></td>
+                                    <td>Refractory angina due to arteriosclerosis of coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">577777871000119101</a></td>
+                                    <td>Refractory angina due to coronary arteriosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">292696521000119104</a></td>
+                                    <td>Refractory angina due to coronary arteriosclerosis in artery of transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">712866001</a></td>
+                                    <td>Resting ischemia co-occurrent and due to ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">286731000000104</a></td>
+                                    <td>Review of patient at risk from coronary heart disease </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">286741000000108</a></td>
+                                    <td>Review of patient at risk from coronary heart disease </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">286721000000101</a></td>
+                                    <td>Review of patient at risk from coronary heart disease (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">253347007</a></td>
+                                    <td>Right atrial appendage aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">10365005</a></td>
+                                    <td>Right main coronary artery thrombosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">445440001</a></td>
+                                    <td>Right ventricular aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">516841000000106</a></td>
+                                    <td>Right ventricular aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">151215005</a></td>
+                                    <td>Salicylate prophylaxis &/or aspirin IHD</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">182931004</a></td>
+                                    <td>Salicylate prophylaxis &/or aspirin IHD</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">151215005</a></td>
+                                    <td>Salicylate prophylaxis &/or aspirin IHD (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">182931004</a></td>
+                                    <td>Salicylate prophylaxis &/or aspirin IHD (procedure)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">371805005</a></td>
+                                    <td>Significant coronary bypass graft disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703214003</a></td>
+                                    <td>Silent coronary vasospastic disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233843008</a></td>
+                                    <td>Silent myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194850004</a></td>
+                                    <td>Silent myocardial ischaemia</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194850004</a></td>
+                                    <td>Silent myocardial ischaemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233823002</a></td>
+                                    <td>Silent myocardial ischemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194842008</a></td>
+                                    <td>Single coronary vessel disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">373144005</a></td>
+                                    <td>Single vessel coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155312003</a></td>
+                                    <td>Stable angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194838005</a></td>
+                                    <td>Stable angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155312003</a></td>
+                                    <td>Stable angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233819005</a></td>
+                                    <td>Stable angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194838005</a></td>
+                                    <td>Stable angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16754391000119100</a></td>
+                                    <td>Stable angina due to coronary arteriosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194831004</a></td>
+                                    <td>Status anginosus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">19057007</a></td>
+                                    <td>Status anginosus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194831004</a></td>
+                                    <td>Status anginosus [dup] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194832006</a></td>
+                                    <td>Stenocardia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">281092007</a></td>
+                                    <td>Stunned myocardium (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">841141000000104</a></td>
+                                    <td>Subacute ischaemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">713405002</a></td>
+                                    <td>Subacute ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">46109009</a></td>
+                                    <td>Subendocardial ischemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703211006</a></td>
+                                    <td>Subsequent ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703210007</a></td>
+                                    <td>Subsequent ST segment elevation myocardial infarction of anterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703209002</a></td>
+                                    <td>Subsequent ST segment elevation myocardial infarction of inferior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1208872002</a></td>
+                                    <td>Subsequent anterior non-ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">1208873007</a></td>
+                                    <td>Subsequent inferior non-ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194856005</a></td>
+                                    <td>Subsequent myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194857001</a></td>
+                                    <td>Subsequent myocardial infarction of anterior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194858006</a></td>
+                                    <td>Subsequent myocardial infarction of inferior wall (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194859003</a></td>
+                                    <td>Subsequent myocardial infarction of other sites (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">623361000000107</a></td>
+                                    <td>Subsequent myocardial infarction of other sites (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">703360004</a></td>
+                                    <td>Subsequent non-ST segment elevation myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194833001</a></td>
+                                    <td>Syncope anginosa (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">21470009</a></td>
+                                    <td>Syncope anginosa (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194833001</a></td>
+                                    <td>Syncope anginosa [dup] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629641000119107</a></td>
+                                    <td>Systolic heart failure stage B due to ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15629741000119102</a></td>
+                                    <td>Systolic heart failure stage C due to ischemic cardiomyopathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">139971000119106</a></td>
+                                    <td>Thrombosis of coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194825002</a></td>
+                                    <td>Transient myocardial ischaemia</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155320001</a></td>
+                                    <td>Transient myocardial ischaemia</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155320001</a></td>
+                                    <td>Transient myocardial ischaemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194825002</a></td>
+                                    <td>Transient myocardial ischaemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">206599005</a></td>
+                                    <td>Transient myocardial ischaemia of newborn</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">206599005</a></td>
+                                    <td>Transient myocardial ischaemia of newborn (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">315026000</a></td>
+                                    <td>Transient myocardial ischemia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">276517000</a></td>
+                                    <td>Transient myocardial ischemia of newborn (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">373146007</a></td>
+                                    <td>Triple vessel coronary artery disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233817007</a></td>
+                                    <td>Triple vessel disease of the heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194802003</a></td>
+                                    <td>True posterior myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">34644005</a></td>
+                                    <td>True posterior wall infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">16837721000119105</a></td>
+                                    <td>Type 5 myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">429559004</a></td>
+                                    <td>Typical angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155308009</a></td>
+                                    <td>Unstable angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233820004</a></td>
+                                    <td>Unstable angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194816008</a></td>
+                                    <td>Unstable angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194816008</a></td>
+                                    <td>Unstable angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">233820004</a></td>
+                                    <td>Unstable angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155308009</a></td>
+                                    <td>Unstable angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960661000119107</a></td>
+                                    <td>Unstable angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960061000119102</a></td>
+                                    <td>Unstable angina co-occurrent and due to coronary arteriosclerosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960461000119105</a></td>
+                                    <td>Unstable angina due to arteriosclerosis of autologous arterial coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960541000119107</a></td>
+                                    <td>Unstable angina due to arteriosclerosis of autologous vein coronary artery bypass graft (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">15960341000119104</a></td>
+                                    <td>Unstable angina due to arteriosclerosis of coronary artery bypass graft of transplanted heart (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">90539001</a></td>
+                                    <td>Ventricular aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">723858002</a></td>
+                                    <td>Ventricular aneurysm as current complication following acute myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">723858002</a></td>
+                                    <td>Ventricular aneurysm due to and following acute myocardial infarction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">253577002</a></td>
+                                    <td>Ventricular septal aneurysm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194819001</a></td>
+                                    <td>Worsening angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155314002</a></td>
+                                    <td>Worsening angina</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">155314002</a></td>
+                                    <td>Worsening angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194819001</a></td>
+                                    <td>Worsening angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194807009</a></td>
+                                    <td>[X]Acute transmural myocardial infarction of unspecified site</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">471851000000100</a></td>
+                                    <td>[X]Acute transmural myocardial infarction of unspecified site</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195545006</a></td>
+                                    <td>[X]Acute transmural myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194807009</a></td>
+                                    <td>[X]Acute transmural myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">471711000000109</a></td>
+                                    <td>[X]Acute transmural myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">471851000000100</a></td>
+                                    <td>[X]Acute transmural myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">465021000000107</a></td>
+                                    <td>[X]Other forms of acute ischaemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195543004</a></td>
+                                    <td>[X]Other forms of acute ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195541002</a></td>
+                                    <td>[X]Other forms of angina pectoris (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">471531000000105</a></td>
+                                    <td>[X]Other forms of angina pectoris (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">414541000000105</a></td>
+                                    <td>[X]Other forms of chronic ischaemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195544005</a></td>
+                                    <td>[X]Other forms of chronic ischemic heart disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195546007</a></td>
+                                    <td>[X]Subsequent myocardial infarction of other sites (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">444321000000101</a></td>
+                                    <td>[X]Subsequent myocardial infarction of other sites (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194860008</a></td>
+                                    <td>[X]Subsequent myocardial infarction of unspecified site</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">412781000000102</a></td>
+                                    <td>[X]Subsequent myocardial infarction of unspecified site</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">194860008</a></td>
+                                    <td>[X]Subsequent myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">195547003</a></td>
+                                    <td>[X]Subsequent myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">412781000000102</a></td>
+                                    <td>[X]Subsequent myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">409621000000103</a></td>
+                                    <td>[X]Subsequent myocardial infarction of unspecified site (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">412771006</a></td>
+                                    <td>acute myocardial infarction of posterolateral wall (disorder)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof DataTable === "undefined") {
+                console.error("DataTables failed to load. Check CDN accessibility and script order.");
+                return;
+            }
+
+            var tables = document.querySelectorAll("#codelistAccordion table");
+            var instances = [];
+
+            tables.forEach(function (table) {
+                if (!table.querySelector("thead")) {
+                    return;
+                }
+
+                table.classList.add("js-datatable");
+                var dt = new DataTable(table, {
+                    order: [[1, "asc"]],
+                    autoWidth: false,
+                    pageLength: 25,
+                    lengthMenu: [10, 25, 50, 100],
+                    layout: {
+                        topStart: ["pageLength", "info"],
+                        topEnd: ["search", "paging"],
+                        bottomStart: null,
+                        bottomEnd: null,
+                    },
+                });
+
+                function togglePagingUi() {
+                    var info = dt.page.info();
+                    var container = dt.table().container();
+                    var paging = container.querySelector(".dt-paging");
+                    var length = container.querySelector(".dt-length");
+                    var showControls = info.pages > 1;
+
+                    if (paging) {
+                        paging.style.display = showControls ? "" : "none";
+                    }
+                    if (length) {
+                        length.style.display = showControls ? "" : "none";
+                    }
+                }
+
+                dt.on("draw", togglePagingUi);
+                togglePagingUi();
+                dt.columns.adjust();
+                instances.push({ table: table, dt: dt });
+            });
+
+            document.querySelectorAll(".accordion-collapse").forEach(function (panel) {
+                panel.addEventListener("shown.bs.collapse", function () {
+                    instances.forEach(function (instance) {
+                        if (panel.contains(instance.table)) {
+                            instance.dt.columns.adjust();
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
