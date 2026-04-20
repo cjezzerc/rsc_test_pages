@@ -1,7 +1,7 @@
 
 [Back to Phenotype Index](../phenotypes_index.html)
 
-[Back to Codelist Index](../codelists_index.md)
+[Back to Codelist Index](../codelists_index.html)
 
 # RSC Phenotype RSC-PH2
 
