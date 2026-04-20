@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSC Phenotype RSC-PH3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4 mb-5">
+        <p class="mb-2"><a href="../phenotypes_index.html">Back to Phenotype Index</a></p>
+        <p><a href="../codelists_index.html">Back to Codelist Index</a></p>
+
+        <h1 class="mt-4 mb-4">RSC Phenotype RSC-PH3</h1>
+
+        <div class="card">
+            <div class="card-body">
+                <p><h1>RSC – Smoker Status</h1></p>
+                <p><h2>Brief description</h2></p>
+                <p><p>Identification of current smoker status</p></p>
+                <p><h2>Overview</h2></p>
+                <p><p>The intention of the algorithm is to identify the smoker status of each patient in a dataset at a specified date.</p></p>
+                <p><p>The algorithm creates a table containing a standard code for each patient based on the most recent observation regarding smoker status.</p></p>
+                <p><h2>Pseudocode</h2></p>
+                <p><p>The following parameter is required:</p></p>
+                <p><table></p>
+                <p><thead></p>
+                <p><tr></p>
+                <p><th>Parameter</th></p>
+                <p><th>Description</th></p>
+                <p></tr></p>
+                <p></thead></p>
+                <p><tbody></p>
+                <p><tr></p>
+                <p><td><em><strong>status-date</strong></em></td></p>
+                <p><td>The date at which the status is to determined</td></p>
+                <p></tr></p>
+                <p></tbody></p>
+                <p></table></p>
+                <p><p>The following codelists are used</p></p>
+                <p><table></p>
+                <p><thead></p>
+                <p><tr></p>
+                <p><th>codelist name in algorithm</th></p>
+                <p><th>RSC Codelist</th></p>
+                <p></tr></p>
+                <p></thead></p>
+                <p><tbody></p>
+                <p><tr></p>
+                <p><td><em><strong>active-smoker-codelist</strong></em></td></p>
+                <p><td><a href='../codelists/descriptions/RSC-C2065.html'>RSC-C2065</a></td></p>
+                <p></tr></p>
+                <p><tr></p>
+                <p><td><em><strong>ex-smoker-codelist</strong></em></td></p>
+                <p><td><a href='../codelists/descriptions/RSC-C2066.html'>RSC-C2066</a></td></p>
+                <p></tr></p>
+                <p><tr></p>
+                <p><td><em><strong>non-smoker-codelist</strong></em></td></p>
+                <p><td><a href='../codelists/descriptions/RSC-C2067.html'>RSC-C2067</a></td></p>
+                <p></tr></p>
+                <p></tbody></p>
+                <p></table></p>
+                <p><p>A composite code list <em><strong>all-smoker-status-codelist</strong></em> is created as the union of <em><strong>active-smoker-codelist</strong></em>, <em><strong>ex-smoker-codelist</strong></em> and  <em><strong>non-smoker-codelist</strong></em></p></p>
+                <p><ul></p>
+                <p><li>A results table is initialised with columns of "patient-id" and "computed-current-status"</li></p>
+                <p><li></p>
+                <p><p>For each patient</p></p>
+                <p><ul></p>
+                <p><li></p>
+                <p><p><em><strong>patient-id</strong></em> = Pseudonymised patient identifer</p></p>
+                <p></li></p>
+                <p><li></p>
+                <p><p><em><strong>most-recent-status</strong></em> = The most recent event for that patient with a code from <em><strong>all-smoker-status-codelist</strong></em> with an observation date up to and including the <em><strong>status-date</strong></em></p></p>
+                <p></li></p>
+                <p><li></p>
+                <p><p>If</p></p>
+                <p><ul></p>
+                <p><li>such an event can be found then <em><strong>computed-current-status</strong></em> is calculated according to the following table</li></p>
+                <p></ul></p>
+                <p><table></p>
+                <p><thead></p>
+                <p><tr></p>
+                <p><th>Codelist that <em><strong>most-recent-status</strong></em> is a member of</th></p>
+                <p><th><em><strong>computed-current-status</strong></em></th></p>
+                <p></tr></p>
+                <p></thead></p>
+                <p><tbody></p>
+                <p><tr></p>
+                <p><td><em><strong>active-smoker-codelist</strong></em></td></p>
+                <p><td>SMOKER</td></p>
+                <p></tr></p>
+                <p><tr></p>
+                <p><td><em><strong>ex-smoker-codelist</strong></em></td></p>
+                <p><td>EX-SMOKER</td></p>
+                <p></tr></p>
+                <p><tr></p>
+                <p><td><em><strong>non-smoker-codelist</strong></em></td></p>
+                <p><td>NON-SMOKER</td></p>
+                <p></tr></p>
+                <p></tbody></p>
+                <p></table></p>
+                <p><ul></p>
+                <p><li>otherwise <em><strong>computed-current-status</strong></em> is set to UNKNOWN<ul></p>
+                <p><li>The tuple (<em><strong>patient-id</strong></em>, <em><strong>computed-current-status</strong></em>) is added as a row to the results table</li></p>
+                <p></ul></p>
+                <p></li></p>
+                <p></ul></p>
+                <p></li></p>
+                <p></ul></p>
+                <p></li></p>
+                <p></ul></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

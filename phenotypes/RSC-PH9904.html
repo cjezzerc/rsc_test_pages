@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSC Phenotype RSC-PH9904</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4 mb-5">
+        <p class="mb-2"><a href="../phenotypes_index.html">Back to Phenotype Index</a></p>
+        <p><a href="../codelists_index.html">Back to Codelist Index</a></p>
+
+        <h1 class="mt-4 mb-4">RSC Phenotype RSC-PH9904</h1>
+
+        <div class="card">
+            <div class="card-body">
+                <p><h1>RSC - Ischaemic Heart Disease</h1></p>
+                <p><h2>Brief description</h2></p>
+                <p><p>Identification of subjects with Ischaemic Heart Disease</p></p>
+                <p><h2>Overview</h2></p>
+                <p><p>The intention of the algorithm is to identify subjects with Ischaemic Heart Disease at a specified date.</p></p>
+                <p><h2>Pseudocode</h2></p>
+                <p><p>The following parameter is required:</p></p>
+                <p><table></p>
+                <p><thead></p>
+                <p><tr></p>
+                <p><th>Parameter</th></p>
+                <p><th>Description</th></p>
+                <p></tr></p>
+                <p></thead></p>
+                <p><tbody></p>
+                <p><tr></p>
+                <p><td><em><strong>status-date</strong></em></td></p>
+                <p><td>The date at which the status is to determined</td></p>
+                <p></tr></p>
+                <p></tbody></p>
+                <p></table></p>
+                <p><p>The following codelists are used</p></p>
+                <p><table></p>
+                <p><thead></p>
+                <p><tr></p>
+                <p><th>codelist name in algorithm</th></p>
+                <p><th>RSC Codelist</th></p>
+                <p></tr></p>
+                <p></thead></p>
+                <p><tbody></p>
+                <p><tr></p>
+                <p><td><em><strong>ischaemic-heart-disease</strong></em></td></p>
+                <p><td><a href='../codelists/descriptions/RSC-C3160.html'>RSC-C3160</a></td></p>
+                <p></tr></p>
+                <p></tbody></p>
+                <p></table></p>
+                <p><ul></p>
+                <p><li></p>
+                <p><p>Patients are included in the cohort if</p></p>
+                <p><ul></p>
+                <p><li>(i) The patient has at least one event from <em><strong>ischaemic-heart-disease</strong></em> at a date up to and including <em><strong>status-date</strong></em></li></p>
+                <p></ul></p>
+                <p></li></p>
+                <p></ul></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
