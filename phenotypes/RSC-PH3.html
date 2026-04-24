@@ -5,44 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSC Phenotype RSC-PH3</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <style>
-        .top-nav-banner {
-            background-color: #002147;
-            min-height: 66px;
-        }
-
-        .top-nav-inner {
-            min-height: 66px;
-        }
-
-        .rsc-mark {
-            height: 45px;
-            width: auto;
-            display: block;
-        }
-
-        .top-nav-links a {
-            color: #ffffff;
-            font-size: 1.35rem;
-            font-weight: 700;
-            text-decoration: none;
-        }
-
-        .top-nav-links a:hover,
-        .top-nav-links a:focus {
-            text-decoration: underline;
-        }
-
-        .prototype-warning-banner {
-            background-color: #b00020;
-            color: #ffffff;
-            font-weight: 700;
-            letter-spacing: 0.02em;
-            text-align: center;
-            padding: 0.45rem 0.75rem;
-            font-size: 0.9rem;
-        }
-    </style>
+    <link rel="stylesheet" href="../assets/css/shared.css">
     
 </head>
 <body>
@@ -50,13 +13,16 @@
         <div class="container">
             <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
                 <img class="rsc-mark" src="../images/rsc_image.png" alt="RSC repository banner">
-                <div class="top-nav-links d-flex justify-content-end gap-4 py-1">
-                    
-                    <a href="../phenotypes_index.html">Phenotype Index</a>
-                    
-                    
-                    <a href="../codelists_index.html">Codelist Index</a>
-                    
+                <div class="top-nav-links d-flex flex-column align-items-end py-1">
+                    <div class="d-flex gap-4">
+                        
+                        <a href="../phenotypes_index.html">Phenotype Index</a>
+                        
+                        
+                        <a href="../codelists_index.html">Codelist Index</a>
+                        
+                    </div>
+                    <span class="top-nav-sha">time_stamp: 20260424_1726 authoring: c278cfa renderer: bf9c060</span>
                 </div>
             </div>
         </div>
@@ -72,15 +38,24 @@
 
         <div class="card">
             <div class="card-body">
-                <h1>RSC – Smoker Status</h1>
+                <h1>(aaa) Smoking Status</h1>
 <h2>Brief description</h2>
-<p>Identification of current smoker status</p>
+<p>Determination of smoking status at a specified date.</p>
 <h2>Overview</h2>
-<p>The intention of the algorithm is to identify the smoker status of each patient in a dataset at a specified date.</p>
-<p>The algorithm creates a table containing a standard code for each patient based on the most recent observation regarding smoker status.</p>
-<h2>Pseudocode</h2>
-<p>The following parameter is required:</p>
-<table class="table table-striped table-bordered table-sm">
+<p>This phenotype determines the smoking status of an individual patient based on their most recent recorded observation.</p>
+<h2>Input</h2>
+<ul>
+<li>Patient longitudinal record</li>
+<li><code>status_date</code></li>
+</ul>
+<h2>Output</h2>
+<ul>
+<li><strong>Type:</strong> attribute</li>
+<li><strong>Description:</strong>
+  Smoking status at the specified date (SMOKER / EX-SMOKER / NON-SMOKER / UNKNOWN).</li>
+</ul>
+<h2>Parameters</h2>
+<table class="table table-bordered table-sm">
 <thead>
 <tr>
 <th>Parameter</th>
@@ -89,80 +64,62 @@
 </thead>
 <tbody>
 <tr>
-<td><em><strong>status-date</strong></em></td>
-<td>The date at which the status is to determined</td>
+<td><code>status_date</code></td>
+<td>Date at which status is determined</td>
 </tr>
 </tbody>
 </table>
-<p>The following codelists are used</p>
-<table class="table table-striped table-bordered table-sm">
+<h2>Codelists</h2>
+<table class="table table-bordered table-sm">
 <thead>
 <tr>
-<th>codelist name in algorithm</th>
+<th>Name in algorithm</th>
 <th>RSC Codelist</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><em><strong>active-smoker-codelist</strong></em></td>
+<td><code>active_smoker_codelist</code></td>
 <td><a href='../codelists/descriptions/RSC-C2065.html'>RSC-C2065</a></td>
 </tr>
 <tr>
-<td><em><strong>ex-smoker-codelist</strong></em></td>
+<td><code>ex_smoker_codelist</code></td>
 <td><a href='../codelists/descriptions/RSC-C2066.html'>RSC-C2066</a></td>
 </tr>
 <tr>
-<td><em><strong>non-smoker-codelist</strong></em></td>
+<td><code>non_smoker_codelist</code></td>
 <td><a href='../codelists/descriptions/RSC-C2067.html'>RSC-C2067</a></td>
 </tr>
 </tbody>
 </table>
-<p>A composite code list <em><strong>all-smoker-status-codelist</strong></em> is created as the union of <em><strong>active-smoker-codelist</strong></em>, <em><strong>ex-smoker-codelist</strong></em> and  <em><strong>non-smoker-codelist</strong></em></p>
-<ul>
-<li>A results table is initialised with columns of "patient-id" and "computed-current-status"</li>
-<li>
-<p>For each patient</p>
+<p>A composite codelist <code>all_smoker_status_codelist</code> is defined as the union of <code>active_smoker_codelist</code>, <code>ex_smoker_codelist</code> and <code>non_smoker_codelist</code>.</p>
+<h2>Pseudocode</h2>
+<p>For a given patient:</p>
 <ul>
 <li>
-<p><em><strong>patient-id</strong></em> = Pseudonymised patient identifer</p>
+<p>Let <code>most_recent_status</code> be the most recent event with a code from <code>all_smoker_status_codelist</code> on or before <code>status_date</code>.</p>
 </li>
 <li>
-<p><em><strong>most-recent-status</strong></em> = The most recent event for that patient with a code from <em><strong>all-smoker-status-codelist</strong></em> with an observation date up to and including the <em><strong>status-date</strong></em></p>
-</li>
-<li>
-<p>If</p>
+<p>If such an event exists:</p>
 <ul>
-<li>such an event can be found then <em><strong>computed-current-status</strong></em> is calculated according to the following table</li>
+<li>If the code is in <code>active_smoker_codelist</code> -&gt; return <strong>SMOKER</strong></li>
+<li>If the code is in <code>ex_smoker_codelist</code> -&gt; return <strong>EX-SMOKER</strong></li>
+<li>If the code is in <code>non_smoker_codelist</code> -&gt; return <strong>NON-SMOKER</strong></li>
 </ul>
-<table class="table table-striped table-bordered table-sm">
-<thead>
-<tr>
-<th>Codelist that <em><strong>most-recent-status</strong></em> is a member of</th>
-<th><em><strong>computed-current-status</strong></em></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em><strong>active-smoker-codelist</strong></em></td>
-<td>SMOKER</td>
-</tr>
-<tr>
-<td><em><strong>ex-smoker-codelist</strong></em></td>
-<td>EX-SMOKER</td>
-</tr>
-<tr>
-<td><em><strong>non-smoker-codelist</strong></em></td>
-<td>NON-SMOKER</td>
-</tr>
-</tbody>
-</table>
+</li>
+<li>
+<p>Otherwise:</p>
 <ul>
-<li>otherwise <em><strong>computed-current-status</strong></em> is set to UNKNOWN<ul>
-<li>The tuple (<em><strong>patient-id</strong></em>, <em><strong>computed-current-status</strong></em>) is added as a row to the results table</li>
+<li>Return <strong>UNKNOWN</strong></li>
 </ul>
 </li>
 </ul>
-</li>
+<h2>Notes on use</h2>
+<ul>
+<li>Applying across patients yields:<ul>
+<li>distributions of smoking status</li>
+<li>cohorts (for example, current smokers)</li>
+<li>covariates for analysis</li>
 </ul>
 </li>
 </ul>
