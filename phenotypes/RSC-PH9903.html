@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260424_1726 authoring: c278cfa renderer: bf9c060</span>
+                    <span class="top-nav-sha">time_stamp: 20260427_1707 authoring: dirty-50174a0 renderer: dirty-f260899</span>
                 </div>
             </div>
         </div>
@@ -39,68 +39,46 @@
         <div class="card">
             <div class="card-body">
                 <h1>Diabetes Type 2</h1>
-<h2>Brief Decription</h2>
-<p>Identification of subjects with Diabetes Type 2</p>
+<h2>Brief Description</h2>
+<p>Identification of Diabetes Type 2 status of subject</p>
 <h2>Overview</h2>
-<p>The intention of the algorithm is to identify the Diabetes Type 2 status of each patient in a dataset at a specified date.</p>
-<p>The algorithm creates a table containing a standard code for each patient based on the most recent observation regarding Diabetes Type 2.</p>
-<p><strong>OR</strong> is this just an in or out of cohort thing? Is this an example where might want more than one phenotype or is that overkill? Are these phenotypes really here to put context on a codelist so precise use case is not too important <strong>??????????</strong></p>
-<p><strong>THIS</strong> is very essentially the same logic as smoker status so there could be a template method perhaps, but would have to specify what the output status was for each input codelist <strong>?????</strong></p>
-<p><strong>OR</strong> does this make a case for a "cohort with exit condition" template phenotype <strong>???????</strong></p>
-<h2>Pseudocode</h2>
-<p>The following parameter is required:</p>
+<p>This phenotype determines whether an individual patient has Diabetes Type 2 at a given date based on prior diagnosis events.</p>
+<h2>Template usage</h2>
+<p>This phenotype applies template phenotype <a href='RSC-PH4.html'>RSC-PH4</a>.</p>
+<p>See the template for details of the algorithm.</p>
+<p>The template requires these parameters to be specified:</p>
 <table class="table table-bordered table-sm">
 <thead>
 <tr>
 <th>Parameter</th>
-<th>Description</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><code>patient_record</code></td>
+<td><em>To be provided on execution</em></td>
+</tr>
 <tr>
 <td><code>status_date</code></td>
-<td>The date at which the status is to determined</td>
+<td><em>To be specified on execution</em></td>
+</tr>
+<tr>
+<td><code>positive_codelist</code></td>
+<td><a href='../codelists/descriptions/RSC-C2048.html'>RSC-C2048 (Diabetes Type 2)</a></td>
+</tr>
+<tr>
+<td><code>negative_codelist</code></td>
+<td><a href='../codelists/descriptions/RSC-C7230.html'>RSC-C7230 (Diabetes Resolved)</a></td>
 </tr>
 </tbody>
 </table>
-<p>The following codelists are used</p>
-<table class="table table-bordered table-sm">
-<thead>
-<tr>
-<th>codelist name in algorithm</th>
-<th>RSC Codelist</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>diabetes_t2</code></td>
-<td><a href='../codelists/descriptions/RSC-C2048.html'>RSC-C2048</a></td>
-</tr>
-<tr>
-<td><code>diabetes_t2_resolved</code></td>
-<td><a href='../codelists/descriptions/RSC-C7230.html'>RSC-C7230</a></td>
-</tr>
-</tbody>
-</table>
-<p>A composite code list <code>all_statuses_codelist</code> is created as the union of the codelists in the table above.</p>
-<ul>
-<li>A results table is initialised with columns of "patient-id" and "computed-current-status"</li>
-<li>For each patient<pre><code>* `patient_id` = Pseudonymised patient identifer
-
-* `most_recent_status` = The most recent event for that patient with a code from `all_statuses_codelist` with an observation date up to and including the `status_date`
-* If
-    * such an event can be found then `computed_current_status` is calculated according to the following table
-
-      | Codelist that `most_recent_status` is a member of | `computed_current_status`                |
-      |--------------------------------|-----------------------------|
-      |  `diabetes_t2`  | DIABETES-T2       |
-      |  `diabetes_resolved_t2`      | DIABETES-T2-RESOLVED    |
-
-    * otherwise `computed_current_status` is set to DIABETES-T2-NEVER-RECORDED
-* The tuple (`patient_id`, `computed_current_status`) is added as a row to the results table
-</code></pre>
-</li>
-</ul>
+<h2>Pseudocode</h2>
+<p>See template</p>
+<h2>Notes on use</h2>
+<p>See template</p>
+<h2>Disease notes</h2>
+<p>See the codelists for further information on the definition of this condition.</p>
             </div>
         </div>
     </div>

@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260424_1726 authoring: c278cfa renderer: bf9c060</span>
+                    <span class="top-nav-sha">time_stamp: 20260427_1707 authoring: dirty-50174a0 renderer: dirty-f260899</span>
                 </div>
             </div>
         </div>
@@ -38,47 +38,49 @@
 
         <div class="card">
             <div class="card-body">
-                <h1>RSC - Ischaemic Heart Disease</h1>
+                <h1>Ischaemic Heart Disease</h1>
 <h2>Brief description</h2>
-<p>Identification of subjects with Ischaemic Heart Disease</p>
+<p>Identification of ischaemic heart disease status of subject</p>
 <h2>Overview</h2>
-<p>The intention of the algorithm is to identify subjects with Ischaemic Heart Disease at a specified date.</p>
-<h2>Pseudocode</h2>
-<p>The following parameter is required:</p>
+<p>This phenotype determines whether an individual patient has ischaemic heart disease at a given date based on prior diagnosis events.</p>
+<h2>Template usage</h2>
+<p>This phenotype applies template phenotype <a href='RSC-PH4.html'>RSC-PH4</a>.</p>
+<p>See the template for details of the algorithm.</p>
+<p>The template requires these parameters to be specified:</p>
 <table class="table table-bordered table-sm">
 <thead>
 <tr>
 <th>Parameter</th>
-<th>Description</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><code>patient_record</code></td>
+<td><em>To be provided on execution</em></td>
+</tr>
 <tr>
 <td><code>status_date</code></td>
-<td>The date at which the status is to determined</td>
+<td><em>To be specified on execution</em></td>
+</tr>
+<tr>
+<td><code>positive_codelist</code></td>
+<td><a href='../codelists/descriptions/RSC-C3160.html'>RSC-C3160 (Ischaemic Heart Disease)</a></td>
+</tr>
+<tr>
+<td><code>negative_codelist</code></td>
+<td><em>not used</em></td>
 </tr>
 </tbody>
 </table>
-<p>The following codelists are used</p>
-<table class="table table-bordered table-sm">
-<thead>
-<tr>
-<th>codelist name in algorithm</th>
-<th>RSC Codelist</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>ischaemic_heart_disease</code></td>
-<td><a href='../codelists/descriptions/RSC-C3160.html'>RSC-C3160</a></td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Patients are included in the cohort if<pre><code>* (i) The patient has at least one event from `ischaemic_heart_disease` at a date up to and including `status_date`
-</code></pre>
-</li>
-</ul>
+<h2>Pseudocode</h2>
+<p>See template</p>
+<h2>Notes on use</h2>
+<p>See template</p>
+<h2>Disease notes</h2>
+<p>See the codelists for further information on the definition of this condition.</p>
+<h2>Assumptions</h2>
+<p>Ischaemic heart disease is treated as a persistent condition (once diagnosed, remains present).</p>
             </div>
         </div>
     </div>

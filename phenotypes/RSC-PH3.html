@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260424_1726 authoring: c278cfa renderer: bf9c060</span>
+                    <span class="top-nav-sha">time_stamp: 20260427_1707 authoring: dirty-50174a0 renderer: dirty-f260899</span>
                 </div>
             </div>
         </div>
@@ -38,66 +38,53 @@
 
         <div class="card">
             <div class="card-body">
-                <h1>(aaa) Smoking Status</h1>
+                <h1>Smoking Status</h1>
 <h2>Brief description</h2>
 <p>Determination of smoking status at a specified date.</p>
 <h2>Overview</h2>
-<p>This phenotype determines the smoking status of an individual patient based on their most recent recorded observation.</p>
+<p>This phenotype determines the smoking status of an individual patient at a particular date based on their most recent recorded observation up to that date.</p>
 <h2>Input</h2>
-<ul>
-<li>Patient longitudinal record</li>
-<li><code>status_date</code></li>
-</ul>
+<table class="table table-bordered table-sm">
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description/Value/Identifer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>patient_record</code></td>
+<td>A single patient's longitudinal record (<em>provided at execution time</em>)</td>
+</tr>
+<tr>
+<td><code>status_date</code></td>
+<td>Date at which the status is to be determined (<em>specified at runtime</em>)</td>
+</tr>
+<tr>
+<td><code>active_smoker_codelist</code></td>
+<td><a href='../codelists/descriptions/RSC-C2065.html'>RSC-C2065 (Active Smoker)</a></td>
+</tr>
+<tr>
+<td><code>ex_smoker_codelist</code></td>
+<td><a href='../codelists/descriptions/RSC-C2066.html'>RSC-C2066 (Ex-Smoker)</a></td>
+</tr>
+<tr>
+<td><code>non_smoker_codelist</code></td>
+<td><a href='../codelists/descriptions/RSC-C2067.html'>RSC-C2067 (Non-Smoker)</a></td>
+</tr>
+</tbody>
+</table>
 <h2>Output</h2>
 <ul>
 <li><strong>Type:</strong> attribute</li>
 <li><strong>Description:</strong>
   Smoking status at the specified date (SMOKER / EX-SMOKER / NON-SMOKER / UNKNOWN).</li>
 </ul>
-<h2>Parameters</h2>
-<table class="table table-bordered table-sm">
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>status_date</code></td>
-<td>Date at which status is determined</td>
-</tr>
-</tbody>
-</table>
-<h2>Codelists</h2>
-<table class="table table-bordered table-sm">
-<thead>
-<tr>
-<th>Name in algorithm</th>
-<th>RSC Codelist</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>active_smoker_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C2065.html'>RSC-C2065</a></td>
-</tr>
-<tr>
-<td><code>ex_smoker_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C2066.html'>RSC-C2066</a></td>
-</tr>
-<tr>
-<td><code>non_smoker_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C2067.html'>RSC-C2067</a></td>
-</tr>
-</tbody>
-</table>
-<p>A composite codelist <code>all_smoker_status_codelist</code> is defined as the union of <code>active_smoker_codelist</code>, <code>ex_smoker_codelist</code> and <code>non_smoker_codelist</code>.</p>
 <h2>Pseudocode</h2>
-<p>For a given patient:</p>
+<p>A composite codelist <code>all_smoker_status_codelist</code> is defined as the union of <code>active_smoker_codelist</code>, <code>ex_smoker_codelist</code> and <code>non_smoker_codelist</code>.</p>
 <ul>
 <li>
-<p>Let <code>most_recent_status</code> be the most recent event with a code from <code>all_smoker_status_codelist</code> on or before <code>status_date</code>.</p>
+<p>Let <code>most_recent_status</code> be the most recent event in <code>patient_record</code> with a code from <code>all_smoker_status_codelist</code> on or before <code>status_date</code>.</p>
 </li>
 <li>
 <p>If such an event exists:</p>
@@ -116,10 +103,10 @@
 </ul>
 <h2>Notes on use</h2>
 <ul>
-<li>Applying across patients yields:<ul>
+<li>Applying this phenotype across a collection of patients can produce:<ul>
 <li>distributions of smoking status</li>
 <li>cohorts (for example, current smokers)</li>
-<li>covariates for analysis</li>
+<li>patient-level variables (for example, patient is a smoker)</li>
 </ul>
 </li>
 </ul>

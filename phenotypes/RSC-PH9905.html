@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260424_1726 authoring: c278cfa renderer: bf9c060</span>
+                    <span class="top-nav-sha">time_stamp: 20260427_1707 authoring: dirty-50174a0 renderer: dirty-f260899</span>
                 </div>
             </div>
         </div>
@@ -38,82 +38,49 @@
 
         <div class="card">
             <div class="card-body">
-                <h1>** Chronic Obstructive Pulmonary Disease (COPD)</h1>
+                <h1>Chronic Obstructive Pulmonary Disease (COPD)</h1>
 <h2>Brief description</h2>
-<p>Identification of COPD status at a specified date.</p>
+<p>Identification of COPD status of subject</p>
 <h2>Overview</h2>
 <p>This phenotype determines whether an individual patient has COPD at a given date based on prior diagnosis events.</p>
-<h2>Markdown authoring issues</h2>
-<p>Not sure about the explicit 0,1 business</p>
-<h2>Input</h2>
-<ul>
-<li>Patient longitudinal record</li>
-<li><code>status_date</code></li>
-</ul>
-<h2>Output</h2>
-<ul>
-<li><strong>Type:</strong> state</li>
-<li><strong>Description:</strong>
-  COPD status at the specified date (1 = COPD, 0 = no COPD).</li>
-</ul>
-<h2>Parameters</h2>
+<h2>Template usage</h2>
+<p>This phenotype applies template phenotype <a href='RSC-PH4.html'>RSC-PH4</a>.</p>
+<p>See the template for details of the algorithm.</p>
+<p>The template requires these parameters to be specified:</p>
 <table class="table table-bordered table-sm">
 <thead>
 <tr>
 <th>Parameter</th>
-<th>Description</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><code>patient_record</code></td>
+<td><em>To be provided on execution</em></td>
+</tr>
 <tr>
 <td><code>status_date</code></td>
-<td>Date at which status is determined</td>
+<td><em>To be specified on execution</em></td>
 </tr>
-</tbody>
-</table>
-<h2>Codelists</h2>
-<table class="table table-bordered table-sm">
-<thead>
 <tr>
-<th>Name in algorithm</th>
-<th>RSC Codelist</th>
+<td><code>positive_codelist</code></td>
+<td><a href='../codelists/descriptions/RSC-C2133.html'>RSC-C2133 (COPD)</a></td>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td><code>copd</code></td>
-<td><a href='../codelists/descriptions/RSC-C2133.html'>RSC-C2133</a></td>
+<td><code>negative_codelist</code></td>
+<td><em>not used</em></td>
 </tr>
 </tbody>
 </table>
 <h2>Pseudocode</h2>
-<p>For a given patient:</p>
-<ul>
-<li>
-<p>If the patient has at least one event from <code>copd</code> with a date on or before <code>status_date</code>:</p>
-<ul>
-<li>Return <strong>1 (COPD)</strong></li>
-</ul>
-</li>
-<li>
-<p>Otherwise:</p>
-<ul>
-<li>Return <strong>0 (no COPD)</strong></li>
-</ul>
-</li>
-</ul>
+<p>See template</p>
 <h2>Notes on use</h2>
-<ul>
-<li>Applying across patients yields:<ul>
-<li>COPD prevalence at a given date</li>
-<li>COPD cohorts (patients with status = 1)</li>
-</ul>
-</li>
-</ul>
+<p>See template</p>
+<h2>Disease notes</h2>
+<p>See the codelists for further information on the definition of this condition.</p>
 <h2>Assumptions</h2>
-<ul>
-<li>COPD is treated as a <strong>persistent condition</strong> (once diagnosed, remains present).</li>
-</ul>
+<p>COPD is treated as a persistent condition (once diagnosed, remains present).</p>
             </div>
         </div>
     </div>

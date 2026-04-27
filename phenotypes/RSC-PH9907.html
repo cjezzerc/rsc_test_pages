@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260424_1726 authoring: c278cfa renderer: bf9c060</span>
+                    <span class="top-nav-sha">time_stamp: 20260427_1707 authoring: dirty-50174a0 renderer: dirty-f260899</span>
                 </div>
             </div>
         </div>
@@ -40,31 +40,45 @@
             <div class="card-body">
                 <h1>Acute Bronchitis</h1>
 <h2>Brief description</h2>
-<p>Identification of new cases of acute bronchitis for the RCGP RSC weekly report of Respiratory and Communicable Diseases for England.</p>
+<p>Identification of new cases of acute bronchitis.</p>
 <h2>Overview</h2>
-<p>The algorithm identifies the cohort of patients that have a new diagnosis event of acute bronchitis within the week of observation.</p>
-<p>The data for the <a href="https://www.rcgp.org.uk/representing-you/research-at-rcgp/research-surveillance-centre/public-health-data">RSC Weekly report</a> are counts of numbers of patients in the cohort, stratified by age and region.</p>
-<h2>Pseudocode</h2>
-<p>The cohort is identified using the template phenotype <a href='RSC-PH1.html'>RSC-PH1</a> with parameters</p>
+<p>This phenotype identifies new cases of acute bronchitis for an individual patient within a specified observation window.</p>
+<h2>Template usage</h2>
+<p>This phenotype applies template phenotype <a href='RSC-PH1.html'>RSC-PH1</a>.</p>
+<p>See the template for details of the algorithm.</p>
+<p>The template requires these parameters to be specified:</p>
 <table class="table table-bordered table-sm">
 <thead>
 <tr>
 <th>Parameter</th>
-<th>Description</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>disease_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C7211.html'>RSC-C7211</a></td>
+<td><code>patient_record</code></td>
+<td><em>To be provided on execution</em></td>
+</tr>
+<tr>
+<td><code>observation_window</code></td>
+<td><em>To be specified on execution</em></td>
+</tr>
+<tr>
+<td><code>condition_codelist</code></td>
+<td><a href='../codelists/descriptions/RSC-C7211.html'>RSC-C7211 (ARI Acute Bronchitis)</a></td>
 </tr>
 <tr>
 <td><code>interval</code></td>
-<td>28?? days</td>
+<td>28 days</td>
 </tr>
 </tbody>
 </table>
-<p>See the <code>disease_codelist</code> for further information on the definition of this disease.</p>
+<h2>Pseudocode</h2>
+<p>See template</p>
+<h2>Notes on use</h2>
+<p>See template</p>
+<h2>Disease notes</h2>
+<p>See the <code>condition_codelist</code> for further information on the definition of this condition.</p>
             </div>
         </div>
     </div>

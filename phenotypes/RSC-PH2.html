@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260424_1726 authoring: c278cfa renderer: bf9c060</span>
+                    <span class="top-nav-sha">time_stamp: 20260427_1707 authoring: dirty-50174a0 renderer: dirty-f260899</span>
                 </div>
             </div>
         </div>
@@ -38,100 +38,119 @@
 
         <div class="card">
             <div class="card-body">
-                <h1>BMI categorisation</h1>
+                <h1>BMI Categorisation</h1>
 <h2>Brief description</h2>
-<p>Categorisation of BMI based on categorical codes or numeric observations</p>
+<p>Categorisation of BMI at a specified date using either categorical BMI codes or numeric BMI observations.</p>
 <h2>Overview</h2>
-<p>This algorithm provides a harmonised categorisation of the BMI for each patient, based on the latest observation within a particular time window. The algorithm allows for the observation being numerical in some cases (e.g. 24.3) and categorical in other cases (e.g. BMI &lt;20), and also for a variety of equivalent categorical concepts being used.</p>
-<p>The algorithm creates a table containing a standard code for each patient categorising BMI into bands of &lt;20, 20-24.9, 25-29.9, 30-39.9 and 40+</p>
-<p>?? Is this the cateogisation strategy intended? Are these the categories we want (e.g. could separate 30-39.9 into two categories Obese I and Obese II; or have a category of &lt;16; hoever that leads to more ambiguities, e.g. is Obese Obese I or II ?)</p>
-<h2>Pseudocode</h2>
-<p>The following parameters are required:</p>
+<p>This phenotype determines BMI category for an individual patient at a specified date based on their most recent relevant BMI record within an observation window.</p>
+<p>It supports two recording styles:</p>
+<ul>
+<li>Categorical BMI concepts (for example, "BMI 20-24.9")</li>
+<li>Numeric BMI observations (for example, 24.3)</li>
+</ul>
+<p>The output category is harmonised into one of five bands: BMI_LT20, BMI_20_24_9, BMI_25_29_9, BMI_30_39_9, BMI_GE40, or UNKNOWN.</p>
+<h2>Input</h2>
 <table class="table table-bordered table-sm">
 <thead>
 <tr>
 <th>Parameter</th>
-<th>Description</th>
+<th>Description/Value/Identifier</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><code>patient_record</code></td>
+<td>A single patient's longitudinal record (<em>provided at execution time</em>)</td>
+</tr>
+<tr>
+<td><code>status_date</code></td>
+<td>Date at which BMI category is to be determined (<em>specified at runtime</em>)</td>
+</tr>
 <tr>
 <td><code>start_observation_period</code></td>
-<td>The earliest date of observations to be considered</td>
+<td>Earliest date at which observations are still to be considered relevant</td>
 </tr>
-<tr>
-<td><code>end_observation_period</code></td>
-<td>The latest date of observations to be considered</td>
-</tr>
-</tbody>
-</table>
-<p>The following non overlapping codelists are used</p>
-<table class="table table-bordered table-sm">
-<thead>
-<tr>
-<th>codelist name in algorithm</th>
-<th>RSC Codelist</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td><code>bmi_lt20_codelist</code></td>
 <td>RSC-C????</td>
 </tr>
 <tr>
 <td><code>bmi_20_24.9_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C1502.html'>RSC-C1502</a></td>
+<td><a href='../codelists/descriptions/RSC-C1502.html'>RSC-C1502 (BMI normal)</a></td>
 </tr>
 <tr>
 <td><code>bmi_25_29.9_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C1504.html'>RSC-C1504</a></td>
+<td><a href='../codelists/descriptions/RSC-C1504.html'>RSC-C1504 (BMI overweight)</a></td>
 </tr>
 <tr>
 <td><code>bmi_30_39.9_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C1503.html'>RSC-C1503</a></td>
+<td><a href='../codelists/descriptions/RSC-C1503.html'>RSC-C1503 (BMI obese)</a></td>
 </tr>
 <tr>
 <td><code>bmi_ge40_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C1505.html'>RSC-C1505</a></td>
+<td><a href='../codelists/descriptions/RSC-C1505.html'>RSC-C1505 (BMI Severely Obese)</a></td>
 </tr>
 <tr>
 <td><code>bmi_obs_entity_codelist</code></td>
-<td><a href='../codelists/descriptions/RSC-C5022.html'>RSC-C5022</a></td>
+<td><a href='../codelists/descriptions/RSC-C5022.html'>RSC-C5022 (BMI measurement)</a></td>
 </tr>
 </tbody>
 </table>
+<h2>Output</h2>
 <ul>
+<li><strong>Type:</strong> attribute</li>
+<li><strong>Description:</strong>
+  BMI category at the specified date (BMI_LT20 / BMI_20_24_9 / BMI_25_29_9 / BMI_30_39_9 / BMI_GE40 / UNKNOWN).</li>
+</ul>
+<h2>Pseudocode</h2>
+<p>A composite codelist <code>all_bmi_status_codelist</code> is defined as the union of:</p>
+<ul>
+<li><code>bmi_lt20_codelist</code></li>
+<li><code>bmi_20_24.9_codelist</code></li>
+<li><code>bmi_25_29.9_codelist</code></li>
+<li><code>bmi_30_39.9_codelist</code></li>
+<li><code>bmi_ge40_codelist</code></li>
 <li>
-<p>A composite code list <code>all_bmi_status_codelist</code> is created as the union of the six codelists in the table.</p>
+<p><code>bmi_obs_entity_codelist</code></p>
 </li>
 <li>
-<p>A results table is initialised with columns of "patient-id" and "computed-current-bmi-status"</p>
+<p>Let <code>most_recent_bmi</code> be the most recent event in <code>patient_record</code> with a code from <code>all_bmi_status_codelist</code> and an observation date in the inclusive interval <code>start_observation_period</code> to <code>status_date</code>.</p>
 </li>
 <li>
-<p>For each patient</p>
-<pre><code>* `patient_id` = Pseudonymised patient identifer
-
-* `most_recent_bmi` = The most recent event for that patient with a code from `all_bmi_status_codelist`, and with an observation date in the inclusive period `start_observation_period` to  `end_observation_period`
-* if `most_recent_bmi` is from the codelist `bmi_obs_entity_codelist` then `bmi_value` is set to the numeric value associated with the event
-
-* `computed_current_bmi_status` is set according to the following table
-
-  | `most_recent_bmi` concept is from ..| `bmi_value` | computed-current-bmi-status  | SNOMED | OMOP | Term |
-  |--|--|--|--|--|--|
-  | `bmi_lt20_codelist`                 |         | BMI_LT20     | 310252000 | 4147565 | Body mass index less than 20   |
-  | `bmi_obs_entity_codelist`           | &lt;20     | ""           | ""        | ""      | ""                             |
-  | `bmi_20_24.9_codelist`              |         | BMI_20-24.9  | 412768003 | 4135421 | Body mass index 20-24 - normal |
-  | `bmi_obs_entity_codelist`           | 20-24.9 | ""           | ""        | ""      | ""                             |
-  | `bmi_25_29.9_codelist`              |         | BMI_25-29.9  | etc
-  | `bmi_obs_entity_codelist`           | 25-29.9 | ""           |
-  | `bmi_30_39.9_codelist`              |         | BMI_30-39.9  |
-  | `bmi_obs_entity_codelist`           | 30-39.9 | ""           |
-  | `bmi_ge40_codelist`                 |         | BMI_GE40     |
-  | `bmi_obs_entity_codelist`           | &gt;40     | ""           |
-  | no event found from any codelist        |         | UNKNOWN      |  261665006 | 4129922 | Unknown |
-
-* The tuple (`patient_id`, `computed_current_bmi_status`) is added as a row to the results table
-</code></pre>
+<p>If no such event exists:</p>
+<ul>
+<li>Return <strong>UNKNOWN</strong></li>
+</ul>
+</li>
+<li>
+<p>Otherwise, if the event code is in <code>bmi_obs_entity_codelist</code>:</p>
+<ul>
+<li>Let <code>bmi_value</code> be the numeric value associated with the event</li>
+<li>If <code>bmi_value &lt; 20</code> -&gt; return <strong>BMI_LT20</strong></li>
+<li>If <code>20 &lt;= bmi_value &lt; 25</code> -&gt; return <strong>BMI_20_24_9</strong></li>
+<li>If <code>25 &lt;= bmi_value &lt; 30</code> -&gt; return <strong>BMI_25_29_9</strong></li>
+<li>If <code>30 &lt;= bmi_value &lt; 40</code> -&gt; return <strong>BMI_30_39_9</strong></li>
+<li>If <code>bmi_value &gt;= 40</code> -&gt; return <strong>BMI_GE40</strong></li>
+</ul>
+</li>
+<li>
+<p>Otherwise,</p>
+<ul>
+<li>If the event code is in <code>bmi_lt20_codelist</code> -&gt; return <strong>BMI_LT20</strong></li>
+<li>If the event code is in <code>bmi_20_24.9_codelist</code> -&gt; return <strong>BMI_20_24_9</strong></li>
+<li>If the event code is in <code>bmi_25_29.9_codelist</code> -&gt; return <strong>BMI_25_29_9</strong></li>
+<li>If the event code is in <code>bmi_30_39.9_codelist</code> -&gt; return <strong>BMI_30_39_9</strong></li>
+<li>If the event code is in <code>bmi_ge40_codelist</code> -&gt; return <strong>BMI_GE40</strong></li>
+</ul>
+</li>
+</ul>
+<h2>Notes on use</h2>
+<ul>
+<li>Applying this phenotype across a collection of patients can produce:<ul>
+<li>BMI category distributions</li>
+<li>cohorts (for example, BMI_GE40)</li>
+<li>patient-level variables (for example, patient is severly obese)</li>
+</ul>
 </li>
 </ul>
             </div>
