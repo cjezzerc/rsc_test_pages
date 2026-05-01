@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260428_1338 authoring: c9c738e renderer: b0b2bcd</span>
+                    <span class="top-nav-sha">time_stamp: 20260501_1335 authoring: b332b4f renderer: b0b2bcd</span>
                 </div>
             </div>
         </div>
@@ -42,13 +42,7 @@
 <h2>Brief description</h2>
 <p>Categorisation of BMI at a specified date using either categorical BMI codes or numeric BMI observations.</p>
 <h2>Overview</h2>
-<p>This phenotype determines BMI category for an individual patient at a specified date based on their most recent relevant BMI record within an observation window.</p>
-<p>It supports two recording styles:</p>
-<ul>
-<li>Categorical BMI concepts (for example, "BMI 20-24.9")</li>
-<li>Numeric BMI observations (for example, 24.3)</li>
-</ul>
-<p>The output category is harmonised into one of five bands: BMI_LT20, BMI_20_24_9, BMI_25_29_9, BMI_30_39_9, BMI_GE40, or UNKNOWN.</p>
+<p>This phenotype assigns BMI category at a specified index date using the most recent eligible BMI-related record between the start of the observation period and the index date. It integrates two recording modalities in routine care data: categorical BMI status codes and coded numeric BMI observations. The selected record is mapped to harmonised BMI bands (&lt;20, 20 to &lt;25, 25 to &lt;30, 30 to &lt;40, &gt;=40), with UNKNOWN returned when no qualifying record exists. The resulting standardised variable is suited to risk stratification, confounding adjustment, subgroup analyses, and cohort derivation in epidemiological studies.</p>
 <h2>Input</h2>
 <table class="table table-bordered table-sm">
 <thead>
