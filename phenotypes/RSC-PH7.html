@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSC Phenotype RSC-PH9911</title>
+    <title>RSC Phenotype RSC-PH7</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/shared.css">
     
@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260506_1453 authoring: a1f2d01 renderer: 81571e6</span>
+                    <span class="top-nav-sha">time_stamp: 20260518_1737 authoring: 4dbf221 renderer: 8577cad</span>
                 </div>
             </div>
         </div>
@@ -34,15 +34,15 @@
 
     
     <div class="container mt-4 mb-5">
-        <h1 class="mt-4 mb-4">RSC Phenotype RSC-PH9911</h1>
+        <h1 class="mt-4 mb-4">RSC Phenotype RSC-PH7</h1>
 
         <div class="card">
             <div class="card-body">
-                <h1>Lower Respiratory Tract Infection (LRTI)</h1>
+                <h1>Acute Otitis Media</h1>
 <h2>Brief description</h2>
-<p>Identification of new cases of lower respiratory tract infection (LRTI). (<strong>partial definition</strong>!!)</p>
+<p>Identification of new cases of acute otitis media.</p>
 <h2>Overview</h2>
-<p>This phenotype identifies new cases of lower respiratory tract infection (LRTI) in primary care records using a combination of curated SNOMED CT codelists for defining conditions for <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.35.2300682">LRTI</a>. Within the specified observation window, a qualifying event is counted as a new case only if no prior qualifying event occurred in the preceding 28 days. This interval rule reduces double-counting from follow-up consultations during the same illness period. This implementation is a partial operational definition of LRTI. Applied across populations, the phenotype supports incidence estimation, cohort construction, and derivation of patient-level variables for downstream analysis.</p>
+<p>This phenotype identifies new cases of acute otitis media in primary care records using a curated SNOMED CT codelist for acute otitis media. Within the specified observation window, a qualifying event is counted as a new case only if no prior qualifying event occurred in the preceding 28 days. This interval rule reduces double-counting from follow-up consultations during the same illness period. Applied across populations, the phenotype supports incidence estimation, cohort construction, and derivation of patient-level variables for downstream analysis.</p>
 <h2>Template usage</h2>
 <p>This phenotype applies template phenotype <a href='RSC-PH1.html'>RSC-PH1 (New cases of condition [T])</a>.</p>
 <p>See the template for details of the algorithm.</p>
@@ -65,26 +65,11 @@
 </tr>
 <tr>
 <td><code>condition_codelist</code></td>
-<td><code>lrti_combined</code></td>
+<td><a href='../codelists/descriptions/RSC-C7210.html'>RSC-C7210 (ARI Acute Otitis Media)</a></td>
 </tr>
 <tr>
 <td><code>interval</code></td>
 <td>28 days</td>
-</tr>
-</tbody>
-</table>
-<table class="table table-bordered table-sm">
-<thead>
-<tr>
-<th><code>lrti_combined</code> is the union of the following codelists:</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href='../codelists/descriptions/RSC-C7211.html'>RSC-C7211 (ARI Acute Bronchitis)</a></td>
-</tr>
-<tr>
-<td><a href='../codelists/descriptions/RSC-C7205.html'>RSC-C7205 (ARI - Pneumonia)</a></td>
 </tr>
 </tbody>
 </table>
@@ -93,7 +78,7 @@
 <h2>Notes on use</h2>
 <p>See template</p>
 <h2>Condition notes</h2>
-<p>See the codelists for further information on the definition of this condition.</p>
+<p>See the <code>condition_codelist</code> for further information on the definition of this condition.</p>
             </div>
         </div>
     </div>
