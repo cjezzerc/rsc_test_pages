@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260506_0926 authoring: 80f288c renderer: 81571e6</span>
+                    <span class="top-nav-sha">time_stamp: 20260506_1453 authoring: a1f2d01 renderer: 81571e6</span>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
 <h2>Brief description</h2>
 <p>Identification of new cases of acute respiratory infection (ARI). (<strong>partial definition</strong>!!)</p>
 <h2>Overview</h2>
-<p>This phenotype identifies new cases of acute respiratory infection (ARI) in primary care records using a curated composite SNOMED CT definition that combines lower respiratory tract infection and chronic lung disease exacerbation code groups. Within the specified observation window, a qualifying event is counted as a new case only if no prior qualifying event occurred in the preceding 28 days. This interval rule reduces double-counting from follow-up consultations during the same illness period. This implementation is a partial operational definition of ARI. Aggregated outputs support incidence estimation, surveillance, and cohort derivation for epidemiological analyses.</p>
+<p>This phenotype identifies new cases of acute respiratory infection (ARI) in primary care records using a combination of curated SNOMED CT codelists for defining conditions for <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.35.2300682">ARI</a>. Within the specified observation window, a qualifying event is counted as a new case only if no prior qualifying event occurred in the preceding 28 days. This interval rule reduces double-counting from follow-up consultations during the same illness period. This implementation is a partial operational definition of ARI. Applied across populations, the phenotype supports incidence estimation, cohort construction, and derivation of patient-level variables for downstream analysis.</p>
 <h2>Template usage</h2>
 <p>This phenotype applies template phenotype <a href='RSC-PH1.html'>RSC-PH1 (New cases of condition [T])</a>.</p>
 <p>See the template for details of the algorithm.</p>
@@ -73,11 +73,10 @@
 </tr>
 </tbody>
 </table>
-<p><code>ari_combined</code> is the union of the following codelists:</p>
 <table class="table table-bordered table-sm">
 <thead>
 <tr>
-<th>Codelist</th>
+<th><code>ari_combined</code> is the union of the following codelists:</th>
 </tr>
 </thead>
 <tbody>
@@ -99,7 +98,7 @@
 <p>See template</p>
 <h2>Notes on use</h2>
 <p>See template</p>
-<h2>Disease notes</h2>
+<h2>Condition notes</h2>
 <p>See the codelists for further information on the definition of this condition.</p>
             </div>
         </div>

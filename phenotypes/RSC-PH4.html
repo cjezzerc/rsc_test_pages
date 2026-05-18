@@ -22,7 +22,7 @@
                         <a href="../codelists_index.html">Codelist Index</a>
                         
                     </div>
-                    <span class="top-nav-sha">time_stamp: 20260506_0926 authoring: 80f288c renderer: 81571e6</span>
+                    <span class="top-nav-sha">time_stamp: 20260506_1453 authoring: a1f2d01 renderer: 81571e6</span>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
 <h2>Brief description</h2>
 <p>Template phenotype for identifying the status of subject for a specified condition at a certain date</p>
 <h2>Overview</h2>
-<p>This template phenotype determines condition status at a specified index date from the most recent qualifying condition-related event recorded on or before that date. It uses curated SNOMED CT codelists for positive evidence of disease and, where available, negative evidence such as resolution or explicit absence. Status is assigned from the latest qualifying code (positive = 1, negative = 0), with a default of 0 when no qualifying event exists. Across patient populations, this enables prevalence estimation, binary covariate generation, and construction of condition-defined cohorts.</p>
+<p>This template phenotype determines condition status at a specified date, from the most recent condition-related event recorded on or before that date. It uses curated SNOMED CT codelists for positive evidence of the condition and, where available, negative evidence such as resolution or explicit absence. Status is assigned from the latest qualifying code (positive = 1, negative = 0), with a default of 0 when no qualifying event exists. Applied across populations, it supports prevalence estimation, cohort construction, and derivation of patient-level variables for downstream analysis.</p>
 <h2>Input</h2>
 <table class="table table-bordered table-sm">
 <thead>
