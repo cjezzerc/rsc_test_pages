@@ -1,0 +1,13 @@
+concept_id	term
+1119302008	Acute disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)
+1325171000000109	Acute disease caused by severe acute respiratory syndrome coronavirus 2 infection (disorder)
+1240751000000100	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 (disorder)
+1300731000000106	Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 confirmed using clinical diagnostic criteria (situation)
+700217006	Coronavirus infection suspected (situation)
+840544004	Disease caused by severe acute respiratory coronavirus 2 suspected (situation)
+840539006	Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)
+1240761000000102	Suspected coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 (situation)
+890351000000103	Suspected coronavirus infection
+878151000000108	Suspected coronavirus infection (situation)
+1240451000000106	Telephone consultation for suspected severe acute respiratory syndrome coronavirus 2 (procedure)
+1017214008	Viremia caused by severe acute respiratory syndrome coronavirus 2 (disorder)

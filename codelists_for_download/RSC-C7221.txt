@@ -1,0 +1,11 @@
+concept_id	term
+445378003	Acute exacerbation of bronchiectasis (disorder)
+789574002	Acute exacerbation of idiopathic pulmonary fibrosis (disorder)
+708537005	Acute idiopathic pulmonary fibrosis (disorder)
+525701000000103	Antibiotic therapy for acute pulmonary exacerbation 
+525691000000103	Antibiotic therapy for acute pulmonary exacerbation (procedure)
+879963005	Exacerbation of bronchiectasis caused by infection (disorder)
+859051000000100	Exacerbation of cystic fibrosis 
+859041000000103	Exacerbation of cystic fibrosis (disorder)
+68759006	Idiopathic fibrosing alveolitis, subacute form (disorder)
+700252003	Subacute idiopathic pulmonary fibrosis (disorder)

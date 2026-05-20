@@ -1,0 +1,17 @@
+concept_id	term
+275495004	Acute fibrinous laryngotracheobronchitis (disorder)
+155510007	Acute laryngotracheobronchitis (disorder)
+195702002	Acute laryngotracheobronchitis (disorder)
+71255007	Adenoviral laryngotracheobronchitis (disorder)
+897141000000102	Assessment using Westley Croup Score (procedure)
+71186008	Croup (disorder)
+73414003	Haemophilus influenzae laryngotracheobronchitis (disorder)
+195938002	Laryngotracheobronchitis (disorder)
+85915003	Laryngotracheobronchitis (disorder)
+35377009	Parainfluenza virus laryngotracheobronchitis (disorder)
+12366661000119100	Recurrent croup (disorder)
+72204002	Respiratory syncytial virus laryngotracheobronchitis (disorder)
+22951000119104	Spasmodic croup (disorder)
+897131000000106	Westley Croup Score 
+897121000000109	Westley Croup Score (assessment scale)
+897151000000104	Westley Croup Score (observable entity)

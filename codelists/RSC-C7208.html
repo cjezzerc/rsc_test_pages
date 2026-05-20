@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSC Codelist RSC-C7208</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/shared.css">
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.css">
+    <style>
+        .accordion-button {
+            justify-content: flex-start;
+        }
+
+        .accordion-button::after {
+            display: none;
+        }
+
+        .accordion-button::before {
+            content: "▸";
+            display: inline-block;
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .accordion-button:not(.collapsed)::before {
+            content: "▾";
+        }
+
+        .dt-container {
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+
+        #codelistAccordion table.dataTable,
+        #codelistAccordion table.js-datatable {
+            width: 100% !important;
+        }
+
+        .expansion-download-control {
+            margin-right: 0.5rem;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .expansion-toolbar-inline {
+            display: flex !important;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
+        .expansion-toolbar-inline .dt-search {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="top-nav-banner d-flex align-items-center">
+        <div class="container">
+            <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
+                <img class="rsc-mark" src="../images/rsc_image.png" alt="RSC repository banner">
+                <div class="top-nav-links d-flex flex-column align-items-end py-1">
+                    <div class="d-flex gap-4">
+                        
+                        <a href="../phenotypes_index.html">Phenotype Index</a>
+                        
+                        
+                        <a href="../codelists_index.html">Codelist Index</a>
+                        
+                    </div>
+                    <span class="top-nav-sha">time_stamp: 20260520_1452 authoring: 4dbf221 renderer: 61fdb69</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prototype-warning-banner">
+        PROTOTYPE SITE UNDER CONSTRUCTION: DATA HAS NOT BEEN REVIEWED
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <h1 class="mt-4 mb-2">RSC Codelist: RSC-C7208</h1>
+        <h2 class="h5 text-muted mb-4">Title: ARI Acute Tonsillitis and Pharyngitis</h2>
+
+        <div class="accordion" id="codelistAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingDescription">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                        Authored metadata
+                    </button>
+                </h3>
+                <div id="collapseDescription" class="accordion-collapse collapse show" aria-labelledby="headingDescription">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>ARI Acute Tonsillitis and Pharyngitis</h1>
+<h2>Brief description</h2>
+<p>SNOMED codes recording cases of acute tonsillitis/pharyngitis</p>
+<h2>Notes</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingLogicalDefinition">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogicalDefinition" aria-expanded="true" aria-controls="collapseLogicalDefinition">
+                        Logical Definition
+                    </button>
+                </h3>
+                <div id="collapseLogicalDefinition" class="accordion-collapse collapse show" aria-labelledby="headingLogicalDefinition">
+                    <div class="accordion-body">
+                        
+                            
+                            <h4 class="mt-1">Include the following concepts and their descendants:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=405737000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">405737000</a></td>
+                                        <td>Pharyngitis (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+
+                            
+                            <h4 class="mt-4">Exclude the following concepts and their descendants:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=70020005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">70020005</a></td>
+                                        <td>Adenoiditis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=281647001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">281647001</a></td>
+                                        <td>Adverse reaction (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=85828009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">85828009</a></td>
+                                        <td>Autoimmune disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195803003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195803003</a></td>
+                                        <td>Caseous tonsillitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=23166004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">23166004</a></td>
+                                        <td>Cellulitis of pharynx (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=27624003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">27624003</a></td>
+                                        <td>Chronic disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=66091009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">66091009</a></td>
+                                        <td>Congenital disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=312087002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">312087002</a></td>
+                                        <td>Disorder following clinical procedure (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=307496006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">307496006</a></td>
+                                        <td>Diverticulitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=414025005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">414025005</a></td>
+                                        <td>Fetal and/or neonatal disorder (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=443138004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">443138004</a></td>
+                                        <td>Granulomatosis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=408678008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">408678008</a></td>
+                                        <td>Healthcare associated infectious disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=473010000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">473010000</a></td>
+                                        <td>Hypersensitivity condition (finding)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=87326000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">87326000</a></td>
+                                        <td>Hypertrophic pharyngitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=3218000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">3218000</a></td>
+                                        <td>Mycosis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=399981008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">399981008</a></td>
+                                        <td>Neoplasm and/or hamartoma (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=17322007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">17322007</a></td>
+                                        <td>Parasitic disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=111277007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">111277007</a></td>
+                                        <td>Pharyngeal bursitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=441456002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">441456002</a></td>
+                                        <td>Polyp (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=58184002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">58184002</a></td>
+                                        <td>Recurrent disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=30242009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">30242009</a></td>
+                                        <td>Scarlet fever (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=56717001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">56717001</a></td>
+                                        <td>Tuberculosis (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+                            <h4 class="mt-4">Exclude the following concepts:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=275488008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">275488008</a></td>
+                                        <td>Chronic sore throat (finding)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+                                
+                            
+                                
+                            
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingExpansion">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpansion" aria-expanded="true" aria-controls="collapseExpansion">
+                        Expansion
+                    </button>
+                </h3>
+                <div id="collapseExpansion" class="accordion-collapse collapse show" aria-labelledby="headingExpansion">
+                    <div class="accordion-body">
+                        
+                            
+                        <table id="expansion-table" class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=267734002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">267734002</a></td>
+                                    <td>(Acute conjunctivitis) or (Newcastle's disease) or (viral pharyngoconjunctivitis) or (pink eye) or (sticky eye) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155162002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155162002</a></td>
+                                    <td>(Acute conjunctivitis) or (Newcastle's disease) or (viral pharyngoconjunctivitis) or (pink eye) or (sticky eye) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=154358007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">154358007</a></td>
+                                    <td>(Other coxsackie disease) or (herpangina) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266197009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266197009</a></td>
+                                    <td>(Other coxsackie disease) or (herpangina) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195658003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195658003</a></td>
+                                    <td>Acute bacterial pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195661002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195661002</a></td>
+                                    <td>Acute bacterial pharyngitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=623441000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">623441000000100</a></td>
+                                    <td>Acute bacterial pharyngitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195671000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195671000</a></td>
+                                    <td>Acute bacterial tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195674008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195674008</a></td>
+                                    <td>Acute bacterial tonsillitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=623461000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">623461000000104</a></td>
+                                    <td>Acute bacterial tonsillitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195669000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195669000</a></td>
+                                    <td>Acute catarrhal tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195666007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195666007</a></td>
+                                    <td>Acute erythematous tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195667003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195667003</a></td>
+                                    <td>Acute follicular tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195655000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195655000</a></td>
+                                    <td>Acute gangrenous pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195670004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195670004</a></td>
+                                    <td>Acute gangrenous tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=232399005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">232399005</a></td>
+                                    <td>Acute herpes simplex pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=232400003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">232400003</a></td>
+                                    <td>Acute herpes zoster pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1296672005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1296672005</a></td>
+                                    <td>Acute infective pharyngitis caused by Streptococcus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=55355000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">55355000</a></td>
+                                    <td>Acute laryngopharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=302911003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">302911003</a></td>
+                                    <td>Acute lingual tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=602893011000119101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">602893011000119101</a></td>
+                                    <td>Acute nasopharyngitis caused by respiratory syncytial virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=363746003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">363746003</a></td>
+                                    <td>Acute pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=27321001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">27321001</a></td>
+                                    <td>Acute pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195664005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195664005</a></td>
+                                    <td>Acute pharyngitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=607921000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">607921000000102</a></td>
+                                    <td>Acute pharyngitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=367427004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">367427004</a></td>
+                                    <td>Acute pharyngitis, NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195656004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195656004</a></td>
+                                    <td>Acute phlegmonous pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195659006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195659006</a></td>
+                                    <td>Acute pneumococcal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195672007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195672007</a></td>
+                                    <td>Acute pneumococcal tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195660001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195660001</a></td>
+                                    <td>Acute staphylococcal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195673002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195673002</a></td>
+                                    <td>Acute staphylococcal tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=17741008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">17741008</a></td>
+                                    <td>Acute tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155503001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155503001</a></td>
+                                    <td>Acute tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195678006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195678006</a></td>
+                                    <td>Acute tonsillitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=623471000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">623471000000106</a></td>
+                                    <td>Acute tonsillitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195657008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195657008</a></td>
+                                    <td>Acute ulcerative pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195668008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195668008</a></td>
+                                    <td>Acute ulcerative tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195662009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195662009</a></td>
+                                    <td>Acute viral pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195676005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195676005</a></td>
+                                    <td>Acute viral tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=78430008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">78430008</a></td>
+                                    <td>Adenoviral pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=70385007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">70385007</a></td>
+                                    <td>Adenoviral pharyngoconjunctivitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=703468005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">703468005</a></td>
+                                    <td>Bacterial tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=232403001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">232403001</a></td>
+                                    <td>Chlamydial pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186730008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186730008</a></td>
+                                    <td>Chlamydial pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=40766000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">40766000</a></td>
+                                    <td>Enteroviral lymphonodular pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=37428001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">37428001</a></td>
+                                    <td>Enteroviral vesicular pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=126664009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">126664009</a></td>
+                                    <td>Exudative pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=27878001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">27878001</a></td>
+                                    <td>Follicular tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186387001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186387001</a></td>
+                                    <td>Fusobacterial necrotising tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240444009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240444009</a></td>
+                                    <td>Fusobacterial necrotizing tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=399095008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">399095008</a></td>
+                                    <td>Fusospirochetal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=72430001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">72430001</a></td>
+                                    <td>Gangrenous pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=652005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">652005</a></td>
+                                    <td>Gangrenous tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=232401004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">232401004</a></td>
+                                    <td>Glandular fever pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186659004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186659004</a></td>
+                                    <td>Herpangina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=312422001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">312422001</a></td>
+                                    <td>Infective pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=312424000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">312424000</a></td>
+                                    <td>Infective tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=164261009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">164261009</a></td>
+                                    <td>Inflamed throat (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=141458004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">141458004</a></td>
+                                    <td>Inflamed throat (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=92971000087109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">92971000087109</a></td>
+                                    <td>Inflammation of pharynx caused by Streptococcus pyogenes (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195924009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195924009</a></td>
+                                    <td>Influenza with pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=84512003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">84512003</a></td>
+                                    <td>Influenzal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195804009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195804009</a></td>
+                                    <td>Lingular tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240547000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240547000</a></td>
+                                    <td>Lymphonodular coxsackie pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=232402006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">232402006</a></td>
+                                    <td>Meningococcal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=95885008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">95885008</a></td>
+                                    <td>Mycoplasmal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=20906004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">20906004</a></td>
+                                    <td>Mycosis leptothrica (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=234528007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">234528007</a></td>
+                                    <td>Nasopharyngeal sarcoidosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=51476001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">51476001</a></td>
+                                    <td>Nasopharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=141453008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">141453008</a></td>
+                                    <td>O/E - follicular tonsillitis (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=164256007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">164256007</a></td>
+                                    <td>On examination - follicular tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=126665005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">126665005</a></td>
+                                    <td>Oropharyngeal mucositis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=139668004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">139668004</a></td>
+                                    <td>Pain in throat (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=78911000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">78911000</a></td>
+                                    <td>Parainfluenza virus pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=59221008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">59221008</a></td>
+                                    <td>Parainfluenza virus rhinopharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=405737000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">405737000</a></td>
+                                    <td>Pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=37616004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">37616004</a></td>
+                                    <td>Pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195709006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195709006</a></td>
+                                    <td>Pharyngolaryngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=878818001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">878818001</a></td>
+                                    <td>Pharyngotonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=721586007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">721586007</a></td>
+                                    <td>Pharyngotonsillitis caused by Human herpes simplex virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=59471009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">59471009</a></td>
+                                    <td>Phlegmonous pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=76651006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">76651006</a></td>
+                                    <td>Pneumococcal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=111816002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">111816002</a></td>
+                                    <td>Pneumococcal tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=31309002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">31309002</a></td>
+                                    <td>Respiratory syncytial virus pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266213004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266213004</a></td>
+                                    <td>Spirochaete disease: [other venereal] or [Vincent's angina] or [chancroid] or [leptospirosis] or [lymphogranuloma venereum] or [trench mouth] or [Weil's disease] or [Yaws] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=82228008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">82228008</a></td>
+                                    <td>Staphylococcal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=11461005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">11461005</a></td>
+                                    <td>Staphylococcal tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186358002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186358002</a></td>
+                                    <td>Streptococcal angina (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186360000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186360000</a></td>
+                                    <td>Streptococcal pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=43878008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">43878008</a></td>
+                                    <td>Streptococcal sore throat (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=154302004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">154302004</a></td>
+                                    <td>Streptococcal sore throat (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186361001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186361001</a></td>
+                                    <td>Streptococcal sore throat NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=538321000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">538321000000103</a></td>
+                                    <td>Streptococcal sore throat NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=41582007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">41582007</a></td>
+                                    <td>Streptococcal tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=58031004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">58031004</a></td>
+                                    <td>Suppurative pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10351008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10351008</a></td>
+                                    <td>Suppurative tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=162386003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">162386003</a></td>
+                                    <td>Throat soreness (& symptom) (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266379007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266379007</a></td>
+                                    <td>Throat: [acute pharyngitis] or [infection NOS] or [sore] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155502006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155502006</a></td>
+                                    <td>Throat: [acute pharyngitis] or [infection NOS] or [sore] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195654001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195654001</a></td>
+                                    <td>Throat: [acute pharyngitis] or [sore NOS (& viral)] or [infection] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195665006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195665006</a></td>
+                                    <td>Tonsillitis (& acute) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=90176007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">90176007</a></td>
+                                    <td>Tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=415724006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">415724006</a></td>
+                                    <td>Tonsillitis caused by Gram negative bacteria (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195707008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195707008</a></td>
+                                    <td>Tracheopharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=39271004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">39271004</a></td>
+                                    <td>Ulcerative pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=14465002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">14465002</a></td>
+                                    <td>Ulcerative tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186963008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186963008</a></td>
+                                    <td>Vincent's angina - pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266146001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266146001</a></td>
+                                    <td>Vincent's angina NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=686051000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">686051000000106</a></td>
+                                    <td>Vincent's angina NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=232417005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">232417005</a></td>
+                                    <td>Vincent's tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186964002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186964002</a></td>
+                                    <td>Vincent's: [angina NOS] or [laryngitis] or [tonsillitis] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1532007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1532007</a></td>
+                                    <td>Viral pharyngitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186675001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186675001</a></td>
+                                    <td>Viral pharyngoconjunctivitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=51209006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">51209006</a></td>
+                                    <td>Viral tonsillitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=196197003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">196197003</a></td>
+                                    <td>[X]Acute pharyngitis due to other specified organisms (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=427821000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">427821000000103</a></td>
+                                    <td>[X]Acute pharyngitis due to other specified organisms (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=452761000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">452761000000100</a></td>
+                                    <td>[X]Acute tonsillitis due to other specified organisms (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=196198008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">196198008</a></td>
+                                    <td>[X]Acute tonsillitis due to other specified organisms (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=196226007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">196226007</a></td>
+                                    <td>[X]Other abscess of pharynx (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=402101000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">402101000000108</a></td>
+                                    <td>[X]Other abscess of pharynx (disorder)</td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof DataTable === "undefined") {
+                console.error("DataTables failed to load. Check CDN accessibility and script order.");
+                return;
+            }
+
+            var tables = document.querySelectorAll("#codelistAccordion table");
+            var instances = [];
+
+            tables.forEach(function (table) {
+                if (!table.querySelector("thead")) {
+                    return;
+                }
+
+                table.classList.add("js-datatable");
+                var dt = new DataTable(table, {
+                    order: [[1, "asc"]],
+                    autoWidth: false,
+                    pageLength: 25,
+                    lengthMenu: [10, 25, 50, 100],
+                    layout: {
+                        topStart: ["pageLength", "info"],
+                        topEnd: ["search", "paging"],
+                        bottomStart: null,
+                        bottomEnd: null,
+                    },
+                });
+
+                function togglePagingUi() {
+                    var info = dt.page.info();
+                    var container = dt.table().container();
+                    var paging = container.querySelector(".dt-paging");
+                    var length = container.querySelector(".dt-length");
+                    var showControls = info.pages > 1;
+
+                    if (paging) {
+                        paging.style.display = showControls ? "" : "none";
+                    }
+                    if (length) {
+                        length.style.display = showControls ? "" : "none";
+                    }
+                }
+
+                dt.on("draw", togglePagingUi);
+                togglePagingUi();
+                dt.columns.adjust();
+
+                if (table.id === "expansion-table") {
+                    var container = dt.table().container();
+                    var searchControl = container.querySelector(".dt-search");
+                    if (searchControl && !container.querySelector(".expansion-download-control")) {
+                        if (searchControl.parentNode) {
+                            searchControl.parentNode.classList.add("expansion-toolbar-inline");
+                        }
+
+                        var downloadWrap = document.createElement("div");
+                        downloadWrap.className = "expansion-download-control";
+
+                        var downloadLink = document.createElement("a");
+                        downloadLink.className = "btn btn-sm btn-outline-primary";
+                        downloadLink.href = "../codelists_for_download";
+                        downloadLink.download = "RSC-C7208.txt";
+                        downloadLink.textContent = "Download expansion";
+
+                        downloadWrap.appendChild(downloadLink);
+                        searchControl.parentNode.insertBefore(downloadWrap, searchControl);
+                    }
+                }
+
+                instances.push({ table: table, dt: dt });
+            });
+
+            document.querySelectorAll(".accordion-collapse").forEach(function (panel) {
+                panel.addEventListener("shown.bs.collapse", function () {
+                    instances.forEach(function (instance) {
+                        if (panel.contains(instance.table)) {
+                            instance.dt.columns.adjust();
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

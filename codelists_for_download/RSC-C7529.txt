@@ -1,0 +1,4 @@
+concept_id	term
+1303503001	Administration of vaccine product containing only Human orthopneumovirus antigen (procedure)
+1853491000000104	Administration of vaccine product containing only Human orthopneumovirus antigen (procedure)
+71191000119100	Respiratory syncytial virus vaccination given (situation)

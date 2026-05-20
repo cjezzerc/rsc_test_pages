@@ -1,0 +1,71 @@
+concept_id	term
+161926007	(Coughing up phlegm) or (productive cough NOS) (finding)
+195742007	Acute lower respiratory tract infection (disorder)
+312119006	Bacterial lower respiratory infection (disorder)
+79451004	Bronchial breathing (finding)
+709461000000101	Brown sputum
+277910004	Brown sputum (finding)
+195747001	Chest cold (disorder)
+155625003	Chest infection (& NOS) (disorder)
+195744008	Chest infection (& NOS) (disorder)
+419502003	Chest infection (disorder)
+266339003	Chest infection NOS (disorder)
+701361000000105	Chest infection NOS (disorder)
+139186002	Chesty cough (finding)
+161929000	Chesty cough (finding)
+709501000000101	Copious sputum
+248599002	Copious sputum (finding)
+860751000000102	Dark green sputum 
+860741000000100	Dark green sputum (finding)
+248605009	Dirty sputum (finding)
+84659003	Feline pneumonitis (disorder)
+277900008	Gray sputum (finding)
+80581000000100	Green sputum
+76321000000102	Green sputum
+42621000000109	Green sputum
+40311000000106	Green sputum
+277908001	Green sputum (finding)
+779161000000100	Grey sputum
+155626002	Infection of lower respiratory tract (disorder)
+275497007	Infection of lower respiratory tract and mediastinum (disorder)
+880529761000119102	Infection of lower respiratory tract caused by severe acute respiratory syndrome coronavirus 2 (disorder)
+62877002	Infectious canine tracheobronchitis (disorder)
+128601007	Infectious disease of lung (disorder)
+7238003	Jaagziekte (disorder)
+50417007	Lower respiratory tract infection (disorder)
+709511000000104	Moderate sputum
+248600004	Moderate sputum (finding)
+145219002	Mucopurulent sputum (finding)
+8955008	Mucopurulent sputum (finding)
+140166009	O/E - bronchial breathing (finding)
+140167000	O/E - tubular breathing (finding)
+162951005	On examination - bronchial breathing (finding)
+162952003	On examination - tubular breathing (context-dependent category)
+860771000000106	Pale green sputum 
+860761000000104	Pale green sputum (finding)
+28743005	Productive cough (finding)
+161924005	Productive cough -green sputum (finding)
+139181007	Productive cough -green sputum (finding)
+267034005	Productive cough NOS (finding)
+139183005	Productive cough NOS (finding)
+677011000000103	Productive cough NOS (finding)
+139182000	Productive cough-yellow sputum (finding)
+161925006	Productive cough-yellow sputum (finding)
+42192008	Purulent sputum (finding)
+274400006	Pus in sputum O/E (finding)
+195745009	Respiratory tract infection (& [acute lower] or [lower]) (disorder)
+24816000	Rusty sputum (finding)
+271827002	Sputum abnormal - color (finding)
+277903005	Thick sputum (finding)
+312134000	Viral lower respiratory infection (disorder)
+80571000000102	Yellow sputum
+76311000000108	Yellow sputum
+40301000000109	Yellow sputum
+42611000000103	Yellow sputum
+277907006	Yellow sputum (finding)
+207074006	[D]Sputum abnormal - color (situation)
+158390006	[D]Sputum abnormal - colour (situation)
+498121000000104	[D]Sputum abnormal - colour (situation)
+196214002	[X]Other acute lower respiratory infections (disorder)
+412671000000108	[X]Other acute lower respiratory infections (disorder)
+196248001	[X]Suppurative and necrotic conditions of the lower respiratory tract (disorder)

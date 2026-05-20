@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSC Codelist RSC-C1060</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/shared.css">
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.css">
+    <style>
+        .accordion-button {
+            justify-content: flex-start;
+        }
+
+        .accordion-button::after {
+            display: none;
+        }
+
+        .accordion-button::before {
+            content: "▸";
+            display: inline-block;
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .accordion-button:not(.collapsed)::before {
+            content: "▾";
+        }
+
+        .dt-container {
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+
+        #codelistAccordion table.dataTable,
+        #codelistAccordion table.js-datatable {
+            width: 100% !important;
+        }
+
+        .expansion-download-control {
+            margin-right: 0.5rem;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .expansion-toolbar-inline {
+            display: flex !important;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
+        .expansion-toolbar-inline .dt-search {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="top-nav-banner d-flex align-items-center">
+        <div class="container">
+            <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
+                <img class="rsc-mark" src="../images/rsc_image.png" alt="RSC repository banner">
+                <div class="top-nav-links d-flex flex-column align-items-end py-1">
+                    <div class="d-flex gap-4">
+                        
+                        <a href="../phenotypes_index.html">Phenotype Index</a>
+                        
+                        
+                        <a href="../codelists_index.html">Codelist Index</a>
+                        
+                    </div>
+                    <span class="top-nav-sha">time_stamp: 20260520_1452 authoring: 4dbf221 renderer: 61fdb69</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prototype-warning-banner">
+        PROTOTYPE SITE UNDER CONSTRUCTION: DATA HAS NOT BEEN REVIEWED
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <h1 class="mt-4 mb-2">RSC Codelist: RSC-C1060</h1>
+        <h2 class="h5 text-muted mb-4">Title: Herpes Zoster (Shingles)</h2>
+
+        <div class="accordion" id="codelistAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingDescription">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                        Authored metadata
+                    </button>
+                </h3>
+                <div id="collapseDescription" class="accordion-collapse collapse show" aria-labelledby="headingDescription">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>Herpes Zoster (Shingles)</h1>
+<h2>Brief description</h2>
+<p>SNOMED codes recording cases of herpes zoster (shingles)</p>
+<h2>Notes</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingLogicalDefinition">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogicalDefinition" aria-expanded="true" aria-controls="collapseLogicalDefinition">
+                        Logical Definition
+                    </button>
+                </h3>
+                <div id="collapseLogicalDefinition" class="accordion-collapse collapse show" aria-labelledby="headingLogicalDefinition">
+                    <div class="accordion-body">
+                        
+                            
+                            <h4 class="mt-1">Include the following concepts and their descendants:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=4740000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">4740000</a></td>
+                                        <td>Herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=400020001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">400020001</a></td>
+                                        <td>Herpes zoster dermatitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=416718008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">416718008</a></td>
+                                        <td>Infection of skin of eyelid due to herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=76462000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">76462000</a></td>
+                                        <td>Post-herpetic polyneuropathy (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1087131000119102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1087131000119102</a></td>
+                                        <td>Scleritis due to herpes zoster (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+                            <h4 class="mt-4">Include the following concepts:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=230262004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">230262004</a></td>
+                                        <td>Amyotrophy caused by herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=424353002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">424353002</a></td>
+                                        <td>Corneal haze caused by herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=55560002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">55560002</a></td>
+                                        <td>Disseminated herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=230176008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">230176008</a></td>
+                                        <td>Herpes zoster encephalitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=422127002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">422127002</a></td>
+                                        <td>Herpes zoster with acquired immunodeficiency syndrome (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1163483009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1163483009</a></td>
+                                        <td>Infection of eyelid due to herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15991791000119104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15991791000119104</a></td>
+                                        <td>Iritis of left eye caused by herpes zoster virus (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15991711000119108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15991711000119108</a></td>
+                                        <td>Iritis of right eye caused by herpes zoster virus (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240473007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240473007</a></td>
+                                        <td>Mandibular herpes zoster infection (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240472002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240472002</a></td>
+                                        <td>Maxillary herpes zoster infection (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10491005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10491005</a></td>
+                                        <td>Meningitis caused by Human alphaherpesvirus 3 (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=870321008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">870321008</a></td>
+                                        <td>Ocular nerve palsy caused by Herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=36292003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">36292003</a></td>
+                                        <td>Otitis externa caused by Herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=193190005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">193190005</a></td>
+                                        <td>Polyneuropathy in herpes zoster (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=17974002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">17974002</a></td>
+                                        <td>Post-herpetic trigeminal neuralgia (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=2177002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">2177002</a></td>
+                                        <td>Postherpetic neuralgia (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=449783002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">449783002</a></td>
+                                        <td>Zoster sine herpete (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+
+                            
+
+                            
+                                
+                            
+                                
+                            
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingExpansion">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpansion" aria-expanded="true" aria-controls="collapseExpansion">
+                        Expansion
+                    </button>
+                </h3>
+                <div id="collapseExpansion" class="accordion-collapse collapse show" aria-labelledby="headingExpansion">
+                    <div class="accordion-body">
+                        
+                            
+                        <table id="expansion-table" class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186518000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186518000</a></td>
+                                    <td>(Geniculate herpes zoster) or (Ramsey Hunt syndrome) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=87014001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">87014001</a></td>
+                                    <td>AIDS with herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=423628002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">423628002</a></td>
+                                    <td>Acute herpes zoster neuropathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=230536009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">230536009</a></td>
+                                    <td>Acute trigeminal herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=230262004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">230262004</a></td>
+                                    <td>Amyotrophy caused by herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15989311000119107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15989311000119107</a></td>
+                                    <td>Conjunctivitis of bilateral eyes caused by herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15989351000119108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15989351000119108</a></td>
+                                    <td>Conjunctivitis of left eye caused by herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15989271000119107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15989271000119107</a></td>
+                                    <td>Conjunctivitis of right eye caused by herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=424353002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">424353002</a></td>
+                                    <td>Corneal haze caused by herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=12551000132107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">12551000132107</a></td>
+                                    <td>Cranial neuropathy due to Herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=55560002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">55560002</a></td>
+                                    <td>Disseminated herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186530006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186530006</a></td>
+                                    <td>Disseminated zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186529001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186529001</a></td>
+                                    <td>Geniculate herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=154330004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">154330004</a></td>
+                                    <td>Geniculate herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=4740000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">4740000</a></td>
+                                    <td>Herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186533008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186533008</a></td>
+                                    <td>Herpes zoster NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=664671000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">664671000000102</a></td>
+                                    <td>Herpes zoster NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186514003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186514003</a></td>
+                                    <td>Herpes zoster [organism] or [infection - shingles] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=422471006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">422471006</a></td>
+                                    <td>Herpes zoster acute retinal necrosis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=21954000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">21954000</a></td>
+                                    <td>Herpes zoster auricularis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=410509003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">410509003</a></td>
+                                    <td>Herpes zoster conjunctivitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=424801004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">424801004</a></td>
+                                    <td>Herpes zoster corneal endotheliitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=400020001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">400020001</a></td>
+                                    <td>Herpes zoster dermatitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=67337008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">67337008</a></td>
+                                    <td>Herpes zoster dermatitis of eyelids (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=230176008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">230176008</a></td>
+                                    <td>Herpes zoster encephalitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186521003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186521003</a></td>
+                                    <td>Herpes zoster encephalitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=192692005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">192692005</a></td>
+                                    <td>Herpes zoster encephalitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=154326002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">154326002</a></td>
+                                    <td>Herpes zoster infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=426570007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">426570007</a></td>
+                                    <td>Herpes zoster interstitial keratitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=402897003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">402897003</a></td>
+                                    <td>Herpes zoster involving cervical dermatome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240471009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240471009</a></td>
+                                    <td>Herpes zoster involving lumbar dermatome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=402898008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">402898008</a></td>
+                                    <td>Herpes zoster involving sacral dermatome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240470005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240470005</a></td>
+                                    <td>Herpes zoster involving thoracic dermatome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=410500004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">410500004</a></td>
+                                    <td>Herpes zoster involving tip of nose (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10698009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10698009</a></td>
+                                    <td>Herpes zoster iridocyclitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=331071000119101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">331071000119101</a></td>
+                                    <td>Herpes zoster iritis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=397573005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">397573005</a></td>
+                                    <td>Herpes zoster keratitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=42448002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">42448002</a></td>
+                                    <td>Herpes zoster keratoconjunctivitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=87513003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">87513003</a></td>
+                                    <td>Herpes zoster ophthalmicus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=424435009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">424435009</a></td>
+                                    <td>Herpes zoster pseudodendrites (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=421029004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">421029004</a></td>
+                                    <td>Herpes zoster retinitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=422446008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">422446008</a></td>
+                                    <td>Herpes zoster subepithelial infiltrates (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=422127002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">422127002</a></td>
+                                    <td>Herpes zoster with acquired immunodeficiency syndrome (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=49183009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">49183009</a></td>
+                                    <td>Herpes zoster with complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186525007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186525007</a></td>
+                                    <td>Herpes zoster with dermatitis of eyelid (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=111861003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">111861003</a></td>
+                                    <td>Herpes zoster with nervous system complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186524006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186524006</a></td>
+                                    <td>Herpes zoster with ophthalmic complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266099009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266099009</a></td>
+                                    <td>Herpes zoster with other central nervous system complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186517005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186517005</a></td>
+                                    <td>Herpes zoster with other central nervous system complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=695481000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">695481000000101</a></td>
+                                    <td>Herpes zoster with other central nervous system complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186523000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186523000</a></td>
+                                    <td>Herpes zoster with other central nervous system complication NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=646001000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">646001000000102</a></td>
+                                    <td>Herpes zoster with other central nervous system complication NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=111862005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">111862005</a></td>
+                                    <td>Herpes zoster with other complications (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=111860002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">111860002</a></td>
+                                    <td>Herpes zoster with other nervous system complications (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186527004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186527004</a></td>
+                                    <td>Herpes zoster with other ophthalmic complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=664631000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">664631000000104</a></td>
+                                    <td>Herpes zoster with other ophthalmic complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186528009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186528009</a></td>
+                                    <td>Herpes zoster with other specified complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=664641000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">664641000000108</a></td>
+                                    <td>Herpes zoster with other specified complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186531005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186531005</a></td>
+                                    <td>Herpes zoster with other specified complication NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=646011000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">646011000000100</a></td>
+                                    <td>Herpes zoster with other specified complication NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186532003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186532003</a></td>
+                                    <td>Herpes zoster with unspecified complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=646021000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">646021000000106</a></td>
+                                    <td>Herpes zoster with unspecified complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=111859007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">111859007</a></td>
+                                    <td>Herpes zoster without complication (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=512281000000101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">512281000000101</a></td>
+                                    <td>Hutchinson's sign - herpes zoster involving nose tip </td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=512271000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">512271000000103</a></td>
+                                    <td>Hutchinson's sign - herpes zoster involving nose tip (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=713733003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">713733003</a></td>
+                                    <td>Infection caused by herpes zoster virus co-occurrent with human immunodeficiency virus infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1163483009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1163483009</a></td>
+                                    <td>Infection of eyelid due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15681361000119105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15681361000119105</a></td>
+                                    <td>Infection of skin of bilateral eyelids due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=416718008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">416718008</a></td>
+                                    <td>Infection of skin of eyelid due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=282742004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">282742004</a></td>
+                                    <td>Intercostal post-herpetic neuritis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15685241000119103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15685241000119103</a></td>
+                                    <td>Interstitial keratitis of bilateral eyes caused by Human alphaherpesvirus 3 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15685201000119100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15685201000119100</a></td>
+                                    <td>Interstitial keratitis of left eye caused by Herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15685281000119108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15685281000119108</a></td>
+                                    <td>Interstitial keratitis of right eye caused by Herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15678841000119100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15678841000119100</a></td>
+                                    <td>Iridocyclitis of bilateral eyes caused by Human alphaherpesvirus 3 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15991791000119104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15991791000119104</a></td>
+                                    <td>Iritis of left eye caused by herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15991711000119108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15991711000119108</a></td>
+                                    <td>Iritis of right eye caused by herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15992311000119100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15992311000119100</a></td>
+                                    <td>Keratitis of left eye due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15992271000119100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15992271000119100</a></td>
+                                    <td>Keratitis of right eye due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=15680281000119103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">15680281000119103</a></td>
+                                    <td>Keratoconjunctivitis of bilateral eyes caused by Human alphaherpesvirus 3 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240473007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240473007</a></td>
+                                    <td>Mandibular herpes zoster infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240472002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240472002</a></td>
+                                    <td>Maxillary herpes zoster infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10491005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10491005</a></td>
+                                    <td>Meningitis caused by Human alphaherpesvirus 3 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=230147005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">230147005</a></td>
+                                    <td>Meningitis due to herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186515002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186515002</a></td>
+                                    <td>Meningitis due to herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=192670006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">192670006</a></td>
+                                    <td>Meningitis due to herpes zoster virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=240474001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">240474001</a></td>
+                                    <td>Multidermatomal herpes zoster infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=713964006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">713964006</a></td>
+                                    <td>Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=870321008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">870321008</a></td>
+                                    <td>Ocular nerve palsy caused by Herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=154328001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">154328001</a></td>
+                                    <td>Ophthalmic herpes zoster infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186526008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186526008</a></td>
+                                    <td>Ophthalmic herpes zoster infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=286875003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">286875003</a></td>
+                                    <td>Other herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=154331000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">154331000</a></td>
+                                    <td>Other herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=690651000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">690651000000102</a></td>
+                                    <td>Other herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=36292003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">36292003</a></td>
+                                    <td>Otitis externa caused by Herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=193190005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">193190005</a></td>
+                                    <td>Polyneuropathy in herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=154327006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">154327006</a></td>
+                                    <td>Post-herpetic neuralgia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186522005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186522005</a></td>
+                                    <td>Post-herpetic neuralgia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186520002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186520002</a></td>
+                                    <td>Post-herpetic polyneuropathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=76462000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">76462000</a></td>
+                                    <td>Post-herpetic polyneuropathy (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=17974002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">17974002</a></td>
+                                    <td>Post-herpetic trigeminal neuralgia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=186519008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">186519008</a></td>
+                                    <td>Post-herpetic trigeminal neuralgia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=2177002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">2177002</a></td>
+                                    <td>Postherpetic neuralgia (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1087131000119102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1087131000119102</a></td>
+                                    <td>Scleritis due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=16000751000119105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">16000751000119105</a></td>
+                                    <td>Scleritis of bilateral eyes due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=16000791000119100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">16000791000119100</a></td>
+                                    <td>Scleritis of left eye due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=16000831000119106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">16000831000119106</a></td>
+                                    <td>Scleritis of right eye due to herpes zoster (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=449783002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">449783002</a></td>
+                                    <td>Zoster sine herpete (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=187421005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">187421005</a></td>
+                                    <td>[X]Zoster with other complications (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=450641000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">450641000000108</a></td>
+                                    <td>[X]Zoster with other complications (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=187422003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">187422003</a></td>
+                                    <td>[X]Zoster without complications (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=450651000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">450651000000106</a></td>
+                                    <td>[X]Zoster without complications (disorder)</td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof DataTable === "undefined") {
+                console.error("DataTables failed to load. Check CDN accessibility and script order.");
+                return;
+            }
+
+            var tables = document.querySelectorAll("#codelistAccordion table");
+            var instances = [];
+
+            tables.forEach(function (table) {
+                if (!table.querySelector("thead")) {
+                    return;
+                }
+
+                table.classList.add("js-datatable");
+                var dt = new DataTable(table, {
+                    order: [[1, "asc"]],
+                    autoWidth: false,
+                    pageLength: 25,
+                    lengthMenu: [10, 25, 50, 100],
+                    layout: {
+                        topStart: ["pageLength", "info"],
+                        topEnd: ["search", "paging"],
+                        bottomStart: null,
+                        bottomEnd: null,
+                    },
+                });
+
+                function togglePagingUi() {
+                    var info = dt.page.info();
+                    var container = dt.table().container();
+                    var paging = container.querySelector(".dt-paging");
+                    var length = container.querySelector(".dt-length");
+                    var showControls = info.pages > 1;
+
+                    if (paging) {
+                        paging.style.display = showControls ? "" : "none";
+                    }
+                    if (length) {
+                        length.style.display = showControls ? "" : "none";
+                    }
+                }
+
+                dt.on("draw", togglePagingUi);
+                togglePagingUi();
+                dt.columns.adjust();
+
+                if (table.id === "expansion-table") {
+                    var container = dt.table().container();
+                    var searchControl = container.querySelector(".dt-search");
+                    if (searchControl && !container.querySelector(".expansion-download-control")) {
+                        if (searchControl.parentNode) {
+                            searchControl.parentNode.classList.add("expansion-toolbar-inline");
+                        }
+
+                        var downloadWrap = document.createElement("div");
+                        downloadWrap.className = "expansion-download-control";
+
+                        var downloadLink = document.createElement("a");
+                        downloadLink.className = "btn btn-sm btn-outline-primary";
+                        downloadLink.href = "../codelists_for_download";
+                        downloadLink.download = "RSC-C1060.txt";
+                        downloadLink.textContent = "Download expansion";
+
+                        downloadWrap.appendChild(downloadLink);
+                        searchControl.parentNode.insertBefore(downloadWrap, searchControl);
+                    }
+                }
+
+                instances.push({ table: table, dt: dt });
+            });
+
+            document.querySelectorAll(".accordion-collapse").forEach(function (panel) {
+                panel.addEventListener("shown.bs.collapse", function () {
+                    instances.forEach(function (instance) {
+                        if (panel.contains(instance.table)) {
+                            instance.dt.columns.adjust();
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

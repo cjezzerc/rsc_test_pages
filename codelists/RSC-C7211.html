@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSC Codelist RSC-C7211</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/shared.css">
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.css">
+    <style>
+        .accordion-button {
+            justify-content: flex-start;
+        }
+
+        .accordion-button::after {
+            display: none;
+        }
+
+        .accordion-button::before {
+            content: "▸";
+            display: inline-block;
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .accordion-button:not(.collapsed)::before {
+            content: "▾";
+        }
+
+        .dt-container {
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+
+        #codelistAccordion table.dataTable,
+        #codelistAccordion table.js-datatable {
+            width: 100% !important;
+        }
+
+        .expansion-download-control {
+            margin-right: 0.5rem;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .expansion-toolbar-inline {
+            display: flex !important;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
+        .expansion-toolbar-inline .dt-search {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="top-nav-banner d-flex align-items-center">
+        <div class="container">
+            <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
+                <img class="rsc-mark" src="../images/rsc_image.png" alt="RSC repository banner">
+                <div class="top-nav-links d-flex flex-column align-items-end py-1">
+                    <div class="d-flex gap-4">
+                        
+                        <a href="../phenotypes_index.html">Phenotype Index</a>
+                        
+                        
+                        <a href="../codelists_index.html">Codelist Index</a>
+                        
+                    </div>
+                    <span class="top-nav-sha">time_stamp: 20260520_1452 authoring: 4dbf221 renderer: 61fdb69</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prototype-warning-banner">
+        PROTOTYPE SITE UNDER CONSTRUCTION: DATA HAS NOT BEEN REVIEWED
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <h1 class="mt-4 mb-2">RSC Codelist: RSC-C7211</h1>
+        <h2 class="h5 text-muted mb-4">Title: ARI Acute Bronchitis</h2>
+
+        <div class="accordion" id="codelistAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingDescription">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                        Authored metadata
+                    </button>
+                </h3>
+                <div id="collapseDescription" class="accordion-collapse collapse show" aria-labelledby="headingDescription">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>ARI Acute Bronchitis</h1>
+<h2>Brief description</h2>
+<p>SNOMED codes recording cases of acute bronchitis</p>
+<h2>Notes</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingLogicalDefinition">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogicalDefinition" aria-expanded="true" aria-controls="collapseLogicalDefinition">
+                        Logical Definition
+                    </button>
+                </h3>
+                <div id="collapseLogicalDefinition" class="accordion-collapse collapse show" aria-labelledby="headingLogicalDefinition">
+                    <div class="accordion-body">
+                        
+                            
+                            <h4 class="mt-1">Include the following concepts and their descendants:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=32398004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">32398004</a></td>
+                                        <td>Bronchitis (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+
+                            
+                            <h4 class="mt-4">Exclude the following concepts and their descendants:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=281647001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">281647001</a></td>
+                                        <td>Adverse reaction (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=85828009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">85828009</a></td>
+                                        <td>Autoimmune disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=4120002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">4120002</a></td>
+                                        <td>Bronchiolitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=27624003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">27624003</a></td>
+                                        <td>Chronic disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=66091009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">66091009</a></td>
+                                        <td>Congenital disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=312087002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">312087002</a></td>
+                                        <td>Disorder following clinical procedure (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=414025005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">414025005</a></td>
+                                        <td>Fetal and/or neonatal disorder (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=443138004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">443138004</a></td>
+                                        <td>Granulomatosis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=408678008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">408678008</a></td>
+                                        <td>Healthcare associated infectious disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=473010000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">473010000</a></td>
+                                        <td>Hypersensitivity condition (finding)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=41969006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">41969006</a></td>
+                                        <td>Idiopathic disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=85915003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">85915003</a></td>
+                                        <td>Laryngotracheobronchitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=3218000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">3218000</a></td>
+                                        <td>Mycosis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=399981008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">399981008</a></td>
+                                        <td>Neoplasm and/or hamartoma (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=17322007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">17322007</a></td>
+                                        <td>Parasitic disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=233604007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">233604007</a></td>
+                                        <td>Pneumonia (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=441456002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">441456002</a></td>
+                                        <td>Polyp (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=846640007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">846640007</a></td>
+                                        <td>Respiratory condition caused by chemical fumes (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=846641006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">846641006</a></td>
+                                        <td>Respiratory condition caused by vapor (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=56717001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">56717001</a></td>
+                                        <td>Tuberculosis (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+                            <h4 class="mt-4">Exclude the following concepts:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266403005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266403005</a></td>
+                                        <td>Acute chemical bronchitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=735464006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">735464006</a></td>
+                                        <td>Acute noninfective bronchitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10625791000119101&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10625791000119101</a></td>
+                                        <td>Bronchitis caused by chemical (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=733497009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">733497009</a></td>
+                                        <td>Chronic suppuration of bronchus (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=866901000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">866901000000103</a></td>
+                                        <td>Eosinophilic bronchitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=27836007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">27836007</a></td>
+                                        <td>Pertussis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=53926002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">53926002</a></td>
+                                        <td>Plastic bronchitis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=36426008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">36426008</a></td>
+                                        <td>Subacute bronchitis (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+                                
+                            
+                                
+                            
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingExpansion">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpansion" aria-expanded="true" aria-controls="collapseExpansion">
+                        Expansion
+                    </button>
+                </h3>
+                <div id="collapseExpansion" class="accordion-collapse collapse show" aria-labelledby="headingExpansion">
+                    <div class="accordion-body">
+                        
+                            
+                        <table id="expansion-table" class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195722003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195722003</a></td>
+                                    <td>Acute Moraxella catarrhalis bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=233598009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">233598009</a></td>
+                                    <td>Acute bacterial bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195732005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195732005</a></td>
+                                    <td>Acute bacterial bronchitis unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=651951000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">651951000000105</a></td>
+                                    <td>Acute bacterial bronchitis unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195713004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195713004</a></td>
+                                    <td>Acute bronchitis (& wheezy) (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10509002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10509002</a></td>
+                                    <td>Acute bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195733000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195733000</a></td>
+                                    <td>Acute bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155515002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155515002</a></td>
+                                    <td>Acute bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=621011000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">621011000000106</a></td>
+                                    <td>Acute bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195721005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195721005</a></td>
+                                    <td>Acute bronchitis caused by Haemophilus influenzae (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10629151000119105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10629151000119105</a></td>
+                                    <td>Acute bronchitis caused by coxsackievirus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195728004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195728004</a></td>
+                                    <td>Acute bronchitis caused by rhinovirus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=138389411000119105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">138389411000119105</a></td>
+                                    <td>Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=714203003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">714203003</a></td>
+                                    <td>Acute bronchitis co-occurrent with bronchiectasis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=785745000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">785745000</a></td>
+                                    <td>Acute bronchitis co-occurrent with wheeze (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195743002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195743002</a></td>
+                                    <td>Acute bronchitis or bronchiolitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=705871000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">705871000000109</a></td>
+                                    <td>Acute bronchitis or bronchiolitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=80257001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">80257001</a></td>
+                                    <td>Acute bronchitis with bronchospasm (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=5875001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">5875001</a></td>
+                                    <td>Acute bronchitis with obstruction (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=233600003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">233600003</a></td>
+                                    <td>Acute chlamydial bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195725001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195725001</a></td>
+                                    <td>Acute coxsackievirus bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195718008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195718008</a></td>
+                                    <td>Acute croupous bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195729007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195729007</a></td>
+                                    <td>Acute echovirus bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195714005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195714005</a></td>
+                                    <td>Acute fibrinous bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=312371005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">312371005</a></td>
+                                    <td>Acute infective bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=312400008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">312400008</a></td>
+                                    <td>Acute infective tracheobronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266340001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266340001</a></td>
+                                    <td>Acute lower respiratory tract infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155514003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155514003</a></td>
+                                    <td>Acute lower respiratory tract infection (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195715006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195715006</a></td>
+                                    <td>Acute membranous bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195723008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195723008</a></td>
+                                    <td>Acute mycoplasmal bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=233599001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">233599001</a></td>
+                                    <td>Acute mycoplasmal bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195726000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195726000</a></td>
+                                    <td>Acute parainfluenza virus bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195719000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195719000</a></td>
+                                    <td>Acute pneumococcal bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195716007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195716007</a></td>
+                                    <td>Acute pseudomembranous bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195717003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195717003</a></td>
+                                    <td>Acute purulent bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195727009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195727009</a></td>
+                                    <td>Acute respiratory syncytial virus bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195720006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195720006</a></td>
+                                    <td>Acute streptococcal bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=233799004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">233799004</a></td>
+                                    <td>Acute toxic tracheobronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=35301006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">35301006</a></td>
+                                    <td>Acute tracheobronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=233601004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">233601004</a></td>
+                                    <td>Acute viral bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195731003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195731003</a></td>
+                                    <td>Acute viral bronchitis unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=651941000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">651941000000107</a></td>
+                                    <td>Acute viral bronchitis unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=275499005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">275499005</a></td>
+                                    <td>Acute wheezy bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266380005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266380005</a></td>
+                                    <td>Acute: [bronchitis] or [chest infections] or [tracheobronchitis] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155512004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155512004</a></td>
+                                    <td>Acute: [bronchitis] or [chest infections] or [tracheobronchitis] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=111849006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">111849006</a></td>
+                                    <td>Adenoviral bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=405944004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">405944004</a></td>
+                                    <td>Asthmatic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=42002000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">42002000</a></td>
+                                    <td>Avian infectious bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=32398004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">32398004</a></td>
+                                    <td>Bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155616009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155616009</a></td>
+                                    <td>Bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195940007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195940007</a></td>
+                                    <td>Bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=649121000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">649121000000103</a></td>
+                                    <td>Bronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1163489008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1163489008</a></td>
+                                    <td>Bronchitis caused by Human metapneumovirus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=785744001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">785744001</a></td>
+                                    <td>Bronchitis co-occurrent with acute wheeze (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=785737005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">785737005</a></td>
+                                    <td>Bronchitis co-occurrent with chronic wheeze (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=785728005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">785728005</a></td>
+                                    <td>Bronchitis co-occurrent with wheeze (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=266354009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">266354009</a></td>
+                                    <td>Bronchitis unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=670561000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">670561000000106</a></td>
+                                    <td>Bronchitis unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=139217008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">139217008</a></td>
+                                    <td>C/O bronchial catarrh (finding)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=89549007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">89549007</a></td>
+                                    <td>Catarrhal bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=233597004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">233597004</a></td>
+                                    <td>Chest infection - unspecified bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=644261000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">644261000000103</a></td>
+                                    <td>Chest infection - unspecified bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=360470001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">360470001</a></td>
+                                    <td>Chronic mucus hypersecretion (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=62877002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">62877002</a></td>
+                                    <td>Infectious canine tracheobronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=95886009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">95886009</a></td>
+                                    <td>Mycoplasmal tracheobronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=27475006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">27475006</a></td>
+                                    <td>Parainfluenza virus bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=40600002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">40600002</a></td>
+                                    <td>Pneumococcal bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=29591002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">29591002</a></td>
+                                    <td>Purulent bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1078242009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1078242009</a></td>
+                                    <td>Recurrent bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=79479005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">79479005</a></td>
+                                    <td>Respiratory syncytial virus bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=65878001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">65878001</a></td>
+                                    <td>Septic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195941006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195941006</a></td>
+                                    <td>Simple chronic bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195730002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195730002</a></td>
+                                    <td>Subacute bronchitis unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=651931000000103&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">651931000000103</a></td>
+                                    <td>Subacute bronchitis unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=13617004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">13617004</a></td>
+                                    <td>Tracheobronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=195937007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">195937007</a></td>
+                                    <td>Tracheobronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=649111000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">649111000000109</a></td>
+                                    <td>Tracheobronchitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=16146001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">16146001</a></td>
+                                    <td>Viral bronchitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=196215001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">196215001</a></td>
+                                    <td>[X]Acute bronchitis due to other specified organisms (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=431681000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">431681000000108</a></td>
+                                    <td>[X]Acute bronchitis due to other specified organisms (disorder)</td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof DataTable === "undefined") {
+                console.error("DataTables failed to load. Check CDN accessibility and script order.");
+                return;
+            }
+
+            var tables = document.querySelectorAll("#codelistAccordion table");
+            var instances = [];
+
+            tables.forEach(function (table) {
+                if (!table.querySelector("thead")) {
+                    return;
+                }
+
+                table.classList.add("js-datatable");
+                var dt = new DataTable(table, {
+                    order: [[1, "asc"]],
+                    autoWidth: false,
+                    pageLength: 25,
+                    lengthMenu: [10, 25, 50, 100],
+                    layout: {
+                        topStart: ["pageLength", "info"],
+                        topEnd: ["search", "paging"],
+                        bottomStart: null,
+                        bottomEnd: null,
+                    },
+                });
+
+                function togglePagingUi() {
+                    var info = dt.page.info();
+                    var container = dt.table().container();
+                    var paging = container.querySelector(".dt-paging");
+                    var length = container.querySelector(".dt-length");
+                    var showControls = info.pages > 1;
+
+                    if (paging) {
+                        paging.style.display = showControls ? "" : "none";
+                    }
+                    if (length) {
+                        length.style.display = showControls ? "" : "none";
+                    }
+                }
+
+                dt.on("draw", togglePagingUi);
+                togglePagingUi();
+                dt.columns.adjust();
+
+                if (table.id === "expansion-table") {
+                    var container = dt.table().container();
+                    var searchControl = container.querySelector(".dt-search");
+                    if (searchControl && !container.querySelector(".expansion-download-control")) {
+                        if (searchControl.parentNode) {
+                            searchControl.parentNode.classList.add("expansion-toolbar-inline");
+                        }
+
+                        var downloadWrap = document.createElement("div");
+                        downloadWrap.className = "expansion-download-control";
+
+                        var downloadLink = document.createElement("a");
+                        downloadLink.className = "btn btn-sm btn-outline-primary";
+                        downloadLink.href = "../codelists_for_download";
+                        downloadLink.download = "RSC-C7211.txt";
+                        downloadLink.textContent = "Download expansion";
+
+                        downloadWrap.appendChild(downloadLink);
+                        searchControl.parentNode.insertBefore(downloadWrap, searchControl);
+                    }
+                }
+
+                instances.push({ table: table, dt: dt });
+            });
+
+            document.querySelectorAll(".accordion-collapse").forEach(function (panel) {
+                panel.addEventListener("shown.bs.collapse", function () {
+                    instances.forEach(function (instance) {
+                        if (panel.contains(instance.table)) {
+                            instance.dt.columns.adjust();
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

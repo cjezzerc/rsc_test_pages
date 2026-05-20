@@ -1,0 +1,17 @@
+concept_id	term
+425748003	Acute exacerbation of chronic bronchitis (disorder)
+155570004	Acute exacerbation of chronic obstructive airways disease (disorder)
+155571000	Acute exacerbation of chronic obstructive airways disease (disorder)
+293241000119100	Acute exacerbation of chronic obstructive bronchitis (disorder)
+195951007	Acute exacerbation of chronic obstructive pulmonary disease (disorder)
+1751000119100	Acute exacerbation of chronic obstructive pulmonary disease with asthma (disorder)
+285381006	Acute infective exacerbation of chronic obstructive pulmonary disease (disorder)
+847091000000104	Acute non-infective exacerbation of chronic obstructive pulmonary disease (disorder)
+86951000000101	Admit COPD emergency
+107491000000108	Admit COPD emergency
+106001000119101	Chronic obstructive pulmonary disease with acute bronchitis (disorder)
+233671000	Chronic obstructive pulmonary disease with acute exacerbation, unspecified (disorder)
+196002001	Chronic obstructive pulmonary disease with acute exacerbation, unspecified (disorder)
+644271000000105	Chronic obstructive pulmonary disease with acute exacerbation, unspecified (disorder)
+196001008	Chronic obstructive pulmonary disease with acute lower respiratory infection (disorder)
+408501008	Emergency hospital admission for chronic obstructive pulmonary disease (procedure)

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSC Codelist RSC-C7210</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/shared.css">
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.css">
+    <style>
+        .accordion-button {
+            justify-content: flex-start;
+        }
+
+        .accordion-button::after {
+            display: none;
+        }
+
+        .accordion-button::before {
+            content: "▸";
+            display: inline-block;
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .accordion-button:not(.collapsed)::before {
+            content: "▾";
+        }
+
+        .dt-container {
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+
+        #codelistAccordion table.dataTable,
+        #codelistAccordion table.js-datatable {
+            width: 100% !important;
+        }
+
+        .expansion-download-control {
+            margin-right: 0.5rem;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .expansion-toolbar-inline {
+            display: flex !important;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
+        .expansion-toolbar-inline .dt-search {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="top-nav-banner d-flex align-items-center">
+        <div class="container">
+            <div class="top-nav-inner d-flex align-items-center justify-content-between gap-3">
+                <img class="rsc-mark" src="../images/rsc_image.png" alt="RSC repository banner">
+                <div class="top-nav-links d-flex flex-column align-items-end py-1">
+                    <div class="d-flex gap-4">
+                        
+                        <a href="../phenotypes_index.html">Phenotype Index</a>
+                        
+                        
+                        <a href="../codelists_index.html">Codelist Index</a>
+                        
+                    </div>
+                    <span class="top-nav-sha">time_stamp: 20260520_1452 authoring: 4dbf221 renderer: 61fdb69</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prototype-warning-banner">
+        PROTOTYPE SITE UNDER CONSTRUCTION: DATA HAS NOT BEEN REVIEWED
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <h1 class="mt-4 mb-2">RSC Codelist: RSC-C7210</h1>
+        <h2 class="h5 text-muted mb-4">Title: ARI Acute Otitis Media</h2>
+
+        <div class="accordion" id="codelistAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingDescription">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                        Authored metadata
+                    </button>
+                </h3>
+                <div id="collapseDescription" class="accordion-collapse collapse show" aria-labelledby="headingDescription">
+                    <div class="accordion-body">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>ARI Acute Otitis Media</h1>
+<h2>Brief description</h2>
+<p>SNOMED codes recording cases of acute otitis media</p>
+<h2>Notes</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingLogicalDefinition">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogicalDefinition" aria-expanded="true" aria-controls="collapseLogicalDefinition">
+                        Logical Definition
+                    </button>
+                </h3>
+                <div id="collapseLogicalDefinition" class="accordion-collapse collapse show" aria-labelledby="headingLogicalDefinition">
+                    <div class="accordion-body">
+                        
+                            
+                            <h4 class="mt-1">Include the following concepts and their descendants:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=65363002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">65363002</a></td>
+                                        <td>Otitis media (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+
+                            
+                            <h4 class="mt-4">Exclude the following concepts and their descendants:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1088021000119100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1088021000119100</a></td>
+                                        <td>Acute inflammation of left pharyngotympanic tube (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1090641000119100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1090641000119100</a></td>
+                                        <td>Acute inflammation of right pharyngotympanic tube (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=281647001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">281647001</a></td>
+                                        <td>Adverse reaction (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=85828009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">85828009</a></td>
+                                        <td>Autoimmune disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=27624003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">27624003</a></td>
+                                        <td>Chronic disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=66091009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">66091009</a></td>
+                                        <td>Congenital disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=312087002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">312087002</a></td>
+                                        <td>Disorder following clinical procedure (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=414025005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">414025005</a></td>
+                                        <td>Fetal and/or neonatal disorder (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=443138004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">443138004</a></td>
+                                        <td>Granulomatosis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=408678008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">408678008</a></td>
+                                        <td>Healthcare associated infectious disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=473010000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">473010000</a></td>
+                                        <td>Hypersensitivity condition (finding)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=41969006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">41969006</a></td>
+                                        <td>Idiopathic disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=3218000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">3218000</a></td>
+                                        <td>Mycosis (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=399981008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">399981008</a></td>
+                                        <td>Neoplasm and/or hamartoma (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=275481002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">275481002</a></td>
+                                        <td>Non-suppurative otitis media (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1089251000119108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1089251000119108</a></td>
+                                        <td>Nonsuppurative otitis media of left middle ear (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1091861000119109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1091861000119109</a></td>
+                                        <td>Nonsuppurative otitis media of right middle ear (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=17322007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">17322007</a></td>
+                                        <td>Parasitic disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=441456002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">441456002</a></td>
+                                        <td>Polyp (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=58184002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">58184002</a></td>
+                                        <td>Recurrent disease (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=723110008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">723110008</a></td>
+                                        <td>Sequela of infection caused by Morbillivirus (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=80327007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">80327007</a></td>
+                                        <td>Serous otitis media (disorder)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=56717001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">56717001</a></td>
+                                        <td>Tuberculosis (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+                            <h4 class="mt-4">Exclude the following concepts:</h4>
+                            <table class="table table-striped table-bordered table-sm js-datatable">
+                                <thead>
+                                    <tr>
+                                        <th>SNOMED ID</th>
+                                        <th>Term</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=28371001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">28371001</a></td>
+                                        <td>Cholesterol granuloma of middle ear (disorder)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+
+                            
+                                
+                            
+                                
+                            
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingExpansion">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpansion" aria-expanded="true" aria-controls="collapseExpansion">
+                        Expansion
+                    </button>
+                </h3>
+                <div id="collapseExpansion" class="accordion-collapse collapse show" aria-labelledby="headingExpansion">
+                    <div class="accordion-body">
+                        
+                            
+                        <table id="expansion-table" class="table table-striped table-bordered table-sm js-datatable">
+                            <thead>
+                                <tr>
+                                    <th>SNOMED ID</th>
+                                    <th>Term</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194290005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194290005</a></td>
+                                    <td>Acute bilateral otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=7271000119107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">7271000119107</a></td>
+                                    <td>Acute bilateral otitis media with effusion (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=13043002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">13043002</a></td>
+                                    <td>Acute eustachian salpingitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194268005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194268005</a></td>
+                                    <td>Acute eustachian tube salpingitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=19399000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">19399000</a></td>
+                                    <td>Acute exudative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194288009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194288009</a></td>
+                                    <td>Acute left otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=297009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">297009</a></td>
+                                    <td>Acute myringitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194313009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194313009</a></td>
+                                    <td>Acute myringitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=598931000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">598931000000108</a></td>
+                                    <td>Acute myringitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194311006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194311006</a></td>
+                                    <td>Acute myringitis without otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=360595002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">360595002</a></td>
+                                    <td>Acute necrotizing otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=3110003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">3110003</a></td>
+                                    <td>Acute otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=270490007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">270490007</a></td>
+                                    <td>Acute otitis media with effusion (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=84261000119106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">84261000119106</a></td>
+                                    <td>Acute persistent otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194289001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194289001</a></td>
+                                    <td>Acute right otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194281003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194281003</a></td>
+                                    <td>Acute suppurative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=42337005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">42337005</a></td>
+                                    <td>Acute suppurative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155226009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155226009</a></td>
+                                    <td>Acute suppurative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194283000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194283000</a></td>
+                                    <td>Acute suppurative otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=539871000000102&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">539871000000102</a></td>
+                                    <td>Acute suppurative otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194282005&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194282005</a></td>
+                                    <td>Acute suppurative otitis media due to another disease (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=86279000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">86279000</a></td>
+                                    <td>Acute suppurative otitis media with spontaneous rupture of ear drum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=14948001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">14948001</a></td>
+                                    <td>Acute suppurative otitis media without spontaneous rupture of ear drum (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=85108007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">85108007</a></td>
+                                    <td>Acute tubotympanic catarrh (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194261004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194261004</a></td>
+                                    <td>Allergic otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=606881000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">606881000000105</a></td>
+                                    <td>Allergic otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=703469002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">703469002</a></td>
+                                    <td>Bacterial otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194286008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194286008</a></td>
+                                    <td>Bilateral suppurative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=33528003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">33528003</a></td>
+                                    <td>Bullous myringitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=29350000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">29350000</a></td>
+                                    <td>Catarrhal otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194263001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194263001</a></td>
+                                    <td>Catarrhal otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=600041000000109&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">600041000000109</a></td>
+                                    <td>Catarrhal otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=445172009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">445172009</a></td>
+                                    <td>Cholesterol granuloma of middle ear and mastoid (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194254003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194254003</a></td>
+                                    <td>Chronic mucoid otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=621141000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">621141000000108</a></td>
+                                    <td>Chronic mucoid otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194256001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194256001</a></td>
+                                    <td>Chronic otitis media with effusion, other (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=621151000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">621151000000106</a></td>
+                                    <td>Chronic otitis media with effusion, other (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194276007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194276007</a></td>
+                                    <td>Chronic otitis media with effusion, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=619661000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">619661000000107</a></td>
+                                    <td>Chronic otitis media with effusion, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194250007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194250007</a></td>
+                                    <td>Chronic serous otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=539811000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">539811000000107</a></td>
+                                    <td>Chronic serous otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=35349000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">35349000</a></td>
+                                    <td>Eustachian salpingitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=270491006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">270491006</a></td>
+                                    <td>Eustachian tube salpingitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194270001&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194270001</a></td>
+                                    <td>Eustachian tube salpingitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=606911000000105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">606911000000105</a></td>
+                                    <td>Eustachian tube salpingitis NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194266009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194266009</a></td>
+                                    <td>Eustachian tube: [salpingitis] or [catarrh] (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=32760002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">32760002</a></td>
+                                    <td>Exudative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194252004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194252004</a></td>
+                                    <td>Glue ear, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=551571000000104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">551571000000104</a></td>
+                                    <td>Glue ear, unspecified (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=232245002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">232245002</a></td>
+                                    <td>Granular myringitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=19021002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">19021002</a></td>
+                                    <td>Haemophilus influenzae otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=312218008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">312218008</a></td>
+                                    <td>Infective otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=16664009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">16664009</a></td>
+                                    <td>Malignant otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194264007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194264007</a></td>
+                                    <td>Mucoid otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=643751000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">643751000000106</a></td>
+                                    <td>Mucoid otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=14852000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">14852000</a></td>
+                                    <td>Myringitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194265008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194265008</a></td>
+                                    <td>Non-suppurative otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=600051000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">600051000000107</a></td>
+                                    <td>Non-suppurative otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=65363002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">65363002</a></td>
+                                    <td>Otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=267669008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">267669008</a></td>
+                                    <td>Otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155222006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155222006</a></td>
+                                    <td>Otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=647141000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">647141000000100</a></td>
+                                    <td>Otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10674911000119108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10674911000119108</a></td>
+                                    <td>Otitis media caused by Influenza A virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10624911000119107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10624911000119107</a></td>
+                                    <td>Otitis media caused by Influenza A virus subtype H1N1 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=721742004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">721742004</a></td>
+                                    <td>Otitis media caused by Streptococcus pneumoniae (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=10624951000119108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">10624951000119108</a></td>
+                                    <td>Otitis media caused by influenza virus (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1240521000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1240521000000100</a></td>
+                                    <td>Otitis media due to disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1090001000119105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1090001000119105</a></td>
+                                    <td>Otitis media due to scarlet fever (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1089341000119100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1089341000119100</a></td>
+                                    <td>Otitis media of left ear (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1091951000119104&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1091951000119104</a></td>
+                                    <td>Otitis media of right ear (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=7361000119105&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">7361000119105</a></td>
+                                    <td>Perforation of tympanic membrane due to otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=39288006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">39288006</a></td>
+                                    <td>Purulent otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194285007&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194285007</a></td>
+                                    <td>Purulent otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=539881000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">539881000000100</a></td>
+                                    <td>Purulent otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=155229002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">155229002</a></td>
+                                    <td>Purulent otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194262006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194262006</a></td>
+                                    <td>Serous otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=643741000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">643741000000108</a></td>
+                                    <td>Serous otitis media NOS (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=28795002&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">28795002</a></td>
+                                    <td>Subacute exudative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=89145009&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">89145009</a></td>
+                                    <td>Subacute tubotympanic catarrh (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1344896004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1344896004</a></td>
+                                    <td>Suppurative otitis media of left ear (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=1344897008&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">1344897008</a></td>
+                                    <td>Suppurative otitis media of right ear (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194312004&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194312004</a></td>
+                                    <td>Unspecified acute tympanitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=598921000000106&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">598921000000106</a></td>
+                                    <td>Unspecified acute tympanitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194267000&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194267000</a></td>
+                                    <td>Unspecified eustachian tube salpingitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=606891000000107&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">606891000000107</a></td>
+                                    <td>Unspecified eustachian tube salpingitis (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194260003&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194260003</a></td>
+                                    <td>Unspecified non-suppurative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=606871000000108&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">606871000000108</a></td>
+                                    <td>Unspecified non-suppurative otitis media (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=194680006&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">194680006</a></td>
+                                    <td>[X]Otitis media in other diseases classified elsewhere (disorder)</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://termbrowser.nhs.uk/?perspective=full&conceptId1=420141000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104">420141000000100</a></td>
+                                    <td>[X]Otitis media in other diseases classified elsewhere (disorder)</td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.0.8/datatables.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (typeof DataTable === "undefined") {
+                console.error("DataTables failed to load. Check CDN accessibility and script order.");
+                return;
+            }
+
+            var tables = document.querySelectorAll("#codelistAccordion table");
+            var instances = [];
+
+            tables.forEach(function (table) {
+                if (!table.querySelector("thead")) {
+                    return;
+                }
+
+                table.classList.add("js-datatable");
+                var dt = new DataTable(table, {
+                    order: [[1, "asc"]],
+                    autoWidth: false,
+                    pageLength: 25,
+                    lengthMenu: [10, 25, 50, 100],
+                    layout: {
+                        topStart: ["pageLength", "info"],
+                        topEnd: ["search", "paging"],
+                        bottomStart: null,
+                        bottomEnd: null,
+                    },
+                });
+
+                function togglePagingUi() {
+                    var info = dt.page.info();
+                    var container = dt.table().container();
+                    var paging = container.querySelector(".dt-paging");
+                    var length = container.querySelector(".dt-length");
+                    var showControls = info.pages > 1;
+
+                    if (paging) {
+                        paging.style.display = showControls ? "" : "none";
+                    }
+                    if (length) {
+                        length.style.display = showControls ? "" : "none";
+                    }
+                }
+
+                dt.on("draw", togglePagingUi);
+                togglePagingUi();
+                dt.columns.adjust();
+
+                if (table.id === "expansion-table") {
+                    var container = dt.table().container();
+                    var searchControl = container.querySelector(".dt-search");
+                    if (searchControl && !container.querySelector(".expansion-download-control")) {
+                        if (searchControl.parentNode) {
+                            searchControl.parentNode.classList.add("expansion-toolbar-inline");
+                        }
+
+                        var downloadWrap = document.createElement("div");
+                        downloadWrap.className = "expansion-download-control";
+
+                        var downloadLink = document.createElement("a");
+                        downloadLink.className = "btn btn-sm btn-outline-primary";
+                        downloadLink.href = "../codelists_for_download";
+                        downloadLink.download = "RSC-C7210.txt";
+                        downloadLink.textContent = "Download expansion";
+
+                        downloadWrap.appendChild(downloadLink);
+                        searchControl.parentNode.insertBefore(downloadWrap, searchControl);
+                    }
+                }
+
+                instances.push({ table: table, dt: dt });
+            });
+
+            document.querySelectorAll(".accordion-collapse").forEach(function (panel) {
+                panel.addEventListener("shown.bs.collapse", function () {
+                    instances.forEach(function (instance) {
+                        if (panel.contains(instance.table)) {
+                            instance.dt.columns.adjust();
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
