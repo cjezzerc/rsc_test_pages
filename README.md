@@ -1,3 +1,1 @@
-# rsc_test_pages
-
-[Phenotypes Index](phenotypes_index.html)
+This repo is no longer served via github.io
